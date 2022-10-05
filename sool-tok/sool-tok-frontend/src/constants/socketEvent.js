@@ -1,0 +1,18 @@
+export default {
+  CREATE_ROOM: 'create room',
+  JOIN_ROOM: 'join room',
+  ROOM_LIST: 'room list',
+  MEMBER_JOINED: 'member joined',
+  MEMBER_LEAVED: 'member leaved',
+  LEAVE_ROOM: 'leave room',
+  SENDING_SIGNAL: 'sending signal',
+  RETURNING_SIGNAL: 'returning signal',
+  CHAT: 'chat',
+  VIDEO_FILTER: 'video filter',
+  LOCKING_STATUS: 'locking status',
+  RESET_GAME: 'reset game',
+  START_GAME: 'start game',
+  INIT_GAME: 'init game',
+  PROCEED_GAME: 'proceed game',
+  TURN_CHANGE: 'turn change',
+};

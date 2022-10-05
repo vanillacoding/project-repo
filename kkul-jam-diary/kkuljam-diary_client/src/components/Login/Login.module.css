@@ -1,0 +1,33 @@
+.top {
+  padding: 2em;
+}
+
+.title {
+  display: inline;
+  margin: 0;
+}
+
+.subText {
+  padding: 1em 0;
+  font-size: 1.1em;
+  line-height: 1.6em;
+}
+
+.wrapper {
+  background-color: #32322E;
+  height: 680px;
+  text-align: center;
+}
+
+.miLogo {
+  width: 25%;
+}
+
+.miBand {
+  width: 100%;
+}
+
+.subTitle {
+  padding: 2em;
+  font-size: 1.3em;
+}

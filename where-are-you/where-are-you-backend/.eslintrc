@@ -1,0 +1,26 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "eslint:recommended"
+  ],
+  "plugins": [
+    "import"
+  ],
+  "rules": {
+    "no-unused-vars": 1,
+    "no-trailing-spaces": [2, { "skipBlankLines": false }],
+    "no-multiple-empty-lines": [1,
+      {
+        "max": 1,
+        "maxEOF": 0
+      }
+    ],
+    "quotes": ["error", "double"],
+    "object-curly-newline": ["warn", {
+      "ObjectPattern": {
+        "multiline": true,
+        "minProperties": 2
+      }
+    }]
+  }
+}

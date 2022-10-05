@@ -1,0 +1,105 @@
+.header {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  height: 100vw;
+  left: 0;
+  margin: 0;
+  border-right: 1px solid #c8c9ca;
+  background-color: white;
+  color: #66757f;
+  font-family: "Helvetica Neue",Arial,sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.container {
+  margin-left: 10%;
+  display: flex;
+  flex-flow : row wrap;
+  justify-content: space-around;
+}
+
+.bookReportContainer {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 2px;
+  height: 25vw;
+  margin: 1rem;
+  width: 20vW;
+  padding: 2%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  cursor: pointer;
+}
+
+.bookReportContainer:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.book {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.bookInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: #565b5f;
+  font-family: "Helvetica Neue",Arial,sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.bookInfo > span {
+  margin: 5px;
+  color: #66757f;
+  font-family: "Helvetica Neue",Arial,sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.title{
+  font-family: "Helvetica Neue",Arial,sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #c8c9ca;
+}
+
+.text {
+  font-family: "Helvetica Neue",Arial,sans-serif;
+  font-weight: 400;
+}
+
+h3 {
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.homeButton, .bookmarkButton {
+  width: 120px;
+  height: 30px;
+  border: 1px solid #e6ecf0;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: 300;
+  color: #66757f;
+  background-color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.homeButton:hover, .bookmarkButton:hover {
+  color: #ffffff !important;
+	background: #a3f098;
+	border-color: #a3f098 !important;
+	transition: all 0.4s ease 0s;
+}
+

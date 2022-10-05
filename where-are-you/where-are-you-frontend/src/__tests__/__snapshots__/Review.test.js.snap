@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Review matches snapshot 1`] = `
+<div>
+  <div
+    class="sc-hBMUJo cWLnfk"
+  >
+    <div
+      class="sc-fnVZcZ fCmaQd"
+    >
+      <p
+        class="sc-fFSPTT evvNY"
+      >
+        REVIEW
+      </p>
+      <a
+        class="sc-hKFxyN cEASwB"
+        color="black"
+        href="/"
+      >
+        <span>
+          메인으로 가기
+        </span>
+      </a>
+    </div>
+    <div
+      class="sc-iemWCZ fknPEp"
+    >
+      * 게임에 대한 스포일러와 비밀번호는 피해서 적어주세요!!
+    </div>
+    <div
+      class="sc-bkbkJK fOPJOB"
+      color="#ffffff"
+    >
+      엔딩을 본 이후에 리뷰를 남길 수 있습니다.
+    </div>
+    <div
+      class="sc-bkbkJK cSmHcY"
+      color="black"
+    >
+      등록된 리뷰가 없습니다.
+    </div>
+    <p>
+      Loading...
+    </p>
+    <button
+      class="sc-dIvrsQ iKdlMb"
+      type="button"
+    >
+      <img
+        alt="위로 가기 아이콘"
+        src="top_icon.png"
+      />
+      TOP
+    </button>
+  </div>
+</div>
+`;

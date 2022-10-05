@@ -1,0 +1,17 @@
+{
+  "plugins": ["prettier"],
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+
+  "ignorePatterns": "/bundler",
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}

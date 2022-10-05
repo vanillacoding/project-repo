@@ -1,0 +1,28 @@
+@value (
+  mainBlack,
+  mainWhite,
+  defaultBorderWidth,
+  defaultBorderRadius
+) from "./variables.css";
+
+.popUpContainer {
+  padding: 3%;
+  border: defaultBorderRadius solid mainBlack;
+  border-radius: defaultBorderWidth;
+  position: fixed;
+  background-color: rgba(250, 250, 250, 0.8);
+  font-family: "neodgm", sans-serif;
+  color: mainBlack;
+}
+
+.buttonContainer {
+  position: absolute;
+  right: 3%;
+  top: 10%;
+}
+
+.content {
+  white-space: pre-wrap;
+  line-height: 2.5vh;
+  font-size: 2vh;
+}

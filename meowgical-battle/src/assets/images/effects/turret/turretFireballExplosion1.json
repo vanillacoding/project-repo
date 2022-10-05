@@ -1,0 +1,189 @@
+{
+  "frames": {
+    "turretFireballExplosion_00.png": {
+      "frame": {
+        "x": 1120,
+        "y": 1093,
+        "w": 634,
+        "h": 296
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 167,
+        "y": 253,
+        "w": 634,
+        "h": 296
+      },
+      "sourceSize": {
+        "w": 904,
+        "h": 598
+      }
+    },
+    "turretFireballExplosion_01.png": {
+      "frame": {
+        "x": 1550,
+        "y": 1,
+        "w": 747,
+        "h": 281
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 113,
+        "y": 252,
+        "w": 747,
+        "h": 281
+      },
+      "sourceSize": {
+        "w": 904,
+        "h": 598
+      }
+    },
+    "turretFireballExplosion_02.png": {
+      "frame": {
+        "x": 605,
+        "y": 1093,
+        "w": 513,
+        "h": 527
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 299,
+        "y": 0,
+        "w": 513,
+        "h": 527
+      },
+      "sourceSize": {
+        "w": 904,
+        "h": 598
+      }
+    },
+    "turretFireballExplosion_03.png": {
+      "frame": {
+        "x": 1,
+        "y": 1066,
+        "w": 602,
+        "h": 559
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 217,
+        "y": 39,
+        "w": 602,
+        "h": 559
+      },
+      "sourceSize": {
+        "w": 904,
+        "h": 598
+      }
+    },
+    "turretFireballExplosion_04.png": {
+      "frame": {
+        "x": 806,
+        "y": 524,
+        "w": 681,
+        "h": 567
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 106,
+        "y": 19,
+        "w": 681,
+        "h": 567
+      },
+      "sourceSize": {
+        "w": 904,
+        "h": 598
+      }
+    },
+    "turretFireballExplosion_05.png": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 803,
+        "h": 538
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 54,
+        "w": 803,
+        "h": 538
+      },
+      "sourceSize": {
+        "w": 904,
+        "h": 598
+      }
+    },
+    "turretFireballExplosion_06.png": {
+      "frame": {
+        "x": 806,
+        "y": 1,
+        "w": 742,
+        "h": 521
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 36,
+        "y": 58,
+        "w": 742,
+        "h": 521
+      },
+      "sourceSize": {
+        "w": 904,
+        "h": 598
+      }
+    },
+    "turretFireballExplosion_07.png": {
+      "frame": {
+        "x": 1,
+        "y": 541,
+        "w": 758,
+        "h": 523
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 18,
+        "y": 55,
+        "w": 758,
+        "h": 523
+      },
+      "sourceSize": {
+        "w": 904,
+        "h": 598
+      }
+    }
+  },
+  "animations": {
+    "turretFireballExplosion": [
+      "turretFireballExplosion_00.png",
+      "turretFireballExplosion_01.png",
+      "turretFireballExplosion_02.png",
+      "turretFireballExplosion_03.png",
+      "turretFireballExplosion_04.png",
+      "turretFireballExplosion_05.png",
+      "turretFireballExplosion_06.png",
+      "turretFireballExplosion_07.png"
+    ]
+  },
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "turretFireballExplosion1.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1832,
+      "h": 1626
+    },
+    "scale": "1",
+    "related_multi_packs": ["turretFireballExplosion2.json"],
+    "smartupdate": "$TexturePacker:SmartUpdate:b8119a3af67622e25d6297d7cb842924:56e7998c3fe4265fcf5fc466eb124233:d8d25c3a6ab8654e636b6f0cdae4a5b6$"
+  }
+}

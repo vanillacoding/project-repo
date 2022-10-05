@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserDetail /> should dispatch an action on button click 1`] = `
+<div
+  className="content-wrapper"
+>
+  <div>
+    <h3
+      className="profile-title"
+    >
+      Profile
+    </h3>
+  </div>
+  <div>
+    <h4>
+      Profile Picture
+    </h4>
+    <img
+      alt="user thumnail"
+      className="user-thumnail"
+      src="mock thumnail"
+    />
+    <form>
+      <input
+        accept="image/*"
+        type="file"
+      />
+      <button>
+        save
+      </button>
+    </form>
+  </div>
+  <div>
+    <div>
+      <h4>
+        Profile Setting
+      </h4>
+      <div>
+        <h5
+          className="sub-title"
+        >
+          Username
+        </h5>
+        <form>
+          <input
+            className="input-text"
+            onChange={[Function]}
+            type="text"
+            value="mock name 2"
+          />
+          <button
+            className="user-name-button"
+            onClick={[Function]}
+          >
+            save
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<UserDetail /> should render with given state from redux store 1`] = `
+<div
+  className="content-wrapper"
+>
+  <div>
+    <h3
+      className="profile-title"
+    >
+      Profile
+    </h3>
+  </div>
+  <div>
+    <h4>
+      Profile Picture
+    </h4>
+    <img
+      alt="user thumnail"
+      className="user-thumnail"
+      src="mock thumnail"
+    />
+    <form>
+      <input
+        accept="image/*"
+        type="file"
+      />
+      <button>
+        save
+      </button>
+    </form>
+  </div>
+  <div>
+    <div>
+      <h4>
+        Profile Setting
+      </h4>
+      <div>
+        <h5
+          className="sub-title"
+        >
+          Username
+        </h5>
+        <form>
+          <input
+            className="input-text"
+            onChange={[Function]}
+            type="text"
+            value="mock name 1"
+          />
+          <button
+            className="user-name-button"
+            onClick={[Function]}
+          >
+            save
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

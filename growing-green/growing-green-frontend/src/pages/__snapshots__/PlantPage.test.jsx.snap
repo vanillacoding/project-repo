@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PlantPage> matches snapshot 1`] = `
+<div>
+  <div
+    class="sc-fotOHu kOEZrp"
+  >
+    <div
+      class="sc-kDTinF kxZmHi"
+    >
+      <div
+        class="sc-iqseJM cfpYBU"
+        data-testid="loading-spinner"
+      />
+      <p>
+        식물정보 불러오는중...
+      </p>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,146 @@
+$pink: #f50057;
+$dark-pink: rgb(196, 0, 68);
+
+.Videos,
+.videos-loader {
+  width: 100%;
+  min-height: calc(100vh - 50.5px);
+  background-color: black;
+}
+.error-no-videos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  overflow-wrap: break-word;
+  font-size: 50px;
+  font-weight: 100;
+  color: $pink;
+}
+.error-no-videos div {
+  width: 100%;
+  height: 50%;
+  padding: 20%;
+  text-align: center;
+}
+
+.videos-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background-color: rgb(21, 21, 24);
+
+  img {
+    width: 300px;
+  }
+}
+
+.captions-container {
+  width: 50%;
+  height: 500px;
+  border: 1px solid gray;
+  color: rgb(255, 255, 255);
+
+  .caption-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .captions-title {
+    margin: 20px;
+  }
+  .captions-wrapper {
+    height: 400px;
+    padding: 0, 30px;
+    overflow-y: scroll;
+  }
+  .caption-container {
+    min-height: 30px;
+
+    &:hover {
+      color: rgba(255, 255, 255, 0.5);
+      cursor: pointer;
+    }
+  }
+  .caption-content {
+    margin-left: 20px;
+    line-height: 30px;
+  }
+}
+
+.video-controller-container {
+  width: 100%;
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  line-height: 42px;
+  color: white;
+  cursor: pointer;
+}
+
+.player-and-captions-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 10% 0 10%;
+}
+
+.foldTo150 {
+  height: 150px !important;
+}
+
+.foldTo70 {
+  height: 70px !important;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  .captions {
+    width: 100%;
+  }
+  .player-and-captions-container {
+    padding: 10px;
+
+    .caption-content {
+      overflow-wrap: break-word;
+    }
+    .captions-container {
+      width: 100%;
+    }
+  }
+
+}
+
+/* On screens that are 750px or less, set the background color to olive */
+@media screen and (max-width: 750px) {
+}
+
+.white-hightlight {
+  color: $pink;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.block {
+  display: block;
+}
+
+.color-white {
+  color: white;
+}
+
+.highlight-pink {
+  background-color: $pink;
+  color: white;
+
+  &:hover {
+    background-color: $dark-pink !important;
+    color: white !important;
+  }
+}
+
+.highlight-gray {
+  background-color: rgba(255, 255, 255, 0.2);
+}

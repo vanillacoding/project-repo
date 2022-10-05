@@ -1,0 +1,12 @@
+$moji-rose: #F7CAC9;
+$moji-serenity: #92A8D1;
+$moji-dahila: #EC9787;
+
+
+@font-face {
+  font-family: 'neon';
+  src: url(./assets/fonts/neon.ttf)  format('truetype')
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i');
+@import '../node_modules/normalize-scss/sass/normalize/import-now';

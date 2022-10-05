@@ -1,0 +1,13 @@
+{
+  "extends": "stylelint-config-recommended",
+  "rules": {
+    "color-no-invalid-hex": true,
+    "color-hex-case": [
+      "lower",
+      {
+        "message": "Lowercase letters are easier to distinguish from numbers"
+      }
+    ]
+  },
+  "ignoreFiles": ["**/*.js"]
+}

@@ -1,0 +1,30 @@
+.streaming {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-radius: 10px;
+  padding: 20px 0px;
+  border: 1px solid $sub-bg-color;
+
+  &__thumnail {
+    width: 300px;
+  }
+
+  &__bottom {
+    display: flex;
+    margin-left: 20px;
+  }
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  &__streamer-thumnail {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+  }
+}

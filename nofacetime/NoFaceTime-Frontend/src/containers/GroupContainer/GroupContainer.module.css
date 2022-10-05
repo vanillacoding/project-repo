@@ -1,0 +1,185 @@
+.GroupContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: calc(100vh - 150px);
+}
+
+.ContentWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  height: 100%;
+  /* border: 10px solid red; */
+  box-sizing: border-box;
+  background: #e9d2d2;
+  font-size: 20px;
+}
+
+.Title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 50px;
+  font-weight: lighter;
+  width: 95%;
+  height: 12%;
+  background-color: whitesmoke;
+  border: 1px solid #8e8e93;
+  border-radius: 10px;
+}
+
+.Group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* border: 10px solid purple; */
+  box-sizing: border-box;
+}
+
+.ButtonWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  height: 10%;
+  box-sizing: border-box;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: whitesmoke;
+  border: 1px solid #8e8e93;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.AddButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  padding: 0px 10px 0px 10px;
+  background: #1180f1;
+  color: #ffffff;
+  border-color: #1180f1;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 20px 20px 20px 20px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+  box-shadow: 0px 5px 10px grey;
+}
+
+.AddButton:hover {
+  transform: translateY(0.5px);
+  box-shadow: 0px 4px 5px grey;
+}
+
+.DeleteButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  padding: 0px 10px 0px 10px;
+  background: #bd2b17;
+  color: #ffffff;
+  border-color: #bd2b17;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 20px 20px 20px 20px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+  box-shadow: 0px 5px 10px grey;
+}
+
+.DeleteButton:hover {
+  transform: translateY(0.5px);
+  box-shadow: 0px 4px 5px grey;
+}
+
+.Input {
+  margin: 10px auto;
+  width: 55%;
+  height: 30px;
+  border: 1px solid #c9d3dd;
+  background: #ffffff;
+  text-align: center;
+}
+
+.InputMember {
+  width: 52%;
+}
+
+.AddedMembers {
+  overflow: auto;
+  margin: 10px auto;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #c9d3dd;
+  background: #ffffff;
+  border-radius: 50%;
+}
+
+.ModalContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.ModalTitle {
+  font-size: 30px;
+}
+
+.Members {
+  border: 1px solid #8e8e93;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+  width: 90%;
+  height: 30%;
+  overflow: auto;
+}
+
+.AddedMemberListTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  border-bottom: 1px solid #8e8e93;
+  width: 100%;
+  height: 25%;
+}
+
+.PlusButton {
+  width: 20px;
+  height: 20px;
+}
+
+.Member:last-child {
+  overflow-anchor: auto;
+}

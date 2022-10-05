@@ -1,0 +1,69 @@
+@import '../styles/theme.module.scss';
+
+.defaultButton {
+  @include buttonBase();
+}
+
+.loginButton {
+  @include buttonBase();
+  width: 60vw;
+  padding: 1vh 5vw;
+  text-transform: uppercase;
+  box-shadow: $box-shadow-1;
+}
+
+.toggleButton {
+  @include buttonBase();
+  margin: 0 5vw 2vw 75vw;
+  background-color: $light-brown;
+  color: $light-beige;
+  font-size: $font-size-1;
+  text-transform: uppercase;
+}
+
+.fixedButton {
+  @include buttonBase();
+  position: fixed;
+  left: 25%;
+  bottom: 3vh;
+  width: 50%;
+  padding: 1.2vh;
+  border: 4px solid $carrot;
+  background-color: $yellow;
+  background-image: linear-gradient(120deg, #FAD961 0%, #F76B1C 100%);
+  color: $brown;
+  box-shadow: $box-shadow-3;
+}
+
+.circleButton {
+  border: none;
+  background: none;
+  color: $brown;
+}
+
+.basicButton {
+  @include buttonBase();
+  width: 100%;
+  height: 5vh;
+  margin-bottom: 1vw;
+  background-color: $brown;
+  color: $light-beige;
+}
+
+.naviButton {
+  @include buttonBase();
+  width: 100%;
+  height: 5vh;
+  background-color: $yellow;
+  background-image: linear-gradient(120deg, #FAD961 0%, #F76B1C 100%);
+  color: $brown;
+}
+
+.popupButton {
+  @include buttonBase();
+  margin-left: 5px;
+  padding: 1vh 5vw;
+  background-color: $brown;
+  color: $light-beige;
+  font-size: $font-size-1;
+}

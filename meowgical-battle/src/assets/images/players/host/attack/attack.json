@@ -1,0 +1,83 @@
+{
+  "frames": {
+    "hostPlayerAttack_01.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 828,
+        "h": 828
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 828,
+        "h": 828
+      },
+      "sourceSize": {
+        "w": 828,
+        "h": 828
+      }
+    },
+    "hostPlayerAttack_02.png": {
+      "frame": {
+        "x": 828,
+        "y": 0,
+        "w": 828,
+        "h": 828
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 828,
+        "h": 828
+      },
+      "sourceSize": {
+        "w": 828,
+        "h": 828
+      }
+    },
+    "hostPlayerAttack_03.png": {
+      "frame": {
+        "x": 0,
+        "y": 828,
+        "w": 828,
+        "h": 828
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 828,
+        "h": 828
+      },
+      "sourceSize": {
+        "w": 828,
+        "h": 828
+      }
+    }
+  },
+  "animations": {
+    "hostPlayerAttack": [
+      "hostPlayerAttack_01.png",
+      "hostPlayerAttack_02.png",
+      "hostPlayerAttack_03.png"
+    ]
+  },
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "attack.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1656,
+      "h": 1656
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:fe8d08da4cd9ebef32afa06bc91d4ad0:89fce8ea87c8af5471715c8f97955299:c558c2d9773adf0f4ef6f0e9687f205f$"
+  }
+}

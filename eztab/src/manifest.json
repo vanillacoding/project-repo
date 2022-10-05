@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_name__",
+  "version": "1.0.0",
+  "description": "__MSG_description__",
+  "icons": {
+    "128": "assets/images/tab-icon128.png",
+    "48": "assets/images/tab-icon48.png",
+    "16": "assets/images/tab-icon16.png"
+  },
+  "default_locale": "en",
+  "action": {
+    "default_icon": {
+      "128": "assets/images/tab-icon128.png",
+      "48": "assets/images/tab-icon48.png",
+      "16": "assets/images/tab-icon16.png"
+    },
+    "default_title": "__MSG_tooltip__",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "openPopup": {
+      "suggested_key": {
+        "default": "Ctrl+E",
+        "mac": "Command+E"
+      },
+      "description": "Open Popup"
+    }
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "notifications"
+  ]
+}

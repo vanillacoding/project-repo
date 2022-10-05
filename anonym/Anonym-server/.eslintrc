@@ -1,0 +1,43 @@
+{
+  "extends": ["airbnb-base"],
+  "env": {
+     "commonjs": true,
+     "es2015": true,
+     "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 12
+  },
+  "rules": {
+    "semi": ["warn", "always", { "omitLastInOneLineBlock": true }],
+    "semi-style": ["warn", "last"],
+    "quotes": ["warn", "double"],
+    "indent": ["warn", 2, { "SwitchCase": 1 }],
+    "no-multi-spaces": "warn",
+    "no-multiple-empty-lines": ["warn", { "max": 1, "maxEOF": 0 }],
+    "space-infix-ops": "warn",
+    "comma-spacing": "warn",
+    "block-spacing": "warn",
+    "semi-spacing": "warn",
+    "object-curly-spacing": ["warn", "always"],
+    "key-spacing": "warn",
+    "object-curly-newline": "off",
+    "eol-last": "warn",
+    "no-undef": "off",
+    "consistent-return": "off",
+    "import/newline-after-import": ["off"],
+    "no-unused-vars": ["warn", { "argsIgnorePattern": "req|res|next|val|document" }],
+    "no-unused-expressions": "off",
+    "no-underscore-dangle": "off",
+    "comma-dangle": ["warn", "always-multiline", { "objects": "always" }],
+    "func-names": "off",
+    "object-shorthand": "warn",
+    "no-process-exit": "warn",
+    "no-param-reassign": "warn",
+    "no-return-await": "warn",
+    "spaced-comment": "warn",
+    "no-console": "warn",
+    "class-methods-use-this": "warn",
+    "prefer-destructuring": ["error", { "object": true, "array": false }]
+  }
+}

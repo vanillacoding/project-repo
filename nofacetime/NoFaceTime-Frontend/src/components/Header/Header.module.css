@@ -1,0 +1,15 @@
+.Header {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 150px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+* {
+  text-decoration: none;
+}

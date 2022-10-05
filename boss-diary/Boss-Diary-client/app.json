@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "boss-diary",
+    "slug": "boss-diary",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.yejinh.Boss-Diary",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationAlwaysUsageDescription" : "needs gps data.",
+        "NSAppTransportSecurity" : {
+          "NSAllowsArbitraryLoads" : true,
+          "NSAllowsArbitraryLoadsForMedia": true,
+          "NSAllowsArbitraryLoadsInWebContent": true,
+          "NSExceptionAllowsInsecureHTTPLoads": true
+        },
+        "LSApplicationQueriesSchemes": ["facebook"],
+        "facebookScheme": {
+          "CFBundleURLSchemes": "fb2389234301327284",
+        },
+        "facebookAppId": "2389234301327284",
+        "facebookDisplayName": "Boss Diary"
+      }
+    }
+  }
+}

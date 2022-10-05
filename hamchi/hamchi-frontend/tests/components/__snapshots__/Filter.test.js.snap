@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`filter test renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "flexDirection": "column",
+      "margin": 10,
+      "marginBottom": 0,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "alignSelf": "center",
+        "fontWeight": "bold",
+      }
+    }
+  >
+    mock title
+  </Text>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 6,
+          "flexDirection": "row",
+          "height": 24,
+          "justifyContent": "center",
+          "margin": 5,
+          "marginBottom": -20,
+          "marginTop": 12,
+          "opacity": 1,
+          "width": 50,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "fontWeight": "bold",
+            },
+            Object {
+              "color": "#F48D3B",
+            },
+          ]
+        }
+      >
+        골든
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 6,
+          "flexDirection": "row",
+          "height": 24,
+          "justifyContent": "center",
+          "margin": 5,
+          "marginBottom": -20,
+          "marginTop": 12,
+          "opacity": 1,
+          "width": 50,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "fontWeight": "bold",
+            },
+            Object {
+              "color": "#F48D3B",
+            },
+          ]
+        }
+      >
+        드워프
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 6,
+          "flexDirection": "row",
+          "height": 24,
+          "justifyContent": "center",
+          "margin": 5,
+          "marginBottom": -20,
+          "marginTop": 12,
+          "opacity": 1,
+          "width": 50,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "fontWeight": "bold",
+            },
+            Object {
+              "color": "#F48D3B",
+            },
+          ]
+        }
+      >
+        로보
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 6,
+          "flexDirection": "row",
+          "height": 24,
+          "justifyContent": "center",
+          "margin": 5,
+          "marginBottom": -20,
+          "marginTop": 12,
+          "opacity": 1,
+          "width": 50,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "fontWeight": "bold",
+            },
+            Object {
+              "color": "#F48D3B",
+            },
+          ]
+        }
+      >
+        그 외
+      </Text>
+    </View>
+  </View>
+</View>
+`;

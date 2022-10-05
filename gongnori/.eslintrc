@@ -1,0 +1,71 @@
+{
+  "env": {
+    "es2021": true,
+    "node": true,
+    "react-native/react-native": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "react-native"
+  ],
+  "rules": {
+    "quotes": ["warn", "double"],
+    "semi": ["warn", "always", { "omitLastInOneLineBlock": true }],
+    "semi-style": ["warn", "last"],
+    "indent": ["warn", 2, { "SwitchCase": 1 }],
+    "no-multi-spaces": "warn",
+    "no-multiple-empty-lines": "warn",
+    "space-infix-ops": "warn",
+    "comma-spacing": "warn",
+    "semi-spacing": "warn",
+    "block-spacing": "warn",
+    "object-curly-spacing": ["warn", "always"],
+    "key-spacing": "warn",
+    "comma-dangle": ["warn", { "objects": "always-multiline", "arrays": "always-multiline", "exports": "always-multiline", "imports": "always-multiline" }],
+    "object-curly-newline": "off",
+    "eol-last": "warn",
+    "no-undef": "off",
+    "no-unused-vars": "warn",
+    "consistent-return": "off",
+    "no-underscore-dangle": "off",
+    "no-warning-comments": ["warn", { "terms": ["^"], "location": "anywhere" }],
+    "global-require": "off",
+    "no-shadow": "off",
+    "no-useless-return": "off",
+    "camelcase": "off",
+    "no-lonely-if": "off",
+    "no-param-reassign": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react/jsx-indent": ["warn", 2],
+    "react/style-prop-object": "warn",
+    "react/prop-types": "warn",
+    "import/newline-after-import": "off",
+    "import/no-unresolved": "off",
+    "no-use-before-define": "off",
+    "import/prefer-default-export": "warn",
+    "prefer-destructuring": "off",
+    "dot-notation": "off",
+    "no-nested-ternary": "off",
+    "no-restricted-syntax": "off",
+    "quote-props": "off",
+    "arrow-body-style": "off",
+    "no-case-declarations": "off",
+    "no-plusplus": "off",
+    "react/jsx-curly-brace-presence": "off",
+    "react/jsx-filename-extension": "off",
+    "react/forbid-prop-types": "off",
+    "react/require-default-props": "off",
+    "react/jsx-boolean-value": "off"
+  }
+}

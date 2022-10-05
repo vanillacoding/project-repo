@@ -1,0 +1,43 @@
+@import '../styles/theme.module.scss';
+
+.thirdForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10vw;
+  border-radius: 20px;
+  background-color: $light-beige;
+
+  .title {
+    display: inline;
+    align-self: flex-start;
+    margin: 25px 0 10px 0;
+    color: $brown;
+    font-size: $font-size-2;
+  }
+
+  .content {
+    align-self: flex-start;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid $brown;
+    font-size: $font-size-2;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+
+    li {
+      margin-bottom: 1vw;
+    }
+  }
+
+  svg {
+    color: $carrot;
+  }
+}

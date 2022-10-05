@@ -1,0 +1,78 @@
+@import 'variables';
+
+.project-table {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  thead {
+    background: $chart-blue;
+    th {
+      padding: 20px 0 20px;
+      font-weight: 500;
+      color: #fff;
+    }
+    th:first-child {
+      width: 70%;
+      font-weight: 500;
+    }
+  }
+  tbody {
+    .no-data {
+      text-align: center;
+      line-height: 1.5;
+      font-size: 18px;
+      color: $mid-blue;
+      td {
+        padding: 40px 0;
+      }
+      td[colspan="2"]:after {
+        content: none;
+      }
+    }
+    td {
+      background: #fff;
+    }
+    td:first-child {
+      position: relative;
+      padding-left: 50px;
+      font-weight: 500;
+      &:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 40px;
+        width: 20px;
+        height: 20px;
+        transform: translateY(-50%);
+        background: url('../img/icon_code.png') no-repeat left center / 20px;
+      }
+    }
+    td:nth-child(2) {
+      text-align: center;
+      font-size: 15px;
+    }
+    tr:last-child td {
+      border-bottom: 1px solid $dark-mint;
+    }
+    tr:nth-child(2n) td {
+      background: $bg-gray;
+    }
+    tr:not(.no-data):hover {
+      td {
+        background: $mint02;
+      }
+      &:hover td {
+        transition: 0.2s;
+      }
+    }
+    a {
+      display: block;
+      width: 100%;
+      padding: 25px 30px;
+      color: $dark-blue;
+      &:focus {
+        color: $dark-blue;
+      }
+    }
+  }
+}

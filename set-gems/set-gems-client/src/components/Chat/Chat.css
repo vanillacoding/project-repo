@@ -1,0 +1,52 @@
+.chatting-window {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  text-align: left;
+  padding: 10px;
+  margin: 10px 13%;
+  background-color: var(--main-color);
+  color: var(--sub-color);
+  overflow-x: hidden;
+  overflow-y: auto;
+  overflow-wrap: break-word;
+}
+
+.chatting-window p {
+  margin: 0;
+}
+
+.chatting-form {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.chatting-form input {
+  width: calc(100% - 135px);
+  margin: 2px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  background-color: var(--main-color);
+  color: var(--sub-color);
+}
+
+.chatting-form button {
+  width: 80px;
+  padding: 4px;
+  border: none;
+  background-color: var(--main-color);
+  color: var(--sub-color);
+}
+
+@media screen and (max-width: 920px) {
+  .chat {
+    padding-bottom: 20px;
+  }
+
+  .chatting-window {
+    height: 30vh;
+  }
+}

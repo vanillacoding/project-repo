@@ -1,0 +1,8 @@
+.card-area {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, calc(var(--card-width)));
+  gap: 10px;
+  height: calc(100% - 40px);
+  padding: 20px 10px;
+}

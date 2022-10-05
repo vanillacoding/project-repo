@@ -1,0 +1,79 @@
+@import '../styles/theme.module.scss';
+
+.container {
+  height: 90vh;
+  background-color: $main-color;
+
+  .imageBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 26vh;
+    margin-bottom: 1vh;
+
+    img {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      border-radius: 100px;
+    }
+
+    p {
+      display: flex;
+      flex-direction: column;
+      font-size: $font-size-1;
+      text-align: center;
+
+      span:first-child {
+        margin-bottom: 10px;
+        font-size: $font-size-2;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .contentsBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 32vh;
+    background-color: $light-beige;
+
+    .text {
+      margin-bottom: 20px;
+      font-size: $font-size-2;
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      & li button {
+        width: 150px;
+        height: 50px;
+        margin: 5px;
+        border: none;
+        border-radius: 5px;
+        background: $brown;
+        color: $light-beige;
+        font-size: $font-size-1;
+      }
+    }
+
+    .moreButton {
+      margin-top: 10px;
+      border: none;
+      border-radius: 10px;
+      background: $main-color;
+      color: $white;
+      font-size: $font-size-1;
+    }
+  }
+
+  .contentsBox:nth-child(2) {
+    border-radius: 20px 20px 0 0;
+  }
+}

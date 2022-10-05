@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Table",
+    "position": [360, 24, 360]
+  },
+  {
+    "name": "LongTree",
+    "position": [160, 80, 40]
+  },
+  {
+    "name": "Closet",
+    "position": [0, 24, 360]
+  }
+]

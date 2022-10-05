@@ -1,0 +1,233 @@
+.outerContainer {
+  background: rgba(0, 0, 0, 0.25);
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.innerReport, .commentsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 60px;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.innerReport {
+  width: 40%;
+  height: 75%;
+}
+
+.commentsContainer {
+  width: 30%;
+  height: 75%;
+}
+
+.image {
+  padding: 1rem;
+  width:60%;
+  height: auto;
+}
+
+.bookInfo {
+  padding-left: 1rem;
+  flex-direction: row;
+  color: #333333;
+  font-family: "Helvetica Neue",Arial,sans-serif;
+  font-size: 13px;
+  width: auto;
+  height: auto;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 18px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  color: #2e2e2e;
+  font-family: "Helvetica Neue",Arial,sans-serif;
+  width: auto;
+  text-align: center;
+}
+
+.imageContainer {
+  display: flex;
+  height: 40%;
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.imageContainer > p {
+  font-size: 16px;
+  margin-right: 20px;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 1em;
+  border-left: 3px solid #999;
+  color: #555;
+  font-size: 12pt;
+  line-height: 1.4;
+  font-family: "Helvetica Neue",Arial,sans-serif;
+}
+
+.icon {
+  width: 40px;
+  height: 30px;
+}
+
+.closeButton {
+  position: absolute;
+  font-size: 17px;
+  background: none;
+  cursor:pointer;
+  color: #d6d3d3;
+  top: 15.5%;
+  right: 15%;
+  border: none;
+  outline: none;
+}
+
+.text {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  color: #333333;
+  font-family: "Helvetica Neue",Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  width: 100%;
+  height: 50%;
+  overflow: auto;
+}
+
+.editText {
+  font-size: 13px;
+  color: gray;
+  font-weight: 600;
+}
+
+.editButton, .deleteButton {
+  font-size: 13px;
+  background: none;
+  cursor:pointer;
+  border: none;
+  color: gray;
+  text-align: end;
+  align-self: flex-end;
+  margin-left: 10px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.bookmarksBox {
+  display: none;
+}
+
+.author {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  color: #2e2e2e;
+  font-family: "Helvetica Neue",Arial,sans-serif;
+  width: auto;
+  margin-top: 3rem;
+  border-bottom: #d6d3d3 solid 1px;
+  justify-content: flex-end;
+}
+
+.writeComment {
+  display: flex;
+  align-self: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: 7%;
+  border-top: #d6d3d3 solid 1px;
+}
+
+.writeComment > button {
+  width: 10%;
+  border: 1px solid #e6ecf0;
+}
+
+.writeComment > button:hover {
+	color: #ffffff !important;
+	background: #f6b93b;
+	border-color: #f6b93b !important;
+	transition: all 0.4s ease 0s;
+}
+
+.comment {
+  height: calc(100% - 113px);
+}
+
+.commentInput {
+  width: 90%;
+  border: 1px solid #e6ecf0;
+  outline: none;
+  font-size: 15px;
+	padding: 13px;
+}
+
+.author > img {
+  width: 20px;
+  height: 20px;
+}
+
+.authorName {
+  font-family: "Helvetica Neue",Arial,sans-serif;
+  font-weight: 300;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.commentDetail {
+  text-align: right;
+  padding: 18px;
+}
+
+.oneComment {
+  font-size: 16px;
+  font-family: "Helvetica Neue",Arial,sans-serif;
+}
+
+.commentDetail > span {
+  font-size: 12px;
+  font-family: "Helvetica Neue",Arial,sans-serif;
+}
+
+.commentDeleteButton {
+  cursor:pointer;
+  border: none;
+  color: gray;
+}
+
+.bookmarkRibon {
+  display: inline-block;
+  width: 40px;
+  height: 70px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  border-bottom: #d6d3d3 solid 1px;
+  padding-top: 0.5rem;
+  justify-content: space-between;
+}
+
+.emptyContainer {
+  width: 10%;
+}

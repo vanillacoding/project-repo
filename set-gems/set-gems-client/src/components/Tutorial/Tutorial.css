@@ -1,0 +1,68 @@
+.tutorial {
+  --tutorial-card-width: calc(var(--card-width) * 0.6);
+  --tutorial-card-height: calc(var(--card-height) * 0.6);
+  display: flex;
+  padding: 20px;
+}
+
+.tutorial .card-area {
+  grid-template-columns: repeat(4, calc(var(--tutorial-card-width)));
+}
+
+.tutorial .card {
+  width: var(--tutorial-card-width);
+  height: var(--tutorial-card-height);
+}
+
+.tutorial table {
+  width: 400px;
+  margin: 20px 0;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.tutorial table td, th {
+  border: 1px solid var(--main-color);
+}
+
+.tutorial table td {
+  min-width: 91px;
+}
+
+.tutorial tfoot td {
+  color: var(--sub-color);
+}
+
+.wrong-set {
+  background-color: var(--point-color-red);
+}
+
+.correct-set {
+  background-color: var(--point-color-green);
+}
+
+@media screen and (max-width: 768px) {
+  .tutorial {
+    --tutorial-card-width: var(--card-width);
+    --tutorial-card-height: var(--card-height);
+    display: block;
+  }
+
+  .tutorial table {
+    width: 100%;
+  }
+
+  .tutorial table td {
+    min-width: 25%;
+  }
+
+  .tutorial .card-area {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .tutorial {
+    font-size: 10px;
+  }
+}

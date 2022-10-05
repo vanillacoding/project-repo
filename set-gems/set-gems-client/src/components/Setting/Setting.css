@@ -1,0 +1,48 @@
+.mobile-setting {
+    order: 4;
+  }
+
+.mobile-setting .setting {
+  display: none;
+}
+
+.mobile-setting div {
+  display: inline-block;
+}
+
+.setting-button {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.setting-button button {
+  margin: 0;
+  padding: 0;
+  width: calc(50% - 2px);
+}
+
+@media screen and (max-width: 920px) {
+  .players .setting {
+    display: none;
+  }
+
+  .mobile-setting .setting {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .setting-button {
+    width: 40%;
+    margin: 0;
+  }
+
+  .setting-button button {
+    font-size: 10px;
+    margin: 0 4px;
+    width: calc(50% - 10px);
+  }
+}

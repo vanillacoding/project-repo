@@ -1,0 +1,293 @@
+{
+  "frames": {
+    "fireball_00.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 418,
+        "h": 214
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 418,
+        "h": 214
+      },
+      "sourceSize": {
+        "w": 418,
+        "h": 214
+      }
+    },
+    "fireball_01.png": {
+      "frame": {
+        "x": 418,
+        "y": 0,
+        "w": 418,
+        "h": 214
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 418,
+        "h": 214
+      },
+      "sourceSize": {
+        "w": 418,
+        "h": 214
+      }
+    },
+    "fireball_02.png": {
+      "frame": {
+        "x": 0,
+        "y": 214,
+        "w": 418,
+        "h": 214
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 418,
+        "h": 214
+      },
+      "sourceSize": {
+        "w": 418,
+        "h": 214
+      }
+    },
+    "fireball_03.png": {
+      "frame": {
+        "x": 418,
+        "y": 214,
+        "w": 418,
+        "h": 214
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 418,
+        "h": 214
+      },
+      "sourceSize": {
+        "w": 418,
+        "h": 214
+      }
+    },
+    "fireball_04.png": {
+      "frame": {
+        "x": 0,
+        "y": 428,
+        "w": 418,
+        "h": 214
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 418,
+        "h": 214
+      },
+      "sourceSize": {
+        "w": 418,
+        "h": 214
+      }
+    },
+    "fireball_05.png": {
+      "frame": {
+        "x": 418,
+        "y": 428,
+        "w": 418,
+        "h": 214
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 418,
+        "h": 214
+      },
+      "sourceSize": {
+        "w": 418,
+        "h": 214
+      }
+    },
+    "fireball_06.png": {
+      "frame": {
+        "x": 0,
+        "y": 642,
+        "w": 418,
+        "h": 214
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 418,
+        "h": 214
+      },
+      "sourceSize": {
+        "w": 418,
+        "h": 214
+      }
+    },
+    "fireball_07.png": {
+      "frame": {
+        "x": 418,
+        "y": 642,
+        "w": 418,
+        "h": 214
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 418,
+        "h": 214
+      },
+      "sourceSize": {
+        "w": 418,
+        "h": 214
+      }
+    },
+    "fireball_08.png": {
+      "frame": {
+        "x": 0,
+        "y": 856,
+        "w": 418,
+        "h": 214
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 418,
+        "h": 214
+      },
+      "sourceSize": {
+        "w": 418,
+        "h": 214
+      }
+    },
+    "fireball_09.png": {
+      "frame": {
+        "x": 418,
+        "y": 856,
+        "w": 418,
+        "h": 214
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 418,
+        "h": 214
+      },
+      "sourceSize": {
+        "w": 418,
+        "h": 214
+      }
+    },
+    "fireball_10.png": {
+      "frame": {
+        "x": 0,
+        "y": 1070,
+        "w": 418,
+        "h": 214
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 418,
+        "h": 214
+      },
+      "sourceSize": {
+        "w": 418,
+        "h": 214
+      }
+    },
+    "fireball_11.png": {
+      "frame": {
+        "x": 418,
+        "y": 1070,
+        "w": 418,
+        "h": 214
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 418,
+        "h": 214
+      },
+      "sourceSize": {
+        "w": 418,
+        "h": 214
+      }
+    },
+    "fireball_12.png": {
+      "frame": {
+        "x": 0,
+        "y": 1284,
+        "w": 418,
+        "h": 214
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 418,
+        "h": 214
+      },
+      "sourceSize": {
+        "w": 418,
+        "h": 214
+      }
+    }
+  },
+  "animations": {
+    "fireball": [
+      "fireball_00.png",
+      "fireball_01.png",
+      "fireball_02.png",
+      "fireball_03.png",
+      "fireball_04.png",
+      "fireball_05.png",
+      "fireball_06.png",
+      "fireball_07.png",
+      "fireball_08.png",
+      "fireball_09.png",
+      "fireball_10.png",
+      "fireball_11.png",
+      "fireball_12.png"
+    ]
+  },
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "fireball.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 836,
+      "h": 1498
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:c5f1293a4bedcc2f6c5d15d428c8c3a6:4527fb67237dd8831cb899d69c7772c7:cf4d7da423ed931a533dcca7b8983428$"
+  }
+}

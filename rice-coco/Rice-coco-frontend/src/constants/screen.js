@@ -1,0 +1,16 @@
+export default SCREEN = {
+  LOGIN: 'Login',
+  PREFERRED_PARTNER: 'PreferredPartner',
+  MAIN_MAP: 'MainMap',
+  USER_REGISTER: 'UserRegister',
+  SEARCH: 'Search',
+  RESTAURANT_DETAILS: 'RestaurantDetails',
+  MATCH_WAITING: 'MatchWaiting',
+  MATCH_SUCCESS: 'MatchSuccess',
+  CHAT_ROOM: 'ChatRoom',
+  AFTER_MEETING: 'AfterMeeting',
+  HOME: 'Home',
+  EDIT_USER_INFO: 'EditUserInfo',
+  PAYMENT: 'Payment',
+  MY_PAGE: 'MyPage',
+};

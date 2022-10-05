@@ -1,0 +1,40 @@
+.RoomEntry {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  height: 60px;
+  font-weight: 500;
+  border: 1px solid #c9d3dd;
+  border-radius: 10px;
+  background: rgb(255, 245, 188);
+  box-sizing: border-box;
+  margin: 5px;
+}
+
+.RoomEntry:hover {
+  background: #ffdc3f;
+  font-weight: 900;
+  color: rgb(49, 45, 5);
+}
+
+.RoomName {
+  display: flex;
+  flex-direction: row;
+  justify-self: start;
+  align-items: center;
+  width: 70%;
+  height: 90%;
+  box-sizing: border-box;
+  margin: 20px;
+}
+
+.Buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  height: 90%;
+}

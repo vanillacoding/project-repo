@@ -1,0 +1,9 @@
+.count {
+  background-color: #293241;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+  padding: 20px;
+  color: #FFFFFF;
+}

@@ -1,0 +1,662 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none;
+}
+
+html,
+body,
+    {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 16px;
+}
+
+button,
+input {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 0.9rem;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+button {
+    border: 0;
+    background: transparent;
+}
+
+$main-color: #3b20b1;
+$note-green: #0dc75b;
+$note-red: #ff054a;
+$note-orange: #ff7317;
+$note-yellow: #f5b916;
+$note-skyblue: #1acbf7;
+$note-pulple: #4f388f;
+$s-min: 20;
+$s-max: 70;
+$l-min: 30;
+$l-max: 90;
+
+@mixin clearfix {
+    &::after {
+        clear: both;
+        display: block;
+        content: ""
+    }
+}
+
+@mixin blind {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    font-size: 0;
+    line-height: 0
+}
+
+@mixin prefix($property,
+$value,
+$prefixes: ()) {
+    @each $prefix in $prefixes {
+        -#{$prefix}-#{$property}: $value;
+    }
+
+    #{$property}: $value;
+}
+
+@mixin size($width,
+$height: $width) {
+    width: $width;
+    height: $height;
+}
+
+@mixin note-active($color) {
+    background-color: $color;
+
+    &.on {
+        background-color: darken($color, 20%);
+    }
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    min-height: 800px;
+}
+
+header {
+    border-top: 1px solid #3b20b1;
+    background-color: #eaeaea;
+
+    .headerWrap {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+
+        h1 {
+            height: 5rem;
+            line-height: 5rem;
+            color: #3b20b1;
+            font-weight: 600;
+        }
+    }
+}
+
+.note {
+    @include prefix(transition,
+    200ms,
+    ('moz', 'ms', 'webkit'));
+    border-radius: 2px;
+    background-color: #464646;
+
+    &:nth-child(4n - 3) {
+        background-color: #616161;
+        border-right: 2px solid #70f081;
+    }
+
+    &.active {
+        &.on {
+            @include prefix(transform,
+            matrix3d(1.4, -0.77, 0.34, 0, 0.77, 1.4, 0.34, -0.001, -0.34, -0.34, 0.9, 0, 2, 2, 4, 1),
+            ('moz', 'ms', 'webkit'));
+        }
+    }
+
+    &.on {
+        background-color: rgba(112, 240, 129, 0.6);
+    }
+}
+
+.statusBar {
+    background-color: #70f081;
+
+    .menuWrap {
+        display: flex;
+        max-width: 1200px;
+        margin: 0 auto;
+        width: 100%;
+        justify-content: flex-end;
+
+        button {
+            @include prefix(transition,
+            200ms,
+            ('moz', 'ms', 'webkit'));
+            width: 6rem;
+            height: 30px;
+            background-color: #000;
+            color: #70f081;
+            border-left: 2px solid #70f081;
+            font-weight: 600;
+
+            &:hover {
+                color: #000;
+                background-color: #70f081;
+            }
+        }
+    }
+}
+
+.playerWrap {
+    background-color: #000;
+    padding: 2rem 1rem;
+
+    .player {
+        max-width: 1200px;
+        margin: 0 auto;
+
+        @for $i from 1 through 30 {
+            .sample:nth-child(#{$i}) {
+                ul {
+                    li.active {
+                        background-color: lighten(hsl(random(360), $s-min+random($s-max+-$s-min), $l-min+random($l-max+-$l-min)), 5%);
+                    }
+                }
+            }
+        }
+
+        .sample {
+            display: flex;
+            @include clearfix;
+
+            button {
+                width: 5rem;
+                height: 2rem;
+                display: block;
+                margin-bottom: 1px;
+                border-radius: 2px;
+                background-color: #3b20b1;
+                border: 0;
+                color: #fff;
+                padding: 0 4px;
+                font-size: 0.85rem;
+            }
+
+            .muteButton {
+                width: calc(2rem - 1px);
+                margin-right: 1px;
+            }
+
+            ul {
+                @include clearfix;
+                display: flex;
+                flex: 1;
+
+                li {
+                    margin: 0 0.5px 0.5px;
+                    flex: 1;
+                    height: 2rem;
+                }
+
+                &.kick {
+                    li.active {
+                        @include note-active($note-green);
+                    }
+                }
+
+                &.bass {
+                    li.active {
+                        @include note-active($note-orange);
+                    }
+                }
+
+                &.oh {
+                    li.active {
+                        @include note-active($note-pulple);
+                    }
+                }
+
+                &.ch {
+                    li.active {
+                        @include note-active($note-red);
+                    }
+                }
+
+                &.snare {
+                    li.active {
+                        @include note-active($note-skyblue);
+                    }
+                }
+            }
+        }
+
+        .activeLine {
+            button {
+                background-color: #70f081;
+                color: #3b20b1;
+                font-weight: 600;
+            }
+
+            li {
+                border-top: 2px solid #74ff86;
+                border-bottom: 2px solid #74ff86;
+
+                &.on {
+                    background-color: rgba(112, 240, 129, 0.6);
+                }
+            }
+        }
+
+        .muteLine {
+            li {
+                background-color: #333;
+
+                &.on {
+                    background-color: #666;
+                }
+            }
+
+            button {
+                background-color: #352b5e;
+            }
+
+            .muteButton {
+                background-color: #333;
+            }
+
+        }
+
+        .numberWrap {
+            margin-left: 7rem;
+
+            ul {
+                display: flex;
+
+                li {
+                    @include prefix(transition,
+                    200ms,
+                    ('moz', 'ms', 'webkit'));
+                    text-align: center;
+                    margin: 0 0.5px 0.5px;
+                    flex: 1 1;
+                    height: 1.5rem;
+                    line-height: 1.5rem;
+                    background-color: #2f2f2f;
+                    border-radius: 2px;
+                    color: #70f081;
+                    font-size: 0.7rem;
+
+                    &:nth-child(4n - 3) {
+                        border-right: 2px solid #70f081;
+                    }
+
+                    &.activeNumber {
+                        background-color: rgba(112, 240, 129, 0.6);
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.listControlWrap {
+    background-color: #2f2f2f;
+    padding: 1rem 2rem;
+
+    .listControl {
+        max-width: 1200px;
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+
+        button {
+            background-color: #70f081;
+            color: #3b20b1;
+            padding: 5px 10px;
+            width: 10rem;
+            margin-right: 5px;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+
+        .bpmWrap {
+            flex: 1;
+            display: flex;
+            text-align: right;
+            padding-top: 4px;
+
+            .bpmTextWarp {
+                flex: 1;
+                color: #fff;
+            }
+
+            .controlBar {
+                flex: 3;
+                padding: 0 10px;
+
+                input {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.beatListWrap {
+    display: flex;
+    background-color: #000;
+    padding: 2rem 1rem 3rem;
+    min-height: 30rem;
+
+    .listControl {
+        button {
+            width: 5rem;
+            height: calc(5rem - 0.5px);
+            display: block;
+            margin: 0 1px 1px;
+            border-radius: 3px;
+            background-color: #3b20b1;
+            border: 0;
+            color: #fff;
+        }
+    }
+
+    .beatList {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        border: 1px solid #3b20b1;
+        border-radius: 5px;
+        background-color: #eaeaea;
+        padding-bottom: 10px;
+
+        input[type='file'] {
+            @include blind;
+        }
+
+        input[type='file']+label {
+            display: block;
+            background-color: #3b20b1;
+            color: #fff;
+            padding: 0.5em;
+            cursor: pointer;
+        }
+
+        ul {
+            padding: 10px;
+
+            li {
+                @include clearfix();
+                display: inline-block;
+                width: calc(20% - 1.2rem);
+                background-color: #70f081;
+                border-radius: 6px;
+                text-align: left;
+                margin: 0.3rem 0.6rem 0;
+                font-size: 0;
+                overflow: hidden;
+
+                button {
+                    float: left;
+                    padding: 0.4rem 0.4rem 0.4rem 0.8rem;
+                    width: calc(100% - 60px);
+                    text-align: left;
+                    color: #3b20b1;
+                    font-weight: 600;
+
+                    &:last-child {
+                        color: #fff;
+                        border-left: 1px solid #3b20b1;
+                        background-color: #3b20b1;
+                        float: right;
+                        width: 60px;
+                        padding: 0.4rem;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(112, 240, 129, 0.5);
+    @include prefix(transition,
+    200ms,
+    ('moz', 'ms', 'webkit'));
+
+    input[type='text'] {
+        width: 70%;
+        text-align: center;
+        height: 4rem;
+        border-radius: 2rem;
+        padding: 1rem;
+        border: 2px solid #3b20b1;
+        font-size: 1.5rem;
+    }
+
+    button {
+        width: 5rem;
+        height: 2.4rem;
+        display: block;
+        margin-top: 10px;
+        border-radius: 3px;
+        background-color: #3b20b1;
+        border: 0;
+        color: #fff;
+        padding: 0 4px;
+    }
+}
+
+.beatLoading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(112, 240, 129, 0.5);
+    @include prefix(transition,
+    200ms,
+    ('moz', 'ms', 'webkit'));
+}
+
+@media (max-width: 768px) {
+
+    html,
+    body,
+    button,
+    input {
+        font-size: 14px;
+    }
+
+    .App {
+        min-height: auto;
+    }
+
+    .playerWrap {
+        padding: 1rem 0.5rem;
+    }
+
+    .beatListWrap {
+        .beatList {
+            ul {
+                li {
+                    width: calc(33.3% - 0.6rem);
+                    margin: 0.3rem 0.3rem 0;
+                }
+            }
+
+            input[type='file'] {
+                display: none;
+            }
+
+            input[type='file']+label {
+                display: none;
+            }
+        }
+    }
+
+    .popup {
+        input[type='text'] {
+            width: 80%;
+            font-size: 1rem;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+
+    html,
+    body,
+    button,
+    input {
+        font-size: 12px;
+    }
+
+
+    .beatListWrap {
+        padding: 1rem 0.5rem 2rem;
+
+        .beatList {
+            ul {
+                padding: 0.4rem;
+
+                li {
+                    width: calc(50% - 0.6rem);
+                    margin: 0.3rem 0.3rem 0;
+
+                    button {
+                        padding: 0.5rem 0.4rem 0.5rem 0.8rem;
+
+                        &:last-child {
+                            width: 60px;
+                            padding: 0.5rem 0.4rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .statusBar {
+        .menuWrap {
+            button {
+                width: 4rem;
+                height: 20px;
+                border-left: 1px solid #70f081;
+            }
+        }
+    }
+
+    .playerWrap {
+        padding: 1rem 0.5rem;
+
+        .player {
+            .sample {
+                button {
+                    width: 3rem;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    padding: 0;
+                }
+
+                .muteButton {
+                    width: calc(2rem - 1px);
+                    margin-right: 1px;
+                }
+            }
+
+            .numberWrap {
+                display: none;
+            }
+        }
+    }
+
+    .note {
+        &:nth-child(4n - 3) {
+            border-right: 1px solid #70f081;
+        }
+    }
+
+    .listControlWrap {
+        padding: 0.5rem 1rem;
+
+        .listControl {
+            flex-direction: column;
+
+            button {
+                flex: 1;
+            }
+
+            .bpmWrap {
+                flex: 1;
+                display: flex;
+                text-align: left;
+                padding-top: 10px;
+
+                .bpmTextWarp {
+                    padding-top: 3px;
+                    flex: none;
+                }
+
+                .controlBar {
+                    flex: 1;
+                    padding: 0 20px;
+
+                    input {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .popup {
+        input[type='text'] {
+            width: 90%;
+            font-size: 0.9rem;
+        }
+
+        button {
+            width: 70%;
+        }
+    }
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "origin": "As your app grows, you can catch a lot of bugs with typechecking.",
+    "translated": "앱이 성장함에 따라 유형 검사로 많은 버그를 잡을 수 있습니다.",
+    "url": "https://www.naver.com",
+    "nanoId": "184091820938109"
+  },
+  {
+    "origin": "I’ve had a lot of people point to setInterval with hooks as some sort of egg on React’s face.",
+    "translated": "React의 얼굴에 훅을 씌운 Interval을 가리키는 사람이 많았습니다.",
+    "url": "https://www.google.com",
+    "nanoId": "184091820938110"
+  },
+  {
+    "origin": "Honestly, I think these people have a point. It is confusing at first.",
+    "translated": "솔직히, 나는 이 사람들이 일리가 있다고 생각한다. 처음에는 혼란스럽다.",
+    "url": "https://overreacted.io",
+    "nanoId": "184091820938111"
+  },
+  {
+    "origin": "There is a way to get them working together very well but it’s a bit unintuitive.",
+    "translated": "그들이 함께 잘 일하게 하는 방법이 있지만 그것은 약간 비의도적이다.",
+    "url": "https://www.naver.com",
+    "nanoId": "112521938471927"
+  },
+  {
+    "origin": "In this post, we’ll look at how to make intervals and Hooks play well together, why this solution makes sense, and which new capabilities it can give you.",
+    "translated": "이 포스트에서는 간격과 후크가 서로 잘 작동하도록 하는 방법, 이 솔루션이 합리적인 이유 및 새로운 기능을 제공하는 방법에 대해 알아보겠습니다.",
+    "url": "https://overreacted.io",
+    "nanoId": "112521938471928"
+  },
+  {
+    "origin": "Disclaimer: this post focuses on a pathological case. Even if an API simplifies a hundred use cases, the discussion will always focus on the one that got harder.",
+    "translated": "부인: 이 게시물은 병적인 사례에 초점을 맞춥니다. API가 백 가지 사용 사례를 단순화하더라도 논의는 항상 어려워진 사례에 초점을 맞출 것입니다.",
+    "url": "https://overreacted.io",
+    "nanoId": "1125219384719123"
+  },
+  {
+    "origin": "A renderer teaches React to talk to a specific host environment and manage its host instances.",
+    "translated": "렌더러는 React에게 특정 호스트 환경과 통신하고 호스트 인스턴스를 관리하도록 가르칩니다.",
+    "url": "https://www.naver.com",
+    "nanoId": "1125219384123812"
+  },
+  {
+    "origin": "React DOM, React Native, and even Ink are React renderers. You can also create your own React renderer.",
+    "translated": "반응 DOM, 반응 네이티브 및 심지어 잉크도 반응 렌더러입니다. 반응 렌더러를 직접 만들 수도 있습니다.",
+    "url": "https://overreacted.io",
+    "nanoId": "112521932589172392"
+  },
+  {
+    "origin": "As a React user, you never need to think about these modes.",
+    "translated": "React 사용자는 이러한 모드에 대해 생각할 필요가 없습니다.",
+    "url": "https://overreacted.io",
+    "nanoId": "11252112312"
+  },
+  {
+    "origin": "I only want to highlight that React isn’t just an adapter from one mode to another.",
+    "translated": "React는 단지 하나의 모드에서 다른 모드로의 어댑터가 아니라는 점을 강조하고 싶습니다.",
+    "url": "https://overreacted.io",
+    "nanoId": "1125211231239822"
+  },
+  {
+    "origin": "Its usefulness is orthogonal to the target low-level view API paradigm.",
+    "translated": "이 기능은 대상 하위 레벨 뷰 API 패러다임과 직교합니다.",
+    "url": "https://overreacted.io",
+    "nanoId": "1125211217567312"
+  },
+  {
+    "origin": "In the host environment, a host instance (like a DOM node) is the smallest building block.",
+    "translated": "호스트 환경에서 호스트 인스턴스(예: DOM 노드)는 가장 작은 구성 블록입니다.",
+    "url": "https://overreacted.io",
+    "nanoId": "112521156742312"
+  },
+  {
+    "origin": "Unlike the class version, there is no complexity gap for 'upgrading' the useInterval Hook example to have a dynamically adjusted delay:",
+    "translated": "클래스 버전과 달리 동적으로 조정된 지연을 가지기 위해 useInterval Hook 예제를 '업그레이드'하기 위한 복잡성 격차가 없습니다.",
+    "url": "https://overreacted.io",
+    "nanoId": "1125211567415122312"
+  },
+  {
+    "origin": "When useInterval Hook sees a different delay, it sets up the interval again.",
+    "translated": "Interval Hook을 사용하면 다른 지연이 나타나면 간격을 다시 설정합니다.",
+    "url": "https://overreacted.io",
+    "nanoId": "12125211567642312"
+  },
+  {
+    "origin": "I hope by this you’re sold on useInterval() Hook being a nicer API — at least when we’re doing it from a component.",
+    "translated": "적어도 구성 요소에서 API를 사용할 때는 인터벌() 후크를 더 잘 사용할 수 있기를 바랍니다.",
+    "url": "https://overreacted.io",
+    "nanoId": "112521156747742312"
+  },
+  {
+    "origin": "But why is using setInterval() and clearInterval() annoying with Hooks? Let’s go back to our counter example and try to implement it manually.",
+    "translated": "그러나 setInterval() 및 clear를 사용하는 이유훅으로 짜증나는 간격? 다시 예제로 돌아가서 수동으로 구현해 보겠습니다.",
+    "url": "https://overreacted.io",
+    "nanoId": "1125211567421314312"
+  },
+  {
+    "origin": "But why is using setInterval() and clearInterval() annoying with Hooks? Let’s go back to our counter example and try to implement it manually.",
+    "translated": "그러나 setInterval() 및 clear를 사용하는 이유훅으로 짜증나는 간격? 다시 예제로 돌아가서 수동으로 구현해 보겠습니다.",
+    "url": "https://overreacted.io",
+    "nanoId": "587489579234"
+  }
+]

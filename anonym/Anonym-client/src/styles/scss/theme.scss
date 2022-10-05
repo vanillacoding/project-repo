@@ -1,0 +1,36 @@
+$bg-color: #0e0e10;
+$color: #e2e2e4;
+$sub-bg-color: #212124;
+$body-font: "Poppins", sans-serif;
+$theme-color: #f9fafb;
+$border-color: rgb(77, 77, 77);
+$scrollbar-bg: rgb(1, 2, 3 / 40%);
+
+$top-height: 50px;
+$top-bg-color: #18181b;
+$search-bg: #14162b;
+$side-bg-color: #1f1f23;
+
+$point-color: #e42968;
+
+.light-mode {
+  $theme-bg-color: rgb(255, 255, 255 / 31%);
+  $theme-color: #3c3a3a;
+  $button-inactive: #3c3a3a;
+  $search-bg: rgb(255, 255, 255 / 31%);
+  $dropdown-bg: #f7f7f7;
+  $overlay-bg: rgb(255, 255, 255 / 30%);
+  $dropdown-hover: rgb(236, 236, 236);
+  $border-color: rgb(255, 255, 255 / 35%);
+  $popup-bg: rgb(255, 255, 255);
+  $hover-menu-bg: rgb(255, 255, 255 / 35%);
+  $scrollbar-bg: rgb(255, 253, 253 / 57%);
+  $content-title-color: $theme-color;
+  $calendar-picker-color: invert(0);
+}
+
+%flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

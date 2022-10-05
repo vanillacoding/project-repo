@@ -1,0 +1,28 @@
+@value (
+  defaultBorderRadius,
+  defaultBorderWidth
+) from "./variables.css";
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.title {
+  font-family: "neodgm", sans-serif;
+  font-size: 1.3vw;
+}
+
+.textInput {
+  border: defaultBorderWidth solid;
+  border-radius: defaultBorderRadius;
+  margin-left: 2vw;
+  padding: 0.5vw 1vw;
+  font-family: "neodgm", sans-serif;
+  font-size: 1.6vh;
+}
+
+.textInput:focus {
+  outline: none;
+}

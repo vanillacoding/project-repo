@@ -1,0 +1,90 @@
+.sleepInfo {
+  margin: 30px 18px 30px 18px;
+  line-height: 15px;
+  min-height: 34px;
+}
+
+.date {
+  display: block;
+  font-size: 1.2em;
+}
+
+.sleepInfo-title {
+  display: inline-block;
+  position: relative;
+}
+
+.hours {
+  display: inline-block;
+  position: absolute;
+  right: 25px;
+}
+
+.time {
+  display: block;
+  font-size: 1.2em;
+}
+
+.contents {
+  background-color: white;
+  color: #333333;
+  padding-top: 20px;
+  line-height: 32px;
+}
+
+.diary {
+  margin: 0 18px;
+}
+
+.score-title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.score-select {
+  margin-left: 1em;
+  display: inline-block;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: white;
+  width: 37%;
+  height: 2em;
+  vertical-align: middle;
+  font-size: 1em;
+}
+
+.subText {
+  color: rgb(180, 180, 180);
+}
+
+textarea {
+  padding: 0.5em;
+  width: 100%;
+  height: 7em;
+  border: 1px solid gray;
+  font-size: 1em;
+}
+
+.color-wrapper {
+  height: 4em;
+  margin-bottom: 3em;
+}
+
+.color-wrapper > div {
+  float: left;
+  width: 4em;
+  height: 4em;
+  border: 1px dotted gray;
+  border-radius: 4em;
+}
+
+.submit {
+  margin: 1.5em 0;
+  width: 100%;
+  height: 3.5em;
+  background-color: #26182E;
+  border-radius: 0.5em;
+  font-size: 1em;
+  color: white;
+  font-weight: 700;
+}

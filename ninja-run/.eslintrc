@@ -1,0 +1,21 @@
+{
+  "extends": "standard",
+  "rules": {
+    "quotes": [1, "double"],
+    "space-before-function-paren": [2, {
+      "anonymous": "never",
+      "named": "never",
+      "asyncArrow": "always"
+    }],
+    "semi": [2, "always"],
+    "no-new": "off",
+    "comma-dangle": [2, {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "functions": "never"
+    }],
+    "quote-props": "off",
+    "no-prototype-builtins": "off",
+    "no-undef": "off"
+  }
+}

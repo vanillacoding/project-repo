@@ -1,0 +1,31 @@
+@import '../styles/theme.module.scss';
+
+.container {
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100vw;
+  height: 10vh;
+  padding: 5vw;
+  border-bottom: 1px solid $light-brown;
+  background-color: $light-beige;
+  background-image: url(https://i.pinimg.com/originals/7a/f5/07/7af507100305c535a13df5125d9060ca.gif);
+  background-position-y: -90%;
+  background-size: 100vw;
+  color: $brown;
+  z-index: 999;
+
+  h1 {
+    margin: 0;
+    padding: 0;
+    font-size: $font-size-2;
+  }
+}
+
+.contents {
+  height: 90vh;
+  margin-top: 10vh;
+}

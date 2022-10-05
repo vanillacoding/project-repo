@@ -1,0 +1,67 @@
+.gameBoyWrapper {
+  background-color: #4361ee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  width: 600px;
+  min-width: 600px;
+  max-width: 600px;
+  height: 750px;
+  border-radius: 18px;
+  box-shadow:
+  rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+  rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.gameBoyHead {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  background-color: #222;
+  margin: auto 15px;
+  margin-top: 25px;
+  border-radius: 14px;
+}
+
+.gameBoardWrapper {
+  background: #2c2f2a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 500px;
+  height: 700px;
+}
+
+.gameBoyMark {
+  position: absolute;
+  top: -48px;
+  color: #bde0fe;
+  font-style: italic;
+  font-weight:  900;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+}
+
+.gameBoyMark span {
+  background: linear-gradient(90deg, #d9ed92 0%, #1a759f 25%, #34a0a4 50%, #76c893 75%, #b5e48c 100%);
+  background-size: 200% auto;
+  font-family: 'Press Start 2P', cursive;
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: 1px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}

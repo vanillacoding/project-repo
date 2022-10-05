@@ -1,0 +1,104 @@
+.embla {
+  height: 200px;
+  background-color: #f7f7f7;
+  padding-left: 20px;
+  padding-right: 10px;
+  max-width: 470px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.embla__wheels {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.embla__wheels__shadow {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: calc(50% - 32px / 2);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.embla__wheels__shadow--start {
+  top: -0.5px;
+  background: linear-gradient(
+    to top,
+    rgba(247, 247, 247, 0) 0%,
+    rgba(247, 247, 247, 0.4) 100%
+  );
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.embla__wheels__shadow--end {
+  bottom: -0.5px;
+  background: linear-gradient(
+    rgba(247, 247, 247, 0) 0%,
+    rgba(247, 247, 247, 0.4) 100%
+  );
+  border-top: 0.5px solid rgba(0, 0, 0, 0.3);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.embla__wheel {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  min-width: 50%;
+  line-height: 1;
+}
+
+.embla__wheel__scene {
+  min-width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.embla__wheel__viewport {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.embla__wheel--perspective-left .embla__wheel__container {
+  perspective-origin: 150%;
+  transform: translateX(-8px) !important;
+}
+
+.embla__wheel--perspective-right .embla__wheel__container {
+  perspective-origin: -50%;
+  transform: translateX(-32px) !important;
+}
+
+.embla__wheel--perspective-left .embla__wheel__label {
+  transform: translateX(-60px);
+}
+
+.embla__wheel--perspective-right .embla__wheel__label {
+  transform: translateX(-70px);
+}
+
+.embla__wheel__container {
+  height: 32px;
+  width: 100%;
+  perspective: 1000px;
+}

@@ -1,0 +1,148 @@
+{
+  "name": "point-code_client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "cypress": "cypress open"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "extends": [
+      "airbnb-typescript"
+    ],
+    "rules": {
+      "react/jsx-filename-extension": 0,
+      "react/jsx-props-no-spreading": 0,
+      "react/jsx-one-expression-per-line": 0,
+      "react/destructuring-assignment": 0,
+      "no-plusplus": 0,
+      "linebreak-style": 0,
+      "object-curly-newline": 0,
+      "array-bracket-spacing": 0,
+      "arrow-body-style": 0,
+      "implicit-arrow-linebreak": 0,
+      "no-new": 0,
+      "no-console": 0,
+      "consistent-return": 0,
+      "func-names": 0,
+      "no-underscore-dangle": 0,
+      "no-shadow": 0,
+      "no-nested-ternary": 0,
+      "max-len": 0,
+      "spaced-comment": 0,
+      "import/prefer-default-export": 0,
+      "import/no-extraneous-dependencies": [
+        "error",
+        {
+          "devDependencies": true
+        }
+      ],
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "comma-dangle": [
+        "error",
+        "never"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "eol-last": [
+        "error",
+        "always"
+      ],
+      "arrow-parens": [
+        "error",
+        "as-needed"
+      ],
+      "indent": [
+        "error",
+        2,
+        {
+          "SwitchCase": 1
+        }
+      ],
+      "no-multiple-empty-lines": [
+        "error",
+        {
+          "max": 1
+        }
+      ]
+    },
+    "env": {
+      "browser": true,
+      "node": true,
+      "es2020": true,
+      "jest": true
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "codemirror": "^5.52.2",
+    "cogo-toast": "^4.2.3",
+    "lodash": "^4.17.15",
+    "qs": "^6.9.3",
+    "react": "^16.13.1",
+    "react-codemirror2": "^7.1.0",
+    "react-dom": "^16.13.1",
+    "react-helmet-async": "^1.0.4",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-spinners": "^0.8.1",
+    "recharts": "^1.8.5",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.0.1",
+    "typesafe-actions": "^5.1.0",
+    "use-hooks": "^2.0.0-rc.5"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/codemirror": "^0.0.90",
+    "@types/jest": "^24.0.0",
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^12.0.0",
+    "@types/qs": "^6.9.1",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-redux": "^7.1.7",
+    "@types/react-router-dom": "^5.1.3",
+    "@types/recharts": "^1.8.9",
+    "@types/redux-devtools-extension": "^2.13.2",
+    "@types/styled-components": "^5.0.1",
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "cypress": "^4.4.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-typescript": "^7.2.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "jest-localstorage-mock": "^2.4.0",
+    "redux-devtools-extension": "^2.13.8",
+    "typescript": "^3.8.3"
+  }
+}

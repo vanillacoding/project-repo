@@ -1,0 +1,84 @@
+@value (
+  mainBlack,
+  mainWhite,
+  defaultBorderRadius
+) from "./variables.css";
+
+.container {
+  width: 90%;
+  padding: 2%;
+  border-radius: defaultBorderRadius;
+  margin: 3%;
+  display: flex;
+  align-items: center;
+  background-color: mainWhite;
+
+}
+
+.imageBox {
+  width: 6vh;
+  height: 6vh;
+  margin-left: 3%;
+  overflow: hidden;
+  position: relative;
+}
+
+.editButton {
+  padding: 0.7vh 1vh;
+  font-size: 1.6vh;
+}
+
+.brownShiba {
+  width: 2450%;
+  position: absolute;
+  bottom: -41%;
+  left: -676%;
+}
+
+.darkShiba {
+  width: 2450%;
+  position: absolute;
+  bottom: -41%;
+  left: -1486%;
+}
+
+.grayShiba {
+  width: 2450%;
+  position: absolute;
+  bottom: -41%;
+  left: -2298%;
+}
+
+.descriptions {
+  width: 45%;
+  margin: 0 5%;
+  font-size: 2vh;
+  line-height: 2.3vh;
+  color: mainBlack;
+  font-family: "neodgm", sans-serif;
+}
+
+.anchor {
+  font-size: 2vh;
+  color: mainWhite;
+}
+
+.anchor:link {
+  color: mainWhite;
+  text-decoration: none;
+}
+
+.anchor:visited {
+  color: mainWhite;
+}
+
+.buttonContainer {
+  padding-bottom: 1vh;
+}
+
+.button {
+  height: 3.5vh;
+  margin-top: 1vh;
+  padding: 0.7vh 1vh;
+  font-size: 1.6vh;
+}

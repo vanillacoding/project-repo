@@ -1,0 +1,19 @@
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 10px 0 20px 0;
+}
+
+.result p {
+  line-height: 1rem;
+}
+
+.result button {
+  margin: 10px auto;
+  padding: 0 10px;
+  background-color: var(--main-color);
+  color: var(--sub-color);
+}

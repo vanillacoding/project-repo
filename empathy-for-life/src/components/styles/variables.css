@@ -1,0 +1,10 @@
+@value mainBlack: #1e1e1e;
+@value mainWhite: #fcfcfc;
+@value mainBrown: #673932;
+@value mainLightBrown: #8F573B;
+
+@value defaultBorderRadius: 0.3vw;
+@value defaultBorderWidth: 0.2vw;
+@value defaultBorderHeight: 1vh;
+
+@value modalContentWidth: 47vh;

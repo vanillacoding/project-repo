@@ -1,0 +1,19 @@
+.profile {
+  &__title {
+    margin-top: 5vh;
+  }
+
+  .user-thumnail {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+    &__input {
+      cursor: pointer;
+    }
+  }
+
+  .input-text {
+    margin: 10px;
+  }
+}

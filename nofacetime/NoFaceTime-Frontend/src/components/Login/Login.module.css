@@ -1,0 +1,45 @@
+.LoginWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 80vh;
+}
+
+.Login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 20vw;
+  height: 50vh;
+  background-color: whitesmoke;
+  border-radius: 3%;
+  box-shadow: 0px 10px 25px grey;
+}
+
+.GoogleLoginButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  min-width: 100px;
+  height: 40px;
+  padding: 0px 10px 0px 10px;
+  background: #1180f1;
+  color: #ffffff;
+  border: 1px solid #1180f1;
+  border-radius: 20px 20px 20px 20px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+  box-shadow: 0px 5px 10px grey;
+}
+
+.GoogleLoginButton:hover {
+  transform: translateY(2px);
+  box-shadow: 0px 4px 5px grey;
+}

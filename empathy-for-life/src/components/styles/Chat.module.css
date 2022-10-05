@@ -1,0 +1,133 @@
+@value (
+  mainWhite,
+  mainBlack,
+  mainBrown,
+  defaultBorderWidth,
+  defaultBorderRadius
+ ) from "./variables.css";
+
+.chatContainer {
+  width: 28vw;
+  height: 100%;
+  border-radius: defaultBorderRadius;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgba(250, 250, 250, 0.8);
+  color: mainBlack;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+.chatBorder {
+  width: 90%;
+  height: 84%;
+  margin-top: 2vh;
+  padding: 2% 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "neodgm", sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.connection {
+  margin-bottom: 2%;
+  align-self: center;
+  font-size: 70%;
+}
+
+.otherMessageContainer {
+  width: 50%;
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.myMessageContainer {
+  width: 50%;
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-self: flex-end;
+}
+
+.userName {
+  font-size: 1.7vh;
+  padding-left: 3%;
+}
+
+.myMessage {
+  padding: 5%;
+  margin: 3% 0;
+  border-radius: defaultBorderRadius;
+  background-color: #FEE80F;
+  align-self: flex-end;
+  font-size: 1.7vh;
+  line-height: 110%;
+}
+
+.otherMessage {
+  width: fit-content;
+  padding: 5%;
+  margin: 2% 0 3% 0;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: defaultBorderRadius;
+  background-color: mainWhite;
+  font-size: 1.7vh;
+  line-height: 110%;
+}
+
+.messageDate {
+  font-size: 1.2vh;
+}
+
+.formContainer {
+  width: 100%;
+  padding: 0.5vh 1vh 1vh 1vh;
+  margin-top: 3%;
+  margin-left: 1%;
+  display: flex;
+  align-items: center;
+  background-color: mainWhite;
+}
+
+.chatInput {
+  width: 15vw;
+  height: 2vh;
+  background-color: mainWhite;
+  border: defaultBorderWidth solid lightgray;
+  font-size: 1.8vh;
+}
+
+.chatInput:focus {
+  outline: none;
+}
+
+.submitButton {
+  width: 3.5vw;
+  height: 4.2vh;
+  margin-left: 2.5vw;
+  margin-bottom: 0.3vh;
+  Border: defaultBorderWidth solid lightgray;
+  font-size: 1.5vh;
+}
+
+@media (max-width: 800px) {
+  .chatContainer {
+    width: 100%;
+  }
+  .chatInput {
+    width: 50vw;
+    margin: 1vh 0 1vh 10vw;
+  }
+
+  .submitButton {
+    width: 10vw;
+    height: 3.5vh;
+  }
+}

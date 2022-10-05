@@ -1,0 +1,8 @@
+const NUMBERS = {
+  MAX_CATEGORIES: 3,
+  A_DAY_IN_MS: 86400000,
+  A_WEEK_IN_MS: 691200000,
+  A_MONTH_IN_MS: 2716146000,
+};
+
+module.exports = NUMBERS;

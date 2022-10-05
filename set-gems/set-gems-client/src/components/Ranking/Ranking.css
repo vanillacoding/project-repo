@@ -1,0 +1,10 @@
+.ranking {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 920px) {
+  .ranking {
+    padding-bottom: 20px;
+  }
+}

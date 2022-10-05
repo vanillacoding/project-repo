@@ -1,0 +1,30 @@
+@value (
+  mainWhite,
+  mainBlack,
+  mainBrown,
+  mainLightBrown,
+  defaultBorderWidth,
+  defaultBorderRadius
+) from "./variables.css";
+
+.board {
+  border: defaultBorderWidth solid mainBlack;
+  border-radius: defaultBorderRadius;
+  position: relative;
+  background-color: mainBrown;
+  font-family: "neodgm", sans-serif;
+  text-align: center;
+  line-height: 4vh;
+  font-size: 1.7vh;
+  color: mainWhite;
+}
+
+.bar {
+  width: 101%;
+  height: 15%;
+  border-radius: defaultBorderWidth defaultBorderWidth 0 0;
+  position: relative;
+  top: -1px;
+  left: -1px;
+  background-color: mainLightBrown;
+}

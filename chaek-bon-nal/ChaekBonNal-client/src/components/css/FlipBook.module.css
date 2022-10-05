@@ -1,0 +1,14 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.book {
+  margin-top: -100px;
+  border: solid 1px rgb(238, 238, 238);
+
+}

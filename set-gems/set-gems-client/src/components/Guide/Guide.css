@@ -1,0 +1,107 @@
+.guide {
+  height: fit-content;
+  max-height: calc(100vh - 88.88px - 88px);
+  margin: 10px auto;
+  padding: 10px 30px;
+  background-color: var(--sub-color);
+  text-align: start;
+  overflow: auto;
+}
+
+.guide ol {
+  margin-bottom: 5px;
+}
+
+.guide button {
+  background-color: var(--main-color);
+  color: var(--sub-color);
+}
+
+.property-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.example {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+}
+
+.example-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.example-card p {
+  position: absolute;
+  z-index: 1;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% - 5px);
+  margin: 0;
+  padding: 0;
+  background-color: var(--main-color);
+  color: var(--sub-color);
+  white-space: nowrap;
+  font-size: calc(var(--card-width) * 0.6 / 5);
+  text-align: center;
+}
+
+.example .card {
+  box-sizing: content-box;
+  margin: 10px 2px 0 2px;
+  cursor: auto;
+}
+
+.example .card.new {
+  animation: none;
+}
+
+.properties {
+  display: flex;
+  margin: 10px 0;
+}
+
+.properties span {
+  border: 1px solid var(--main-color);
+  padding: 0 5px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.properties span.selected {
+  width: fit-content;
+  padding: 0 5px;
+  background-color: var(--main-color);
+  color: var(--sub-color);
+}
+
+@media screen and (min-width: 920px) {
+  .guide {
+    width: calc(var(--card-width) * 4 + 70px + 200px);
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .example .card {
+    width: calc(var(--card-width) * 0.6);
+    height: calc(var(--card-height) * 0.6);
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .example-card p {
+    font-size: small;
+  }
+
+  .example .card-area {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(9, calc(var(--card-width) * 0.6));
+    gap: 5px;
+    padding: 20px 10px;
+  }
+}

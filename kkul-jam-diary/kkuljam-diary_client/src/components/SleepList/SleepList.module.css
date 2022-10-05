@@ -1,0 +1,52 @@
+.title {
+  margin: 30px 18px;
+}
+
+.list {
+  margin: 30px 18px 80px 18px;
+  line-height: 15px;
+}
+
+.card {
+  margin: 1.2em 0;
+  width: 100%;
+  background-color: #37334a;
+  border-radius: 5px;
+}
+
+.left {
+  display: inline-block;
+  margin: 0 1em;
+  vertical-align: middle;
+}
+
+.color {
+  margin-bottom: 1em;
+  padding: 1.5em;
+  border-radius: 2em;
+  background-color: wheat;
+}
+
+.score {
+  margin: .3em;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.right {
+  display: inline-block;
+  margin: 10px 0;
+  vertical-align: middle;
+}
+
+.duration {
+  margin-left: .5em;
+}
+
+.reason {
+  padding: .1em 0;
+  max-width: 15em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,28 @@
+const ERROR = {
+  TOKEN_EXPIRED: "로그인이 만료되었습니다. 다시 로그인해주세요.",
+  REQUIRE_LOGIN: "로그인이 필요한 서비스입니다.",
+  INTERNAL_SERVER_ERROR: "현재 서버 이용이 불가능합니다.",
+  INVALID_URL: "유효하지 않은 URL입니다",
+  INVALID_DATE: "유효하지 않은 날짜입니다",
+  INVALID_HEART_COUNT: "유효하지 않은 만족도입니다",
+  INVALID_RATING_TEXT: "유효하지 않은 평가문입니다",
+  INVALID_TOKEN: "유효하지 않은 토큰입니다.",
+  INVALID_USING_MAX_CATEGORIES: "이미 최대 3개의 커스텀 카테고리를 모두 사용하고 있습니다.",
+  INVALID_OVERLAP_CATEGORY_NAME: "이미 사용중인 카테고리 이름입니다.",
+  INVALID_ALREADY_DELETED_CATEGORY: "이미 삭제된 카테고리입니다.",
+  CATEGORY_NOT_FOUND: "존재하지 않은 카테고리입니다",
+  INVALID_VALUE: "은(는) 유효하지 않은 값입니다",
+  GOOGLE_API_NOT_AVAILABLE: "현재 구글 데이터 이용이 불가능합니다.",
+  INVALID_ACTIVITY_TYPE: "유효하지 않은 액티비티 타입입니다",
+  INVALID_FRIEND_ID: "유효하지 않은 친구ID입니다",
+  ALREADY_NOT_FRIEND: "이미 친구가 아닙니다",
+  INVALID_FRIEND_REQUEST: "유효하지 않은 친구요청입니다.",
+  UNCLEAR_FINISHED_ADD_FRIEND: "친구 추가 과정이 비정상적으로 종료되었습니다.",
+  INVALID_SLEEP_DATA: "유효하지 않은 수면 정보입니다",
+  STEP_DATA_NOT_AVAILABLE: "걸음수 정보를 확인할 수 없습니다",
+  INVALID_PATH: "유효하지 않은 요청 경로입니다",
+  COMMENT_NOT_EXIST: "존재하지 않는 코멘트입니다",
+  USER_NOT_FOUND: "유저 정보를 확인할 수 없습니다",
+};
+
+module.exports = { ERROR };

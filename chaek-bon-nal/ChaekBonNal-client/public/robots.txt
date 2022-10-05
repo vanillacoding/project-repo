@@ -1,0 +1,7 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+#282c37
+#9baec8
+#d9e1e8
+#2b90d9

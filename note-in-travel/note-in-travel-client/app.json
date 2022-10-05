@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "pickervel",
+    "slug": "pickervel",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/world.png",
+    "splash": {
+      "image": "./assets/world.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "in.sungj.pickervel"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/world.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "in.sungj.pickervel"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

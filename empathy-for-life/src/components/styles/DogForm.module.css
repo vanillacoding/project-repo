@@ -1,0 +1,168 @@
+@value (
+  defaultBorderWidth,
+  defaultBorderRadius,
+  mainBlack,
+  mainWhite
+) from "./variables.css";
+
+.container {
+  width: 100%;
+  font-family: "neodgm", sans-serif;
+  color: mainWhite;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputButtonsContainer {
+  width: 100%;
+  margin-top: 1vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.popUp {
+  min-width: 10%;
+  max-width: 20%;
+  padding: 4vh 1vh 1vh 1vh;
+  margin-top: 15vh;
+  justify-self: center;
+  align-self: center;
+  word-break: break-all;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10;
+  color: mainBlack;
+}
+
+.confirmButton {
+  width: 25%;
+  height: 3.5vh;
+  padding: 0.3vh;
+  margin-top: 1vh;
+  top: 7vh;
+  left: 13vh;
+}
+
+.modalHeader {
+  position: relative;
+}
+
+.closeButton {
+  position: absolute;
+  right: 3%;
+  top: 5%;
+}
+
+.editButton {
+  width: 12%;
+  height: 4vh;
+  font-size: 1.5vh;
+}
+
+.form {
+  width: 100%;
+  max-height: 60vh;
+  padding-bottom: 1vh;
+  margin-top: 2vh;
+  margin-right: 10vh;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.form div {
+  width: 80%;
+}
+
+.namelabel {
+  font-size: 1.8vh;
+}
+
+.thumnail {
+  width: 20vh;
+  height: 20vh;
+  margin-left: 17vh;
+  margin-bottom: 1vh;
+  object-fit: cover;
+  object-position: center;
+  display: none;
+}
+
+.selectContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.select {
+  width: 10.9vw;
+  padding: 0.5vw 1vw;
+  border: defaultBorderWidth solid mainBlack;
+  border-radius: defaultBorderRadius;
+  margin-left: 2vw;
+  font-size: 1.6vh;
+  font-family: "neodgm";
+}
+
+.select:focus {
+  outline: none;
+}
+
+.checkboxesContainer {
+  margin: 0.5vh 0 0 0;
+  display: flex;
+}
+
+.dateInput {
+  width: 10.3vw;
+  padding: 0.55vh 0.2vh;
+  margin-bottom: 0.3vh;
+  text-align: center;
+}
+
+.photoInput {
+  padding: 0;
+  width: 10.8vw;
+  margin-bottom: 0.5vh;
+  border: none;
+}
+
+.textareaContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 1.7vh;
+}
+
+.textareaLabel {
+  margin-top: 1vh;
+  margin-right: 12.9vw;
+}
+
+.textarea {
+  width: 23.5vh;
+  min-width: 23.5vh;
+  max-width: 23.5vh;
+  height: 20vh;
+  min-height: 20vh;
+  max-height: 20vh;
+  padding: 1vw;
+  border: defaultBorderWidth solid mainBlack;
+  border-radius: defaultBorderRadius;
+  margin-top: 0.5vh;
+}
+
+.textarea:focus {
+  outline: none;
+}
+
+.fontSize {
+  font-size: 1.8vh;
+}
+
+.marginTop {
+  margin-top: 0.5vh;
+}

@@ -1,0 +1,10 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/channel/[channelId]": "pages/channel/[channelId].html",
+  "/history/[historyId]": "pages/history/[historyId].html",
+  "/": "pages/index.html",
+  "/main": "pages/main.html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}

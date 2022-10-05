@@ -1,0 +1,26 @@
+{
+  "name": "sool-tok-backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon app.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "http-errors": "^1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.10.13",
+    "socket.io": "^3.0.1",
+    "uuid": "^8.3.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0"
+  }
+}

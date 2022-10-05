@@ -1,0 +1,80 @@
+{
+  "name": "my-hand-translator-frontend",
+  "version": "0.1.0",
+  "description": "\"Translator using google cloud translation with personal glossary\"",
+  "main": "index-popup.js",
+  "scripts": {
+    "build": "webpack",
+    "build:watch": "webpack --watch",
+    "prepare": "husky install",
+    "pre-commit": "lint-staged && rm -rf .git/hooks && ln -s ../.husky .git/hooks",
+    "test": "jest --env=jsdom --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/my-hand-translator/my-hand-translator-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/my-hand-translator/my-hand-translator-frontend/issues"
+  },
+  "homepage": "https://github.com/my-hand-translator/my-hand-translator-frontend#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.15.4",
+    "@reduxjs/toolkit": "^1.6.1",
+    "@stitches/react": "^1.0.0",
+    "nanoid": "^3.1.25",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-redux": "^7.2.5",
+    "react-router-dom": "^5.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/eslint-parser": "^7.15.4",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.4",
+    "@babel/preset-react": "^7.14.5",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.1.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "dotenv-webpack": "^7.0.3",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "husky": "^7.0.0",
+    "jest": "^27.2.0",
+    "lint-staged": "^11.1.2",
+    "loader": "^2.1.1",
+    "prettier": "^2.3.2",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.0"
+  },
+  "lint-staged": {
+    "src/**/*.{js, jsx, html, css, json}": [
+      "prettier --write .",
+      "eslint --fix .",
+      "git add"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

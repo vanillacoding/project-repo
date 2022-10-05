@@ -1,0 +1,42 @@
+version: 2.1
+orbs:
+  node: circleci/node@1.1
+  aws-cli: circleci/aws-cli@1.0.0
+jobs:
+  build-and-deploy:
+    executor:
+      name: node/default
+    steps:
+      - checkout
+      - node/with-cache:
+          steps:
+            - run:
+                name: Show Current Branch
+                command: echo ${CIRCLE_BRANCH}
+            - run: npm install
+            - run: npm test
+            - run:
+                name: Installing deployment dependencies
+                command: |
+                  sudo apt-get -y -qq update
+                  sudo apt-get install python-pip python-dev build-essential
+                  sudo pip install --upgrade setuptools
+                  sudo pip install awsebcli --upgrade
+            - run:
+                name: Deploy to env
+                command: |
+                  if [ "${CIRCLE_BRANCH}" == "master" ]; then
+                      eb deploy
+                  else
+                      eb deploy
+                  fi
+
+workflows:
+  automated-deploy:
+    jobs:
+      - build-and-deploy:
+          context: aws
+          filters:
+            branches:
+              only:
+                - master

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextButton> matches snapshot 1`] = `
+.c0 {
+  all: unset;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: none;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #b12f35;
+  width: 180px;
+  height: 26px;
+  padding: 8px 15px;
+  font-size: 1.2em;
+  line-height: 20px;
+  font-weight: 600;
+  color: #b12f35;
+  border-radius: 26px;
+  background-color: rgb(204,0,0,0.3);
+}
+
+.c0:active {
+  box-shadow: none;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.c0 svg {
+  margin-right: 1.2rem;
+}
+
+<div>
+  <button
+    class="c0"
+    color="translucentRed"
+    label="sampleButton"
+    type="button"
+  >
+    sampleButton
+  </button>
+</div>
+`;

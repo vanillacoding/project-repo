@@ -1,0 +1,70 @@
+$pink: #f50057;
+
+.MyWords {
+  min-height: calc(100vh - 50.5px);
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+
+  .noWords {
+    padding: 10%;
+    color: $pink;
+    font-weight: 100;
+    font-size: 40px;
+  }
+
+  div div:last-child {
+    margin-bottom: 0;
+  }
+
+  h1 {
+    padding: 30px;
+    font-size: 40px;
+  }
+  .word-wrapper {
+    background-color: rgba(40, 40, 40, 0.5);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 0 30px 30px 30px;
+
+    .word-headline {
+      margin-bottom: 20px;
+    }
+
+    span {
+      margin-right: 10px;
+    }
+    .remove-circle-icon {
+      margin: 10px 10px 0 0;
+      font-size: 20px;
+      cursor: pointer;
+      transition: transform 0.5s ease-in-out;
+
+      &:hover {
+        transform: rotate(540deg);
+      }
+    }
+    .partOfSpeech {
+      color: $pink;
+      font-size: 30px;
+      font-weight: 100;
+    }
+    .word {
+      font-size: 35px;
+      font-weight: 300;
+    }
+  }
+  .results-List {
+    display: flex;
+    padding: 5px;
+
+    .definition {
+      font-size: 20px;
+    }
+  }
+  .pronunciation {
+    padding: 5px;
+    font-size: 30px;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+  }
+}

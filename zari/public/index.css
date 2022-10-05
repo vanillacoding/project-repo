@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Barlow';
+  letter-spacing: 2.5px;
+  font-weight: 600;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}

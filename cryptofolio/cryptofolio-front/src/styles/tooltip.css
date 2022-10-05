@@ -1,0 +1,51 @@
+.tooltip {
+  position: relative;
+  padding: 20px;
+  padding-top: 30px;
+  background-color: #f5f6fa;
+  border-radius: 10px;
+  border: 1px solid #57606f;
+}
+
+.name {
+  font-size: 30px;
+  font-weght: 800;
+}
+
+.ticker {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  padding: 5px 10px;
+  background-color: #273c75;
+  color: white;
+  font-size: 14px;
+  font-weight: 800;
+  border-radius: 5px;
+}
+
+img {
+  width: 40px;
+}
+
+.info {
+  margin: 5px 0;
+}
+
+.info:first-child {
+  margin-top: 15px;
+}
+
+.info span {
+  font-size: 16px;
+  color: #2f3640;
+}
+
+.info span:first-child {
+  font-weight: 600;
+}
+
+.info span:last-child {
+  font-weight: 800;
+  color: "black";
+}

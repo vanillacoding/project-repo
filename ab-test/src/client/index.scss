@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before { 
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html,
+body {
+  color: #212121;
+  font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+li {
+  list-style : none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.row {
+  width: 114rem;
+  margin: 0 auto;
+  z-index: -1;
+}

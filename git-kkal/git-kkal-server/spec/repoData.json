@@ -1,0 +1,325 @@
+{
+  "repoName": "git-kkal-server-test-mock-up",
+  "maxPipeCount": 4,
+  "logList": [
+    {
+      "message": "Merge branch 'develop' into main",
+      "author": "Chiwon",
+      "authoredTime": "2021-09-16T02:12:26+09:00",
+      "committer": "Chiwon",
+      "committedTime": "2021-09-16T02:12:26+09:00",
+      "parents": [
+        "47d39498cbff5e0320c669df02dd78530302c95a",
+        "5f396bb3bac18e5dc5b33aface636233f75c7f58"
+      ],
+      "hash": "45bf8c925fa509a9c29d6f1e2d718e3f327251f9",
+      "branchNames": ["HEAD -> main", " origin/main", " origin/HEAD"],
+      "branchName2": "main",
+      "head": true,
+      "index": 0,
+      "position": 0,
+      "color": "red"
+    },
+    {
+      "message": "Merge pull request #3 from chiwon1/fix/01",
+      "author": "chiwon1",
+      "authoredTime": "2021-09-16T02:11:43+09:00",
+      "committer": "GitHub",
+      "committedTime": "2021-09-16T02:11:43+09:00",
+      "parents": [
+        "89eca31f5374c4c594bbf43acf4751fe2ee5c3b8",
+        "d60c7ce8c629e864e3b9ef51f6153cb179b1525d"
+      ],
+      "hash": "5f396bb3bac18e5dc5b33aface636233f75c7f58",
+      "branchNames": ["origin/develop"],
+      "branchName2": "develop",
+      "head": false,
+      "index": 1,
+      "position": 1,
+      "color": "orange"
+    },
+    {
+      "message": "docs: update readme",
+      "author": "Chiwon",
+      "authoredTime": "2021-09-16T02:11:19+09:00",
+      "committer": "Chiwon",
+      "committedTime": "2021-09-16T02:11:19+09:00",
+      "parents": ["c2b1cb358789839832e19ca456be03f2840585b0"],
+      "hash": "89eca31f5374c4c594bbf43acf4751fe2ee5c3b8",
+      "branchNames": null,
+      "branchName2": "develop",
+      "head": false,
+      "index": 2,
+      "position": 1,
+      "color": "orange"
+    },
+    {
+      "message": "Merge branch 'feature/03' into develop",
+      "author": "Chiwon",
+      "authoredTime": "2021-09-16T02:09:56+09:00",
+      "committer": "Chiwon",
+      "committedTime": "2021-09-16T02:09:56+09:00",
+      "parents": [
+        "136954aeccafe145b2029bc5dce942efcf3bef60",
+        "a5aed12fc96e470df83edd6b8012649adc65ae1e"
+      ],
+      "hash": "c2b1cb358789839832e19ca456be03f2840585b0",
+      "branchNames": null,
+      "branchName2": "develop",
+      "head": false,
+      "index": 3,
+      "position": 1,
+      "color": "orange"
+    },
+    {
+      "message": "fix: 01",
+      "author": "Chiwon",
+      "authoredTime": "2021-09-16T02:09:45+09:00",
+      "committer": "Chiwon",
+      "committedTime": "2021-09-16T02:09:45+09:00",
+      "parents": ["136954aeccafe145b2029bc5dce942efcf3bef60"],
+      "hash": "d60c7ce8c629e864e3b9ef51f6153cb179b1525d",
+      "branchNames": null,
+      "branchName2": "develop",
+      "head": false,
+      "index": 4,
+      "position": 2,
+      "color": "yellow"
+    },
+    {
+      "message": "feat: 03",
+      "author": "Chiwon",
+      "authoredTime": "2021-09-16T02:08:22+09:00",
+      "committer": "Chiwon",
+      "committedTime": "2021-09-16T02:08:22+09:00",
+      "parents": ["136954aeccafe145b2029bc5dce942efcf3bef60"],
+      "hash": "a5aed12fc96e470df83edd6b8012649adc65ae1e",
+      "branchNames": null,
+      "branchName2": "develop",
+      "head": false,
+      "index": 5,
+      "position": 3,
+      "color": "green"
+    },
+    {
+      "message": "Merge pull request #2 from chiwon1/feature/02",
+      "author": "chiwon1",
+      "authoredTime": "2021-09-16T02:06:58+09:00",
+      "committer": "GitHub",
+      "committedTime": "2021-09-16T02:06:58+09:00",
+      "parents": [
+        "fb902d5bf046e2f7f38a051e38194865e908b65d",
+        "171aa23ea6265b561a2e70edbae90c0cbd15cfbf"
+      ],
+      "hash": "136954aeccafe145b2029bc5dce942efcf3bef60",
+      "branchNames": null,
+      "branchName2": "develop",
+      "head": false,
+      "index": 6,
+      "position": 1,
+      "color": "orange"
+    },
+    {
+      "message": "Merge pull request #1 from chiwon1/feature/01",
+      "author": "chiwon1",
+      "authoredTime": "2021-09-16T01:59:51+09:00",
+      "committer": "GitHub",
+      "committedTime": "2021-09-16T01:59:51+09:00",
+      "parents": [
+        "47d39498cbff5e0320c669df02dd78530302c95a",
+        "6de6bb404a42e4c825ae0129ad5de8f9d972e8fb"
+      ],
+      "hash": "fb902d5bf046e2f7f38a051e38194865e908b65d",
+      "branchNames": null,
+      "branchName2": "develop",
+      "head": false,
+      "index": 7,
+      "position": 1,
+      "color": "orange"
+    },
+    {
+      "message": "feat: 01",
+      "author": "Chiwon",
+      "authoredTime": "2021-09-16T01:55:01+09:00",
+      "committer": "Chiwon",
+      "committedTime": "2021-09-16T01:57:21+09:00",
+      "parents": ["47d39498cbff5e0320c669df02dd78530302c95a"],
+      "hash": "6de6bb404a42e4c825ae0129ad5de8f9d972e8fb",
+      "branchNames": null,
+      "branchName2": "develop",
+      "head": false,
+      "index": 8,
+      "position": 3,
+      "color": "green"
+    },
+    {
+      "message": "feat: 02",
+      "author": "Chiwon",
+      "authoredTime": "2021-09-16T01:56:28+09:00",
+      "committer": "Chiwon",
+      "committedTime": "2021-09-16T01:56:28+09:00",
+      "parents": ["47d39498cbff5e0320c669df02dd78530302c95a"],
+      "hash": "171aa23ea6265b561a2e70edbae90c0cbd15cfbf",
+      "branchNames": null,
+      "branchName2": "develop",
+      "head": false,
+      "index": 9,
+      "position": 2,
+      "color": "yellow"
+    },
+    {
+      "message": "Initial commit",
+      "author": "Chiwon",
+      "authoredTime": "2021-09-16T01:52:28+09:00",
+      "committer": "Chiwon",
+      "committedTime": "2021-09-16T01:52:28+09:00",
+      "parents": [],
+      "hash": "47d39498cbff5e0320c669df02dd78530302c95a",
+      "branchNames": null,
+      "branchName2": "main",
+      "head": false,
+      "index": 10,
+      "position": 0,
+      "color": "red"
+    }
+  ],
+  "lineList": [
+    [
+      {
+        "color": "red",
+        "points": [
+          [-50, 0],
+          [-50, 500]
+        ]
+      },
+      {
+        "color": "orange",
+        "points": [
+          [-50, 0],
+          [0, 20],
+          [0, 50]
+        ]
+      }
+    ],
+    [
+      {
+        "color": "orange",
+        "points": [
+          [0, 50],
+          [0, 100]
+        ]
+      },
+      {
+        "color": "yellow",
+        "points": [
+          [0, 50],
+          [50, 70],
+          [50, 200]
+        ]
+      }
+    ],
+    [
+      {
+        "color": "orange",
+        "points": [
+          [0, 100],
+          [0, 150]
+        ]
+      }
+    ],
+    [
+      {
+        "color": "orange",
+        "points": [
+          [0, 150],
+          [0, 300]
+        ]
+      },
+      {
+        "color": "green",
+        "points": [
+          [0, 150],
+          [100, 170],
+          [100, 250]
+        ]
+      }
+    ],
+    [
+      {
+        "color": "yellow",
+        "points": [
+          [50, 200],
+          [50, 280],
+          [0, 300]
+        ]
+      }
+    ],
+    [
+      {
+        "color": "green",
+        "points": [
+          [100, 250],
+          [100, 280],
+          [0, 300]
+        ]
+      }
+    ],
+    [
+      {
+        "color": "orange",
+        "points": [
+          [0, 300],
+          [0, 350]
+        ]
+      },
+      {
+        "color": "yellow",
+        "points": [
+          [0, 300],
+          [50, 320],
+          [50, 450]
+        ]
+      }
+    ],
+    [
+      {
+        "color": "red",
+        "points": [
+          [0, 350],
+          [-25, 360],
+          [-25, 490],
+          [-50, 500]
+        ]
+      },
+      {
+        "color": "green",
+        "points": [
+          [0, 350],
+          [100, 370],
+          [100, 400]
+        ]
+      }
+    ],
+    [
+      {
+        "color": "green",
+        "points": [
+          [100, 400],
+          [100, 480],
+          [-50, 500]
+        ]
+      }
+    ],
+    [
+      {
+        "color": "yellow",
+        "points": [
+          [50, 450],
+          [50, 480],
+          [-50, 500]
+        ]
+      }
+    ],
+    []
+  ]
+}

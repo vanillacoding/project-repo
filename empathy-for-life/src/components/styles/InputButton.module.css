@@ -1,0 +1,28 @@
+@value (
+  defaultBorderRadius,
+  defaultBorderWidth,
+  defaultBorderHeight,
+  mainBlack,
+  mainWhite
+) from "./variables.css";
+
+.inputButton {
+  padding: 1vh;
+  border-color: mainBlack;
+  border-radius: defaultBorderRadius;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0.3vw 0.3vw 0.2vw 0 black;
+  background-color: mainWhite;
+  font-family: "neodgm", sans-serif;
+  font-size: 1vw;
+  box-sizing: border-box;
+}
+
+.inputButton:active {
+  border-width: 0.5vh 0.05vw 0.1vh 0.3vw;
+  border-color: mainBlack;
+  box-shadow: none;
+  box-sizing: border-box;
+}

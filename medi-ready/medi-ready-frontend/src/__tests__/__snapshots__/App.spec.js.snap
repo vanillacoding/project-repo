@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> matches snapshot 1`] = `
+<div>
+  <div
+    class="sc-jgHCSr eZVpRi"
+  >
+    <nav
+      class="sc-iBPTik vJucp"
+    >
+      <h1
+        class="sc-fubCzh cjkYFv"
+      >
+        <a
+          href="/"
+        >
+          MEDI-READY
+        </a>
+      </h1>
+      <nav>
+        <ul>
+          <li>
+            <a
+              href="/"
+            >
+              Dashboard
+            </a>
+          </li>
+          <li>
+            <a
+              href="/prescription"
+            >
+              Prescription
+            </a>
+          </li>
+          <li>
+            <a
+              href="/prescriptions"
+            >
+              History
+            </a>
+          </li>
+          <li>
+            <a
+              href="/settings"
+            >
+              Settings
+            </a>
+          </li>
+          <li>
+            <a
+              href="/login"
+            >
+              Login
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </nav>
+    <section
+      class="sc-gTgzoy cljoXS"
+    >
+      <header
+        class="sc-hKgJUU iqnQip"
+      >
+        <div />
+      </header>
+      <article
+        class="sc-kEjbQP eapVfj sc-kstqJO fLJyqo"
+      >
+        <div>
+          <h2
+            class="sc-jrAFXE kdvlLA sr-only"
+          >
+            Login
+          </h2>
+          <strong>
+            Welcome back!
+          </strong>
+          <p>
+            Sign in to your account to continue
+          </p>
+          <div
+            class="sc-hBEYId jTxJXo"
+          >
+            <button
+              class="sc-pGacB gkyJzY sc-fodVek hRwCGu"
+              type="button"
+            >
+              Google Login
+            </button>
+          </div>
+        </div>
+      </article>
+      <footer
+        class="sc-gKseQn jHPEFO"
+      >
+        2021 © Medi-Ready - medi-ready.com
+      </footer>
+    </section>
+  </div>
+</div>
+`;

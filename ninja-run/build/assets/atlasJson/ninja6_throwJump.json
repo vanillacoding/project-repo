@@ -1,0 +1,207 @@
+{
+  "frames": {
+    "ninja6_throwJump04.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 200,
+        "h": 242
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 90,
+        "y": 10,
+        "w": 200,
+        "h": 242
+      },
+      "sourceSize": {
+        "w": 361,
+        "h": 368
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja6_throwJump05.png": {
+      "frame": {
+        "x": 0,
+        "y": 242,
+        "w": 186,
+        "h": 242
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 91,
+        "y": 10,
+        "w": 186,
+        "h": 242
+      },
+      "sourceSize": {
+        "w": 361,
+        "h": 368
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja6_throwJump06.png": {
+      "frame": {
+        "x": 0,
+        "y": 484,
+        "w": 175,
+        "h": 238
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 87,
+        "y": 10,
+        "w": 175,
+        "h": 238
+      },
+      "sourceSize": {
+        "w": 361,
+        "h": 368
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja6_throwJump03.png": {
+      "frame": {
+        "x": 0,
+        "y": 722,
+        "w": 183,
+        "h": 237
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 83,
+        "y": 11,
+        "w": 183,
+        "h": 237
+      },
+      "sourceSize": {
+        "w": 361,
+        "h": 368
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja6_throwJump07.png": {
+      "frame": {
+        "x": 175,
+        "y": 484,
+        "w": 175,
+        "h": 237
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 82,
+        "y": 11,
+        "w": 175,
+        "h": 237
+      },
+      "sourceSize": {
+        "w": 361,
+        "h": 368
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja6_throwJump01.png": {
+      "frame": {
+        "x": 186,
+        "y": 242,
+        "w": 192,
+        "h": 236
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 73,
+        "y": 12,
+        "w": 192,
+        "h": 236
+      },
+      "sourceSize": {
+        "w": 361,
+        "h": 368
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja6_throwJump02.png": {
+      "frame": {
+        "x": 350,
+        "y": 0,
+        "w": 187,
+        "h": 236
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 69,
+        "y": 12,
+        "w": 187,
+        "h": 236
+      },
+      "sourceSize": {
+        "w": 361,
+        "h": 368
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ninja6_throwJump00.png": {
+      "frame": {
+        "x": 378,
+        "y": 236,
+        "w": 174,
+        "h": 236
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 78,
+        "y": 12,
+        "w": 174,
+        "h": 236
+      },
+      "sourceSize": {
+        "w": 361,
+        "h": 368
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "ninja6_throwJump.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 552,
+      "h": 959
+    },
+    "scale": 1
+  }
+}

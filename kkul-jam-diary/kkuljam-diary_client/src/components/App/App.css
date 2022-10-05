@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0e0a20 url(https://img.megabox.co.kr/static/mb/images/common/bg/bg-origin.png) no-repeat center top;
+  background-size: 100% 740px;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 1.9em;
+  font-weight: 500;
+}
+
+.button {
+  clear: both;
+  margin: 1.5em 0;
+  width: 100%;
+  height: 3.5em;
+  border-radius: 0.5em;
+  font-size: 1em;
+  line-height: 3.5em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.fill {
+  background-color: #3B2E53;
+  color: white;
+}
+
+.pointText {
+  color: #F2D788;
+}
+
+.subText {
+  color: rgb(129, 129, 129);
+  font-size: 1em;
+}
+
+.loadingWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.loading {
+  position: absolute;
+  margin-left: -5em;
+  margin-top: 8em;
+  width: 10em;
+  height: 10em;
+  left: 50%;
+  top: 50%;
+}

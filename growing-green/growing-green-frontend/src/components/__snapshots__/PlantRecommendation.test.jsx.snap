@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PlantRecommendation> matches snapshot 1`] = `
+<div>
+  <div
+    class="sc-bdvvtL rGCdf"
+  >
+    <h1
+      class="sc-gsDKAQ hZXsZz"
+    >
+      사용자들이 가장 많이 키우는 식물 TOP 5
+    </h1>
+    <p>
+      장미허브 Vicks plant Plectranthus tomentosa
+    </p>
+    <p>
+      리틀장미 Echeveria prolifica
+    </p>
+    <p>
+      장미 Rose Rosa hybrida
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,45 @@
+{
+  "name": "eztab",
+  "version": "1.0.0",
+  "description": "Customize your own tab setting",
+  "main": "popup.js",
+  "scripts": {
+    "dev": "webpack --mode=development --watch",
+    "build": "webpack --mode=production",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biocle8339/EzTab.git"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "tab"
+  ],
+  "author": "Wonho Lee <biocle8339@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/biocle8339/EzTab/issues"
+  },
+  "homepage": "https://github.com/biocle8339/EzTab#readme",
+  "dependencies": {
+    "-": "0.0.1",
+    "@types/chrome": "0.0.137",
+    "lodash": "^4.17.21",
+    "types": "^0.1.1"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.14.2",
+    "copy-webpack-plugin": "^8.1.1",
+    "css-loader": "^5.2.4",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "prettier": "^2.2.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0"
+  }
+}

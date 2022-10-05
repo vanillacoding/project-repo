@@ -1,0 +1,42 @@
+$pink: #f50057;
+
+.Dictionary {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.dictionary-contents {
+  display: flex;
+}
+
+.add-button {
+  display: inline-block;
+}
+
+.dictionary-text {
+  margin-left: 20px;
+  span {
+    margin-right: 10px !important;
+  }
+  br {
+    line-height: 30px;
+  }
+
+  .partOfSpeech {
+    color: $pink;
+    font-size: 30px;
+    font-weight: 100;
+  }
+  .word {
+    font-size: 30px;
+  }
+  .definition,
+  .synonyms {
+    font-size: 16px;
+  }
+  .definition {
+    margin-top: 10px;
+  }
+}

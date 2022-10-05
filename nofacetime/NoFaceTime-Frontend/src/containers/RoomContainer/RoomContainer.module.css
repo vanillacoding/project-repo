@@ -1,0 +1,57 @@
+.RoomContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: calc(100vh - 150px);
+}
+
+.ContentWrap {
+  /* vertical-align: top;
+  display: table-cell;
+  font-size: 50px;
+  width: 80%;
+  border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.ModalContent {
+  text-align: center;
+}
+
+.ModalTitle {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.RoomNameInput {
+  margin: 30px auto;
+  width: 400px;
+  height: 40px;
+  border: 1px solid #c9d3dd;
+  background: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.Title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 50px;
+  font-weight: lighter;
+  width: 95%;
+  height: 80%;
+  background-color: whitesmoke;
+  border: 1px solid #8e8e93;
+  border-radius: 10px;
+}

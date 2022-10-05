@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div>
+      <form action="/api/auth/signup" method="POST">
+        <div>
+          <label for="user_id">ID</label>
+          <input id="user_id" name="user_id" type="text" />
+        </div>
+        <div>
+          <label for="user_id">NAME</label>
+          <input id="user_name" name="user_name" type="text" />
+        </div>
+        <div>
+          <label for="user_id">P/W</label>
+          <input id="password" name="password" type="text" />
+        </div>
+        <div>
+          <label for="user_id">P/W 확인</label>
+          <input id="password_check" name="password_check" type="text" />
+        </div>
+        <div>
+          <input type="submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

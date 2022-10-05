@@ -1,0 +1,19 @@
+node_modules/
+.expo/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# environment
+environment.js
+
+# macOS
+.DS_Store
+
+# andorid firebase config
+google-services.json

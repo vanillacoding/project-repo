@@ -1,0 +1,40 @@
+{
+  "changedFileList": [
+    {
+      "fileName": "README.md",
+      "changedLog": [
+        {
+          "codeBeginHunk": "",
+          "codeLineOffsetString": "@@ -1 +1,3 @@",
+          "before": { "line": 1, "logList": [" git-kkal-server-test-mock-up"] },
+          "after": {
+            "line": 1,
+            "offset": 3,
+            "logList": [
+              " git-kkal-server-test-mock-up",
+              "+",
+              "+revise readme.md"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "fileName": "feature-01",
+      "changedLog": [
+        {
+          "codeBeginHunk": "",
+          "codeLineOffsetString": "@@ -0,0 +1,3 @@",
+          "before": { "line": 0, "offset": 0, "logList": [] },
+          "after": {
+            "line": 1,
+            "offset": 3,
+            "logList": ["+feature 01", "+", "+fix 01"]
+          }
+        }
+      ]
+    },
+    { "fileName": "feature-02", "changedLog": [] },
+    { "fileName": "feature-03", "changedLog": [] }
+  ]
+}

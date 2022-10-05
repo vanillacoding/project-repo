@@ -1,0 +1,30 @@
+{
+  "name": "TexpeechIos",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "prop-types": "^15.6.2",
+    "react": "16.4.1",
+    "react-native": "0.56.0",
+    "react-native-contacts": "^2.2.2",
+    "react-native-fbsdk": "0.6.0",
+    "react-native-firebase": "^4.3.6",
+    "react-native-sound": "^0.10.9",
+    "react-native-speech-to-text-ios": "^1.0.4",
+    "react-native-tts": "^1.5.1"
+  },
+  "devDependencies": {
+    "babel-jest": "23.4.0",
+    "babel-preset-react-native": "^5",
+    "jest": "23.4.1",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

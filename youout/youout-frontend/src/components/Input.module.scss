@@ -1,0 +1,35 @@
+@import '../styles/theme.module.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  label {
+    margin: 3vh 0 2vh;
+    color: $brown;
+    font-size: $font-size-2;
+  }
+
+  input {
+    margin-bottom: 2vh;
+    border: none;
+    border-bottom: 1px solid $black;
+    background-color: $light-beige;
+    font-size: $font-size-2;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  select {
+    align-self: center;
+    width: 30vw;
+    padding: 1vh 3vw;
+    border: 1px solid $brown;
+    border-radius: 20px;
+    background-color: $white;
+    font-size: $font-size-2;
+  }
+}

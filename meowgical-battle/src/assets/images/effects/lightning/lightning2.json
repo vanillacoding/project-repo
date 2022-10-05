@@ -1,0 +1,105 @@
+{
+  "frames": {
+    "lightning_12.png": {
+      "frame": { "x": 1, "y": 1, "w": 154, "h": 663 },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 87, "y": 309, "w": 154, "h": 663 },
+      "sourceSize": { "w": 326, "h": 1056 }
+    },
+    "lightning_13.png": {
+      "frame": { "x": 1, "y": 459, "w": 154, "h": 656 },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 91, "y": 335, "w": 154, "h": 656 },
+      "sourceSize": { "w": 326, "h": 1056 }
+    },
+    "lightning_14.png": {
+      "frame": { "x": 1, "y": 311, "w": 146, "h": 659 },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 96, "y": 357, "w": 146, "h": 659 },
+      "sourceSize": { "w": 326, "h": 1056 }
+    },
+    "lightning_15.png": {
+      "frame": { "x": 1, "y": 157, "w": 152, "h": 662 },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 94, "y": 381, "w": 152, "h": 662 },
+      "sourceSize": { "w": 326, "h": 1056 }
+    },
+    "lightning_16.png": {
+      "frame": { "x": 190, "y": 1020, "w": 161, "h": 593 },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 90, "y": 408, "w": 161, "h": 593 },
+      "sourceSize": { "w": 326, "h": 1056 }
+    },
+    "lightning_17.png": {
+      "frame": { "x": 1, "y": 615, "w": 169, "h": 595 },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 86, "y": 436, "w": 169, "h": 595 },
+      "sourceSize": { "w": 326, "h": 1056 }
+    },
+    "lightning_18.png": {
+      "frame": { "x": 190, "y": 1183, "w": 179, "h": 590 },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 81, "y": 466, "w": 179, "h": 590 },
+      "sourceSize": { "w": 326, "h": 1056 }
+    },
+    "lightning_19.png": {
+      "frame": { "x": 1, "y": 786, "w": 187, "h": 525 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 77, "y": 497, "w": 187, "h": 525 },
+      "sourceSize": { "w": 326, "h": 1056 }
+    },
+    "lightning_20.png": {
+      "frame": { "x": 666, "y": 1, "w": 195, "h": 525 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 73, "y": 531, "w": 195, "h": 525 },
+      "sourceSize": { "w": 326, "h": 1056 }
+    },
+    "lightning_21.png": {
+      "frame": { "x": 659, "y": 528, "w": 203, "h": 490 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 69, "y": 566, "w": 203, "h": 490 },
+      "sourceSize": { "w": 326, "h": 1056 }
+    },
+    "lightning_22.png": {
+      "frame": { "x": 190, "y": 786, "w": 211, "h": 381 },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 65, "y": 603, "w": 211, "h": 381 },
+      "sourceSize": { "w": 326, "h": 1056 }
+    }
+  },
+  "animations": {
+    "lightning": [
+      "lightning_12.png",
+      "lightning_13.png",
+      "lightning_14.png",
+      "lightning_15.png",
+      "lightning_16.png",
+      "lightning_17.png",
+      "lightning_18.png",
+      "lightning_19.png",
+      "lightning_20.png",
+      "lightning_21.png",
+      "lightning_22.png"
+    ]
+  },
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "lightning2.png",
+    "format": "RGBA8888",
+    "size": { "w": 863, "h": 1363 },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:db2bf8a0167d8a8214d2e17a2d0b57aa:249af50f98c8787fe5b8e95dd3620b0f:57dafcbd01b24a8aa877338e115f5d60$"
+  }
+}

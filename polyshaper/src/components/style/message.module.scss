@@ -1,0 +1,15 @@
+@import './app.module.scss';
+$alpha: .7;
+
+.message {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  padding: 20px;
+  z-index: 20;
+  border: 1px solid $main-color;
+  color: $main-color;
+  font-size: 20px;
+  border-radius: 4px;
+  background-color: rgba($primary-color, $alpha );
+}

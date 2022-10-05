@@ -1,0 +1,86 @@
+.detailWrapper {
+  background: #0e0a20 url(https://img.megabox.co.kr/static/mb/images/common/bg/bg-event-main.png) no-repeat center top;
+  background-size: 100% 740px;
+}
+
+.contents {
+  margin: 0 0 55px 0;
+  padding-top: 20px;
+  min-height: 400px;
+  line-height: 32px;
+  background-color: #f5f5f5;
+  color: #333333;
+}
+
+.limitWidth {
+  margin: 0 18px;
+}
+
+.sleepWrapper {
+  float: left;
+  padding: 0 1em;
+  height: 370px;
+  width: 275px;
+}
+
+.sleepItemIcon {
+  width: fit-content;
+  margin: 1.4em;
+  padding: .4em .7em;
+  background-color: white;
+  border: 1px solid #1c8597;
+  border-radius: .5em;
+  align-self: center;
+  text-align: center;
+  font-size: .9em;
+  color: #1c8597;
+}
+
+.lightSleep {
+  display: inline-block;
+  margin-right: 2em;
+}
+
+.scoreWrapper {
+  clear: both;
+  padding-top: 2em;
+}
+
+.diaryTitle {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.subTitle {
+  color: rgb(180, 180, 180);
+}
+
+.diaryScore {
+  margin-right: 1em;
+  float: right;
+  color: #1c8597;
+}
+
+.subText {
+  padding: .5em;
+  background-color: #ffffff;
+  color: #1c8597;
+  border-radius: .5em;
+}
+
+.colorWrapper {
+ margin: 1.5em 0;
+}
+
+.diaryColor {
+  float: right;
+  margin: 1em;
+  width: 4em;
+  height: 4em;
+  border: 1px dotted gray;
+  border-radius: 4em;
+}
+
+.memoWrapper {
+  padding-bottom: 35px;
+}

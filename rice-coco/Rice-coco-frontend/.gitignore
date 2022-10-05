@@ -1,0 +1,17 @@
+# provided when expo init
+node_modules/**/*
+.expo/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# customized ignoring paths (Rice coco)
+environment.js
+
+# macOS
+.DS_Store

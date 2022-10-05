@@ -1,0 +1,37 @@
+@value makerMercury, makerSilver, makerSonicSilver, makerWhite from '../../common/colors.css';
+
+.Dropdown {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+  z-index: 10;
+  border: 1px dotted makerSilver;
+  background-color: makerWhite;
+}
+
+.DropdownMobile {
+  position: static;
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+  z-index: 1;
+  box-sizing: border-box;
+  border: 1px dotted makerSilver;
+  background-color: makerWhite;
+}
+
+.DropdownItem {
+  margin: 10px 0;
+  transform: scale(1);
+  transition: transform 0.5s ease-in-out;
+}
+
+.DropdownButton {
+  padding: 2px 10px;
+  border-radius: 3px;
+  background-color: makerMercury;
+  color: makerSonicSilver;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  cursor: pointer;
+}

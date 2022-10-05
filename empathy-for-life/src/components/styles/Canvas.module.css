@@ -1,0 +1,9 @@
+.canvas {
+  width: 91vh;
+  height: 84vh;
+  margin-left: 3vh;
+  border-radius: defaultBorderRadius;
+  position: absolute;
+  bottom: 4vh;
+  z-index: 1;
+}

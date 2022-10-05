@@ -1,0 +1,41 @@
+.GroupList {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 95%;
+  height: 65%;
+  border: 1px solid #8e8e93;
+  border-radius: 10px;
+  font-weight: 250;
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  overflow: scroll;
+  padding-top: 50px;
+}
+
+.GroupEntry {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 90%;
+  height: 10%;
+  overflow: auto;
+  border: 1px solid #c9d3dd;
+  border-radius: 10px;
+  background: rgb(255, 245, 188);
+  margin: 5px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+.GroupEntry:hover {
+  background: rgb(243, 213, 43);
+}
+
+.GroupName {
+  font-size: 1em;
+  font-weight: 700;
+}

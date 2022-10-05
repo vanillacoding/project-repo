@@ -1,0 +1,27 @@
+.modal-background {
+  background-color: rgba(0, 0, 0, .2);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+}
+
+.page-popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  min-width: 47rem;
+  padding: 1rem 2rem;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  box-shadow: 0 0 1.5rem .1rem rgba(0,0,0,0.15);
+  background-color: rgba(255, 255, 255, .9);
+  font-weight: 300;
+  letter-spacing: .7px;
+}

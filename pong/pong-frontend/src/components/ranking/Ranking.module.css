@@ -1,0 +1,70 @@
+.wrapper {
+  background-image: url("../../assets/images/battleBackground.jpeg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.rankingWrapper {
+  background-color: #3d5a80;
+  width: 100%;
+  height: 100%;
+}
+
+.rankingTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  font-size: 50px;
+  color: white;
+}
+
+.rankingTitle span {
+  background: linear-gradient(90deg, red 0%, orange 25%, yellow 50%, green 75%, blue 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s linear infinite;
+}
+
+.usersWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  padding-bottom: 25px;
+  color: #222f3e;
+  font-size: 17px;
+}
+
+.user {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 40px;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+
+.rank {
+  display: flex;
+  justify-content: center;
+}
+
+.userName {
+  display: flex;
+  justify-content: center;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}

@@ -1,0 +1,76 @@
+@value (
+  mainWhite,
+  mainBlack,
+  defaultBorderRadius,
+  modalContentWidth
+) from "./variables.css";
+
+.container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.popUp {
+  max-width: 15%;
+  padding: 2vh;
+  justify-self: center;
+  align-self: center;
+  overflow-wrap: break-word;
+  z-index: 10;
+  color: mainBlack;
+}
+
+.modalHeader {
+  position: relative;
+}
+
+.closeButton {
+  position: absolute;
+  right: 3%;
+  top: 5%;
+}
+
+.inputsContainer {
+  margin-top: 1vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.addButton {
+  width: 6vh;
+  font-size: 1.5vh;
+}
+
+.anchor:link {
+  text-decoration: none;
+}
+
+.search:focus {
+  outline: none;
+}
+
+.cardContainer {
+  max-height: 65vh;
+  margin-top: 1vh;
+  overflow: auto;
+}
+
+.loading {
+  width: modalContentWidth;
+  height: 15vh;
+  object-fit: scale-down;
+  padding-left: 2vh;
+  box-sizing: border-box;
+}
+
+.notice {
+  width: modalContentWidth;
+  margin: 10% 0;
+  text-align: center;
+  font-size: 2.5vh;
+  font-family: "neodgm", sans-serif;
+  color: mainWhite;
+}

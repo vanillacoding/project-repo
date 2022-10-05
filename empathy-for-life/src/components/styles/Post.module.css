@@ -1,0 +1,85 @@
+@value defaultBorderRadius, mainWhite from "./variables.css";
+
+.container {
+  margin: 1vh 0;
+  padding: 1vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "neodgm", sans-serif;
+  color: mainWhite;
+}
+
+.deleteButton {
+  padding: 0.5vh;
+  position: absolute;
+  font-size: 1.5vh;
+}
+
+.deletionConfirmButton {
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 20%;
+  font-size: 1.4vh;
+}
+
+.photo {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  border-radius: defaultBorderRadius;
+}
+
+.content {
+  margin-top: 1vh;
+  margin-left: 0.1vh;
+  font-size: 1.9vh;
+  align-self: flex-start;
+  text-align: justify;
+  white-space: pre-wrap;
+  line-height: 2.5vh;
+}
+
+.footer {
+  width: 100%;
+  height: 4vh;
+  margin-top: 1vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttonContainer {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  width: 5vh;
+  height: 3.5vh;
+  font-size: 1.4vh;
+  padding: 0.7vh;
+}
+
+.anchor {
+  font-size: 2vh;
+  color: mainWhite;
+}
+
+.anchor:link {
+  color: mainWhite;
+  text-decoration: none;
+}
+
+.anchor:visited {
+  color: mainWhite;
+}
+
+.footerText {
+  width: 100%;
+  font-size: 1.3vh;
+  text-align: end;
+  margin-bottom: 0.7vh;
+}

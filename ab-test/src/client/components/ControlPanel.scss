@@ -1,0 +1,47 @@
+.control-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 7rem;
+  min-height: 100vh;
+  font-size: 2rem;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #555;
+
+  & a {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #eee;
+    letter-spacing: .7px;
+    transform: translateX(2px);
+
+    &:active,
+    &:visited {
+      color: #eee;
+    }
+  }
+
+  & .nav-btn {
+    display: flex;
+    flex-direction: column;
+    width: 7rem;
+    height: 6.9rem;
+    
+    &-icon {
+      margin-bottom: .5rem;
+    }
+  }
+
+  & .link-active {
+    background-color: #f5f5f5;
+    color: #555 !important;
+  }
+}

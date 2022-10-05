@@ -1,0 +1,7 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "integrationFolder": "src/cypress/pages",
+  "fixturesFolder": "src/cypress/fixtures",
+  "experimentalStudio": true,
+  "videoRecording": false
+}

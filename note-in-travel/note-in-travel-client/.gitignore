@@ -1,0 +1,18 @@
+node_modules/
+.expo/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+.vscode/
+
+# dotenv environment variables file
+.env
+
+# macOS
+.DS_Store

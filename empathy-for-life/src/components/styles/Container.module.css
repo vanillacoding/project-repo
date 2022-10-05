@@ -1,0 +1,30 @@
+@value (
+  mainWhite,
+  mainBrown,
+  mainLightBrown,
+  defaultBorderWidth,
+  defaultBorderRadius
+) from "./variables.css";
+/*
+.container {
+  width: 100%;
+  padding: 1vh 0;
+  border-radius: defaultBorderRadius;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: mainLightBrown;
+  font-family: "neodgm", sans-serif;
+  color: mainWhite;
+} */
+
+.border {
+  max-width: 95%;
+  max-height: 76vh;
+  overflow: auto;
+  border: defaultBorderWidth solid mainWhite;
+  border-radius: defaultBorderRadius;
+  outline: 1vh solid mainLightBrown;
+  background-color: mainBrown;
+}

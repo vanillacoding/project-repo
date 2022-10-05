@@ -1,0 +1,9 @@
+const TIMES = {
+  ONE_DAY_IN_SECOND: 86_400,
+  ONE_MINUTE_IN_SECOND: 60,
+  ONE_SECOND_IN_MS: 1_000,
+  ONE_DAY_IN_MS: 86_400_000,
+  ONE_MINUTE_IN_MS: 60_000,
+};
+
+module.exports = TIMES;

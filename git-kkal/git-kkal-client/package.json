@@ -1,0 +1,76 @@
+{
+  "name": "git-kkal-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@inlet/react-pixi": "^6.6.5",
+    "@loadable/component": "^5.15.0",
+    "@react-three/drei": "^7.8.0",
+    "@react-three/fiber": "^7.0.7",
+    "axios": "^0.21.4",
+    "lodash": "^4.17.21",
+    "pixi.js": "^6.1.2",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-loader-spinner": "^4.0.0",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3",
+    "react-toastify": "^8.0.2",
+    "string-to-color": "^2.2.2",
+    "styled-components": "^5.3.1",
+    "three": "^0.132.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prepare": "husky install",
+    "pre-commit": "lint-staged",
+    "test:cypress": "start-server-and-test start http://localhost:3000 cypress",
+    "cypress-open": "cypress open",
+    "cypress": "cypress run"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cypress": "^8.4.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^7.0.0",
+    "lint-staged": "^11.1.2",
+    "prettier": "2.3.2",
+    "start-server-and-test": "^1.14.0"
+  },
+  "lint-staged": {
+    "**/*.{js, jsx, html, css, json}": [
+      "prettier --write .",
+      "eslint --fix ."
+    ]
+  }
+}

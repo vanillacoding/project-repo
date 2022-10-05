@@ -1,0 +1,10 @@
+export const MUST_FILL_BLANK = '빈 칸을 모두 입력하세요.';
+export const MUST_MORE_THAN_THREE_NAME = '이름은 3글자 이상이여야 합니다.';
+export const MUST_LESS_THAN_FIFTEEN_NAME = '이름은 15글자 이하이여야 합니다.';
+export const MUST_MORE_THAN_EIGHT_PASSWORD = '비밀번호는 8글자 이상이여야 합니다.';
+export const MUST_LESS_THAN_TWENTY_PASSWORD = '비밀번호는 20글자 이하이여야 합니다.';
+export const DONT_MATCH_PASSWORD = '비밀번호가 일치하지 않습니다.';
+export const WRONG_EMAIL_OR_PASSWORD = '이메일이나 비밀번호가 틀렸습니다.';
+export const ALREADY_EXISTING_ACCOUNT = '이미 존재하는 계정입니다.';
+export const PLEASE_RETRY_LOGIN = '로그인을 다시 시도해주세요.';
+export const PLEASE_RETRY_SIGNUP = '회원가입을 다시 시도해주세요.';

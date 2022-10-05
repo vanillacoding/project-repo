@@ -1,0 +1,65 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "setupFiles": [
+      "./setupTests.js"
+    ]
+  },
+  "dependencies": {
+    "@react-native-community/datetimepicker": "2.2.2",
+    "@react-native-community/masked-view": "0.1.6",
+    "@react-navigation/drawer": "^5.4.1",
+    "@react-navigation/native": "^5.1.4",
+    "@react-navigation/stack": "^5.2.9",
+    "@use-expo/font": "^1.0.1",
+    "axios": "^0.19.2",
+    "expo": "^37.0.4",
+    "expo-camera": "~8.2.0",
+    "expo-constants": "~9.0.0",
+    "expo-facebook": "~8.1.0",
+    "expo-font": "~8.1.0",
+    "expo-image-manipulator": "~8.1.0",
+    "expo-image-picker": "~8.1.0",
+    "expo-location": "~8.1.0",
+    "expo-media-library": "~8.1.0",
+    "expo-permissions": "~8.1.0",
+    "expo-secure-store": "~8.1.0",
+    "prop-types": "^15.7.2",
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.0.tar.gz",
+    "react-native-country-picker-modal": "^1.10.0",
+    "react-native-gesture-handler": "~1.6.0",
+    "react-native-maps": "0.26.1",
+    "react-native-reanimated": "~1.7.0",
+    "react-native-safe-area-context": "0.7.3",
+    "react-native-screens": "~2.2.0",
+    "react-native-web": "~0.11.7",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "babel-eslint": "^10.1.0",
+    "babel-preset-expo": "~8.1.0",
+    "babel-preset-react-native": "^4.0.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-native": "^3.8.1",
+    "jest-expo": "^37.0.0"
+  },
+  "private": true
+}

@@ -1,0 +1,169 @@
+form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.wrapper {
+  margin-top: 110px;
+  margin-right: 20px;
+  width: 20%;
+  min-width: 200px;
+  max-width: 400px;
+  height: 80%;
+  border-radius: 2px;
+  z-index: 2;
+  font-family: 'Poor Story', cursive;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.textList {
+  background-color: #3d5a80;
+  padding: 0;
+  height: 80%;
+  list-style: none;
+  overflow-y: auto;
+  word-break: break-all;
+  border-radius: 2px;
+}
+
+.textList::-webkit-scrollbar {
+  display: none;
+}
+
+.userText {
+  background: #fcfcfc;
+  padding: 5px;
+  border-left: 2px solid #222;
+  border-right: 2px solid #222;
+  color: #000;
+  text-align: center;
+}
+
+.partnerText {
+  background: #fcfcfc;
+  color: #000;
+  border-left: 2px solid #222;
+  border-right: 2px solid #222;
+  padding: 5px;
+  text-align: center;
+}
+
+.userBubble {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  padding: 7px;
+  width: 150px;
+}
+
+.partnerBubble {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  padding: 7px;
+  width: 150px;
+}
+
+.bubbleA {
+  background: #222;
+  margin-left: 6px;
+  width: calc(100% - 12px);
+  height: 2px;
+}
+
+.bubbleB {
+  background: #fcfcfc;
+  margin-left: 4px;
+  width: calc(100% - 12px);
+  height: 2px;
+  border-left: 2px solid #222;
+  border-right: 2px solid #222;
+}
+
+.bubbleC {
+  background: #fcfcfc;
+  margin-left: 2px;
+  width: calc(100% - 8px);
+  height: 2px;
+  border-left: 2px solid #222;
+  border-right: 2px solid #222;
+}
+
+.userArrow {
+  margin-top: -2px;
+  margin-left: 110px;
+}
+
+.partnerArrow {
+  margin-top: -2px;
+  margin-left: 30px;
+}
+
+.arrowA {
+  background: #fcfcfc;
+  width: 8px;
+  height: 8px;
+  border-left: 2px solid #222;
+  border-right: 2px solid #222;
+}
+
+.arrowB {
+  background: #fcfcfc;
+  width: 6px;
+  height: 2px;
+  border-left: 2px solid #222;
+  border-right: 2px solid #222;
+}
+
+.userArrowC {
+  background: #fcfcfc;
+  margin-left: 2px;
+  width: 6px;
+  height: 2px;
+  border-left: 2px solid #222;
+  border-right: 2px solid #222;
+}
+
+.partnerArrowC {
+  background: #fcfcfc;
+  margin-left: -2px;
+  width: 6px;
+  height: 2px;
+  border-left: 2px solid #222;
+  border-right: 2px solid #222;
+}
+
+.userArrowD {
+  background: #222;
+  margin-left: 4px;
+  width: 8px;
+  height: 2px;
+}
+
+.partnerArrowD {
+  background: #222;
+  margin-left: 2px;
+  width: 8px;
+  height: 2px;
+}
+
+.messageInput {
+  background-color: #e5e5e5;
+  padding: 10px;
+  border-top: 1px solid black;
+  border-radius: 2px;
+}
+
+.messageInput input {
+  padding: 8px;
+  height: 100%;
+  font-size: 15px;
+}
+
+.messageBtn button {
+  padding: 5px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+}

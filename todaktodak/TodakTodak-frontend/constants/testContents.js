@@ -1,0 +1,9 @@
+export const TEST_ID = "testID";
+export const TEST_TEXT = "testText";
+export const MOCK_DATE = "2021-05-26";
+export const MOCK_USER_NAME = "takhyun";
+export const MOCK_USER_EMAIL = "takhyun@1111.com";
+export const MOCK_FRIEND_NAME = "taehyun";
+export const MOCK_FRIEND_EMAIL = "taehyun@1111.com";
+export const MOCK_CHAT_ROOM_ID = "chatRoomId";
+export const MOCK_UNREAD_MESSAGE_COUNT = "1";

@@ -1,0 +1,140 @@
+@import '../variables';
+@import '../mixin';
+
+header {
+  .logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+
+    a {
+      font-family: $fredokaOne;
+      color: $blue;
+    }
+  }
+
+  .button-login {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    z-index: 1;
+    height: 30px;
+    padding: 0 10px;
+    background-color: $blue;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 28px;
+    font-family: $notoSansKR;
+    color: $white;
+  }
+
+  .user-wrap {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    z-index: 1;
+
+    .profile {
+      display: flex;
+
+      .image {
+        overflow: hidden;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .name {
+        margin-left: 10px;
+        line-height: 30px;
+        font-family: $notoSansKR;
+
+        &.gray {
+          color: $gray3;
+        }
+
+        &.white {
+          color: $white;
+        }
+      }
+    }
+
+    .gnb {
+      margin-top: 0;
+      opacity: 0;
+      transition: all 0.2s;
+
+      li {
+        display: block;
+        padding: 8px 0;
+        font-size: 14px;
+        font-family: $notoSansKR;
+        text-align: right;
+        cursor: pointer;
+
+        &.gray {
+          color: $gray3;
+        }
+
+        &.white {
+          color: $white;
+        }
+
+        a {
+          &.gray {
+            color: $gray3;
+          }
+
+          &.white {
+            color: $white;
+          }
+        }
+      }
+    }
+
+    &:hover {
+      & .gnb {
+        margin-top: 8px;
+        opacity: 1;
+      }
+    }
+  }
+}
+
+@include desktop {
+  .logo {
+    a {
+      font-size: 50px;
+    }
+  }
+}
+
+@include tablet {
+  .logo {
+    a {
+      font-size: 40px;
+    }
+  }
+}
+
+@include mobile {
+  .logo {
+    a {
+      font-size: 30px;
+    }
+  }
+
+  .profile {
+    justify-content: flex-end;
+
+    .name {
+      display: none;
+    }
+  }
+}

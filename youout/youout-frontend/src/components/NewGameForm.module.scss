@@ -1,0 +1,86 @@
+@import '../styles/theme.module.scss';
+
+.container {
+  height: 90vh;
+  padding: 5vw;
+  background-color: $main-color;
+
+  .firstForm {
+    display: flex;
+    flex-direction: column;
+    padding: 10vw;
+    border-radius: 20px;
+    background-color: $light-beige;
+
+    .quizCounter {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .counterName {
+        align-self: flex-start;
+        margin-top: 2vh;
+        color: $brown;
+      }
+
+      .counter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .quizCount {
+        margin: 2vh 5vw;
+        color: $brown;
+        font-size: $font-size-3;
+      }
+    }
+  }
+
+  .secondForm {
+    display: flex;
+    flex-direction: column;
+    padding: 10vw;
+    border-radius: 20px;
+    background-color: $light-beige;
+
+    .quizContainer {
+      display: flex;
+      align-items: center;
+
+      .quizDone {
+        margin-right: 5px;
+        font-size: $font-size-2;
+      }
+
+      Button {
+        width: 70vw;
+      }
+    }
+  }
+
+  .quizForm {
+    display: flex;
+    flex-direction: column;
+    padding: 10vw;
+    border-radius: 20px;
+    background-color: $light-beige;
+  }
+
+  .buttonContainer {
+    align-self: center;
+    display: flex;
+    width: 100%;
+    margin: 2vh 0;
+
+    Button {
+      margin: 0 10px;
+    }
+  }
+
+  .validationMessage {
+    color: $dark-carrot;
+    font-size: $font-size-1;
+  }
+}

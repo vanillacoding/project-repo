@@ -1,0 +1,42 @@
+.Countdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  transition: all 0.1s;
+
+  &.count3 {
+    background-color: #c02f1d;
+  }
+
+  &.count2 {
+    background-color: #ebc944;
+  }
+
+  &.count1 {
+    background-color: #a3b86c;
+  }
+
+  &.count-1 {
+    background-color: #0d3d56;
+    font-size: 8rem;
+  }
+
+  &__text {
+    font-size: 12rem;
+    font-weight: bold;
+    color: white;
+  }
+
+  &__message {
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    color: white;
+  }
+}

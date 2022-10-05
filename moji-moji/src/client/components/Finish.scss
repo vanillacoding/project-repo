@@ -1,0 +1,27 @@
+.Finish {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  &__header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 70px;
+    font-size: 50px;
+
+    span {
+      z-index: 300;
+      cursor: pointer;
+    }
+  }
+
+  &__body {
+    flex: 1;
+    text-align: center;
+  }
+}

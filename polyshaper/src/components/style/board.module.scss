@@ -1,0 +1,57 @@
+@import './app.module.scss';
+
+.board {
+  position: relative;
+  display: inline-block;
+}
+
+.canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  // width: 100%;
+  z-index: 1;
+}
+
+.uploaded_image {
+  position: relative;
+  // width: 100%;
+}
+
+.editModeVertexLayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  // width: 100%;
+  z-index: 2;
+}
+
+.snapGuideLayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  // width: 100%;
+}
+
+.backgroundLayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  // width: 100%;
+}
+
+.colorCanvas {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  // width: 100%;
+}
+
+.flatten {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

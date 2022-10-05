@@ -1,0 +1,67 @@
+@value nodeInfoHeight, selectedOptionInfoHeight, mediaQuery from '../../common/sizes.module.css';
+@value makerMercury from '../../common/colors.css';
+
+.MazeDescription {
+  width: 100%;
+  height: calc(nodeInfoHeight + selectedOptionInfoHeight);
+}
+
+.NodeInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: nodeInfoHeight;
+}
+
+.NodeInfoMemo {
+  position: relative;
+  width: 0;
+  right: -1.5rem;
+  font-family: 'Gochi Hand', cursive;
+  white-space: nowrap;
+}
+
+.NodeInfoMemoArrow {
+  position: absolute;
+  top: -30px;
+  left: -10px;
+  width: 30px;
+  height: 30px;
+}
+
+.NodeImage {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.SelectedOptionInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: selectedOptionInfoHeight;
+}
+
+.AlgorithmSelectMessage {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 2rem;
+}
+
+.ClickableNodeWrapper {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.NodeTypeDivider {
+  margin: 0px 10px;
+  width: 0px;
+  height: 50%;
+  border-right: 5px solid makerMercury;
+}
+
+@media screen and (max-width: mediaQuery) {
+  .NodeInfoMemo {
+    white-space: normal;
+  }
+}

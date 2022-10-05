@@ -1,0 +1,26 @@
+.CompleteButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 100px;
+  height: 40px;
+  padding: 0px 10px 0px 10px;
+  background: #1180f1;
+  color: #ffffff;
+  border-color: #1180f1;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 20px 20px 20px 20px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+  box-shadow: 0px 5px 10px grey;
+}
+
+.CompleteButton:hover {
+  transform: translateY(0.5px);
+  box-shadow: 0px 4px 5px grey;
+}

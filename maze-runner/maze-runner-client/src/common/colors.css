@@ -1,0 +1,31 @@
+/* monotone */
+
+@value makerBlack: #000000;
+@value makerSonicSilver: #777777;
+@value makerVeryLightGray: #c9c9c9;
+@value makerSilver: #cccccc;
+@value makerMercury: #e5e5e5;
+@value makerFauxBrightGray: #e7ecef;
+@value makerGhostWhite: #f8f7ff;
+@value makerWhite: #ffffff;
+
+/* blue */
+
+@value makerFauxDarkCerulean: #034078;
+@value makerFauxMetallicSeaweedOpacity: #02809088;
+@value makerFauxPrussianBlue: #02343f;
+@value makerJellyBean: #2c7da0;
+@value makerPictonBlue: #4cc9f0;
+
+/* orange */
+
+@value makerOrangePeel: #ff9705d2;
+@value makerTomato: #ff6347;
+
+/* purple */
+
+@value makerMagenta: #ff00ff;
+
+/* etc */
+
+@value makerGreenYellow: #9acd32;

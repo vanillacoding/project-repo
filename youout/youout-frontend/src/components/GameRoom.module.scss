@@ -1,0 +1,49 @@
+@import '../styles/theme.module.scss';
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 12vh;
+  margin: 1vh 5vw;
+  padding: 5vw;
+  border-bottom: 5px solid $main-color;
+  background-color: $white;
+  color: $brown;
+  box-shadow: $box-shadow-2;
+
+  .bulletPlaying {
+    margin-right: 5vw;
+    padding: 0.5vh 2vw;
+    border-radius: 50px;
+    background-color: $dark-carrot;
+    color: $white;
+    font-size: $font-size-1;
+    text-transform: uppercase;
+  }
+
+  .lineThrough {
+    text-decoration: line-through 2px;
+  }
+
+  .bulletWaiting {
+    margin-right: 5vw;
+    padding: 0.5vh 2vw;
+    border-radius: 50px;
+    background-color: $main-color;
+    color: $white;
+    font-size: $font-size-1;
+    text-transform: uppercase;
+  }
+
+  .gameInfo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+.playingRoom {
+  background-color: $light-brown;
+  color: $white;
+}

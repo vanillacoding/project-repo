@@ -1,0 +1,15 @@
+@value mainWhite from "./variables.css";
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "neodgm";
+  color: mainWhite;
+}
+
+.heading {
+  margin: 1.5vh 0 0.5vh 0;
+  font-size: 3vh;
+}

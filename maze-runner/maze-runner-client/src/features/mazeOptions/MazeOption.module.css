@@ -1,0 +1,11 @@
+@value makerFauxBrightGray from '../../common/colors.css';
+
+.MazeOption {
+  border-radius: 5px;
+  width: auto;
+  margin: 0px 5px;
+  padding: 5px 10px;
+  font-size: 0.7rem;
+  background-color: makerFauxBrightGray;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}

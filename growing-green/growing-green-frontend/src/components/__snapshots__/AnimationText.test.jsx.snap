@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AnimationText> matches snapshot 1`] = `
+<div>
+  <h3
+    class="sc-bdvvtL ldshXb"
+  >
+    <span>
+      s
+    </span>
+    <span>
+      a
+    </span>
+    <span>
+      m
+    </span>
+    <span>
+      p
+    </span>
+    <span>
+      l
+    </span>
+    <span>
+      e
+    </span>
+  </h3>
+</div>
+`;

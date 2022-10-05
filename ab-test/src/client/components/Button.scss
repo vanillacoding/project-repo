@@ -1,0 +1,17 @@
+.btn-add {
+  height: 3.5rem;
+  width: 11rem;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: rgb(58, 163, 242);
+  border: none;
+  margin-top: .7rem;
+  margin-bottom: .7rem;
+  font-size: 1.2rem;
+  border-radius: 3px;
+  align-self: flex-end;
+
+  &:disabled {
+    background-color: rgba(58, 163, 242, .3);
+  }
+}

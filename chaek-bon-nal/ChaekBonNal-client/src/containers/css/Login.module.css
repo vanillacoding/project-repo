@@ -1,0 +1,55 @@
+.background {
+  position: relative;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  width: 400px;
+  height: 500px;
+  margin: inherit;
+	margin-top: 150px;
+	left: 70%;
+	padding: 20px;
+  transform: translateX(-50%);
+  background-color: white;
+}
+
+.logo {
+  position: absolute;
+  width: 120px;
+  height: auto;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+}
+
+.p {
+  position: absolute;
+  top: 26%;
+  color: rgb(58, 58, 58);
+  font-size: 23px;
+  font-family: "Helvetica Neue",Arial,sans-serif;
+  font-weight: 300;
+  left: 13%;
+}
+
+.p2 {
+  position: absolute;
+  top: 33%;
+  font-family: 'Inder', sans-serif;
+  margin-bottom: 10px;
+  color: #666;
+  left: 6%;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: right;
+  width: 88%;
+  padding-bottom: 80px;
+}
+
+.login {
+  position: absolute;
+  top: 58%;
+  left: 32%;
+}
+
+body {
+  background-color: #f9f9f9;
+}

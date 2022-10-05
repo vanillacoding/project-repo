@@ -1,0 +1,50 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/python:3.7.0-stretch-node-browsers
+    working_directory: ~/sample
+    steps:
+      - checkout
+      - run:
+          name: Show Current Branch
+          command: echo ${CIRCLE_BRANCH}
+      - run:
+          name: Install NPM Dependencies
+          command: |
+            sudo npm install --unsafe-perm
+      - run:
+          name: Run test
+          command: |
+            npm test
+      - run:
+          name: Install awscli
+          command: |
+            sudo pip install awsebcli --upgrade
+      - run:
+          name: Create AWS credentials manually
+          command: |
+            mkdir ~/.aws
+            touch ~/.aws/config
+            chmod 600 ~/.aws/config
+            echo "[profile eb-cli]" > ~/.aws/config
+            echo "aws_access_key_id=$AWS_ACCESS_KEY_ID" >> ~/.aws/config
+            echo "aws_secret_access_key=$AWS_SECRET_ACCESS_KEY" >> ~/.aws/config
+      - run:
+          name: Deploy to env
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+                eb deploy Server-env
+            else
+                eb deploy Server-env-development
+            fi
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only:
+                - dev
+                - master

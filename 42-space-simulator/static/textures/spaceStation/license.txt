@@ -1,0 +1,11 @@
+Model Information:
+* title:	International Space Station - ISS
+* source:	https://sketchfab.com/3d-models/international-space-station-iss-9f21755c637a40eeb2f62529822a65c3
+* author:	Osvaldo Mendes (https://sketchfab.com/ombn1981)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "International Space Station - ISS" (https://sketchfab.com/3d-models/international-space-station-iss-9f21755c637a40eeb2f62529822a65c3) by Osvaldo Mendes (https://sketchfab.com/ombn1981) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

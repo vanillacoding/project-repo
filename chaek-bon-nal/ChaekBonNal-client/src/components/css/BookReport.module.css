@@ -1,0 +1,132 @@
+.article {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.leftContainer {
+  width: 100%;
+}
+
+.rightContainer {
+  border-left: #d6d3d3 solid 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  padding: 20px;
+}
+
+.image {
+  padding-right: 20px;
+  width: 100%;
+  height: 43%;
+}
+
+h1 {
+  font-family: 'Enriqueta', arial, serif;
+  line-height: 1.25;
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+blockquote {
+  display: block;
+  width: 93%;
+  border-width: 2px 0;
+  border-style: solid;
+  border-color: #eee;
+  padding: 1.5em 0 0.5em;
+  margin: 1.5em 0;
+  position: relative;
+  margin-left: 20px;
+  max-width: 600px;
+  min-height: 15%;
+}
+
+blockquote:before {
+  content: '\201C';
+  position: absolute;
+  top: 0em;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  width: 3rem;
+  height: 2rem;
+  font: 6em/1.08em 'PT Sans', sans-serif;
+  color: #666;
+  text-align: center;
+}
+
+.text {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  color: #333333;
+  font-family: "Helvetica Neue",Arial,sans-serif;
+  font-size: 15.5px;
+  font-weight: 300;
+  line-height: 1.5625;
+  margin-bottom: 15px;
+}
+
+.bookInfo {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  width: 90%;
+  margin-left: 20px;
+  height: 140px;
+  padding: 2%;
+  display: flex;
+}
+
+.bookDetail {
+  color: black;
+  font-size: 13px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.bookDetail > span {
+  color: #666;
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #333333;
+}
+
+a:active {
+  color: rgb(35, 194, 173);
+}
+
+a:visited {
+  color: rgb(55, 27, 71);
+}
+
+.userInfo {
+  display: flex;
+  bottom: 20px;
+  font-family: "Helvetica Neue",Arial,sans-serif;
+  font-weight: 300;
+}
+
+.avartar {
+  margin-right: 5px;
+  width: 25px;
+  height: 25px;
+}

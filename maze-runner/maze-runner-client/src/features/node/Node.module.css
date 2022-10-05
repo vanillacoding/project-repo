@@ -1,0 +1,103 @@
+@value makerFauxMetallicSeaweedOpacity, makerMercury, makerWhite, makerTomato, makerFauxPrussianBlue, makerJellyBean, makerGhostWhite, makerVeryLightGray, makerOrangePeel from '../../common/colors.css';
+@value nodeWidth from '../../common/sizes.module.css';
+
+.Node {
+  min-width: nodeWidth;
+  height: 100%;
+  border-left: 1px solid makerWhite;
+  border-top: 1px solid makerWhite;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color: makerFauxMetallicSeaweedOpacity;
+}
+
+.Node:last-child {
+  border-right: 1px solid makerWhite;
+}
+
+.MazeRow:last-child .Node {
+  border-bottom: 1px solid makerWhite;
+}
+
+.start,
+.middle,
+.end {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  background-color: makerMercury;
+  border: 2px solid makerTomato;
+  box-sizing: border-box;
+}
+
+.visited {
+  animation-name: fadeInVisit;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  background-color: makerFauxPrussianBlue;
+}
+
+.visited2 {
+  animation-name: fadeInVisit2;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  background-color: makerJellyBean;
+}
+
+.path {
+  animation-name: fadeInPath;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.path2 {
+  animation-name: fadeInPath2;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInVisit {
+  0% {
+    background-color: makerGhostWhite;
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeInVisit2 {
+  0% {
+    background-color: makerGhostWhite;
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeInPath {
+  0% {
+    display: none;
+    background-color: makerGhostWhite;
+    transform: scale(1.3);
+  }
+  100% {
+    display: block;
+    background-color: makerOrangePeel;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeInPath2 {
+  0% {
+    display: none;
+    background-color: makerGhostWhite;
+    transform: scale(1.3);
+  }
+  100% {
+    display: block;
+    background-color: makerOrangePeel;
+    transform: scale(1);
+  }
+}

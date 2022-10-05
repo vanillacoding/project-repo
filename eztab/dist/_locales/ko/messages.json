@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Ez탭"
+  },
+  "description": {
+    "message": "당신만의 탭 세팅을 지정해주세요"
+  },
+  "tooltip": {
+    "message": "나중에 바꿔야함"
+  },
+  "contextTitle": {
+    "message": "나중에 바꿔야함"
+  },
+  "contextRemove": {
+    "message": "나중에 바꿔야함"
+  }
+}

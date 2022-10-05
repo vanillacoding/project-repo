@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>TO THE SPACE</title>
+  </head>
+  <body>
+    <canvas class="webgl"></canvas>
+
+    <div id="ui">
+      <div class="game-loading">
+        <span class="loading-percentage">0%</span>
+        <div class="loading-bar"></div>
+      </div>
+
+      <div class="game-start">
+        <h1 class="game-title">to the space</h1>
+
+        <input class="nickname-input" type="text" placeholder="ex) Elon Musk" />
+        <button class="start-button">START</button>
+        <span class="input-error"></span>
+      </div>
+
+      <div class="game-setting">
+        <button class="launch-button button">LAUNCH</button>
+
+        <div class="game-instruction">
+          <span>Press spacebar to accumulate power for 5 seconds</span>
+          <span>Press right and left arrow key to move the spaceship</span>
+          <span>Get Gold Coins to gain speed</span>
+          <span>Avoid Meteors that decreases speed</span>
+        </div>
+      </div>
+
+      <div class="game-play">
+        <span class="count-down">5</span>
+
+        <div class="energy-box">
+          <div class="energy-bar"></div>
+        </div>
+
+        <div class="space-bar-guide">
+          <span>SPACE BAR</span>
+        </div>
+      </div>
+
+      <div class="game-launch">
+        <div class="altitude-box">
+          <span>ALTITUDE</span>
+          <div>
+            <span class="altitude">0</span>
+            <span>KM</span>
+          </div>
+        </div>
+
+        <div class="speed-box">
+          <span>SPEED</span>
+          <div>
+            <span class="speed">0</span>
+            <span>KM/H</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="game-over">
+        <div class="user-score-box">
+          <span>YOUR SCORE:</span>
+          <span class="user-score">0</span>
+        </div>
+
+        <ul class="scoreboard">
+          <li class="score-element attribute">
+            <span>ID</span>
+            <span>ALTITUDE</span>
+          </li>
+        </ul>
+
+        <button class="restart-button button">RESTART</button>
+      </div>
+  </body>
+</html>

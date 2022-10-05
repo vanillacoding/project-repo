@@ -1,0 +1,25 @@
+* {
+  font-family: "Carter One", "Poor Story", "Stylish", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  user-select: none;
+  text-align: center;
+  line-height: 1em;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #222f3e;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button:hover {
+  transform: scale(1.1, 1.1);
+}
+button:focus {
+  outline: none;
+}

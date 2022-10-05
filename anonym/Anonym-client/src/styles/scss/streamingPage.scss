@@ -1,0 +1,85 @@
+.streaming-container {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  overflow: hidden;
+}
+
+.main-container {
+  overflow: auto;
+
+  canvas {
+    width: 100%;
+    background-color: black;
+  }
+}
+
+.streamer-page {
+  .output {
+    display: none;
+
+    &__video {
+      -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      display: none;
+    }
+
+    &__canvas {
+      display: none;
+    }
+  }
+
+  &__streaming-state {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0px 50px 0px;
+    width: 100%;
+  }
+}
+
+.chat-container {
+  display: grid;
+  grid-template-rows: 1fr 70px;
+  overflow: hidden;
+  border-left: 1px solid $sub-bg-color;
+  height: 100%;
+
+  .chat-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: auto;
+    background-color: $sub-bg-color;
+    margin: 10px;
+    margin-bottom: 0px;
+    padding: 15px 20px 0px 20px;
+    border-radius: 5px;
+
+    &__item {
+      padding-bottom: 13px;
+    }
+
+    &::-webkit-scrollbar {
+      width: 6px;
+      border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: $scrollbar-bg;
+      border-radius: 10px;
+    }
+  }
+
+  .chat-form {
+    @extend %flex-center;
+
+    &__form {
+      display: flex;
+    }
+
+    &__input {
+      width: 250px;
+    }
+  }
+}

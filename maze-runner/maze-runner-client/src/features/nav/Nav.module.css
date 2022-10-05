@@ -1,0 +1,214 @@
+@value makerMercury, makerSonicSilver, makerFauxBrightGray, makerOrangePeel, makerFauxDarkCerulean, makerBlack, makerWhite, makerPictonBlue, makerGreenYellow from '../../common/colors.css';
+@value mediaQuery from '../../common/sizes.module.css';
+
+.Nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+}
+
+button {
+  border: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.NavItems {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.NavItem {
+  position: relative;
+  width: 100%;
+  margin: 0 10px;
+}
+
+.NavButton,
+.SideBarButton {
+  padding: 5px 0px;
+  width: 80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-radius: 5px;
+  color: makerSonicSilver;
+  background-color: makerMercury;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.NavButton:hover {
+  opacity: 0.8;
+}
+
+.StartButton {
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  width: 70%;
+  padding: 10px 0px;
+  text-decoration-line: line-through;
+  color: makerSonicSilver;
+  background-color: makerFauxBrightGray;
+  cursor: not-allowed;
+}
+
+.StartButton:hover {
+  opacity: 1;
+}
+
+.StartButtonReady:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.StartButtonReady {
+  background-color: makerOrangePeel;
+  color: makerFauxDarkCerulean;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration-line: none;
+}
+
+.Logo {
+  min-width: 5rem;
+  height: 5rem;
+}
+
+.LogoImage {
+  width: 100%;
+  height: 100%;
+}
+
+.LogoImage:hover {
+  animation-name: randomDegRotate;
+  animation-duration: 100s;
+  animation-fill-mode: forwards;
+}
+
+.SideButton {
+  display: none;
+  min-width: 1rem;
+  height: 1rem;
+  margin: 0px 10px;
+}
+
+.SideButtonImage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 11;
+}
+
+.SideButtonOn {
+  transform: rotate(270deg);
+  transition: transform 0.3s linear;
+}
+
+.SideButtonOff {
+  transform: rotate(0deg);
+  transition: transform 0.3s linear;
+}
+
+.SideMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  z-index: 10;
+  width: 50vw;
+  height: 100vh;
+  left: -50vw;
+  border: 1px dashed makerBlack;
+  box-sizing: border-box;
+  background-color: makerWhite;
+}
+
+.SideBarItem {
+  margin: 10px 0px;
+}
+
+.SideMenuOn {
+  transform: translate(50vw);
+  transition: transform 0.3s linear;
+}
+
+.SideMenuOff {
+  transform: translate(-50vw);
+  transition: transform 0.3s linear;
+}
+
+.ModalChildren {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+  background-color: makerPictonBlue;
+}
+
+.ModalTitle {
+  margin: 5px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.ModalLink {
+  border-radius: 3px;
+  padding: 5px;
+  background-color: makerWhite;
+  margin: 5px;
+}
+
+.ModalCopyButton {
+  background-color: makerMercury;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.ModalCopyButton:hover {
+  opacity: 0.8;
+}
+
+.ModalCopyCompleteMessage {
+  position: absolute;
+  top: -30px;
+  border-radius: 2px;
+  padding: 3px;
+  background-color: makerGreenYellow;
+}
+
+@media screen and (max-width: mediaQuery) {
+  .NavItem {
+    display: none;
+  }
+
+  .start {
+    display: block;
+  }
+
+  .Logo {
+    display: none;
+  }
+
+  .SideButton {
+    display: block;
+  }
+}
+
+@keyframes randomDegRotate {
+  0% {
+  }
+
+  100% {
+    transform: rotate(99999deg);
+  }
+}

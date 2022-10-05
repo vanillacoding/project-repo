@@ -1,0 +1,69 @@
+{
+  "name": "set-gems-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-scripts": "4.0.3",
+    "simple-peer": "^9.11.0",
+    "socket.io-client": "^4.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/react-hooks": "^7.0.2",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.26.0",
+    "lint-staged": "^11.1.2",
+    "simple-git-hooks": "^2.6.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-recommended": "^5.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "simple-git-hooks": "simple-git-hooks",
+    "postinstall": "npm run simple-git-hooks",
+    "lint-staged": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SET-GEMS/set-gems-client.git"
+  },
+  "author": "JeongSeon Park",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SET-GEMS/set-gems-client/issues"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "simple-git-hooks": {
+    "pre-push": "git branch | grep \"*\" | egrep -v \"^\\* main$\"",
+    "pre-commit": "npm run lint-staged"
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

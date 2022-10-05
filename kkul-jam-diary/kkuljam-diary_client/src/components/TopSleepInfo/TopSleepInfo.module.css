@@ -1,0 +1,26 @@
+.topSleepWarpper {
+  margin: 30px 18px 30px 18px;
+  line-height: 15px;
+  min-height: 34px;
+}
+
+.topDate {
+  display: block;
+  font-size: 1.2em;
+}
+
+.topTitle {
+  display: inline-block;
+  position: relative;
+}
+
+.topHours {
+  display: inline-block;
+  position: absolute;
+  right: 25px;
+}
+
+.topDuration {
+  display: block;
+  font-size: 1.2em;
+}

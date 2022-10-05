@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "ggot-client",
+    "slug": "ggot-client",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/꽂icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/꽂icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDO4G_32ZFA7VsOb6Ey1H9-lbv1jTAs5yY"
+        }
+      },
+      "package": "com.idbd.ggotclient",
+      "useNextNotificationsApi": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

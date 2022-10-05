@@ -1,0 +1,150 @@
+{
+  "frames": {
+    "fireballExplosion_0007.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 904,
+        "h": 598
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 904,
+        "h": 598
+      },
+      "sourceSize": {
+        "w": 904,
+        "h": 598
+      }
+    },
+    "fireballExplosion_0008.png": {
+      "frame": {
+        "x": 904,
+        "y": 0,
+        "w": 904,
+        "h": 598
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 904,
+        "h": 598
+      },
+      "sourceSize": {
+        "w": 904,
+        "h": 598
+      }
+    },
+    "fireballExplosion_0009.png": {
+      "frame": {
+        "x": 0,
+        "y": 598,
+        "w": 904,
+        "h": 598
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 904,
+        "h": 598
+      },
+      "sourceSize": {
+        "w": 904,
+        "h": 598
+      }
+    },
+    "fireballExplosion_0010.png": {
+      "frame": {
+        "x": 904,
+        "y": 598,
+        "w": 904,
+        "h": 598
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 904,
+        "h": 598
+      },
+      "sourceSize": {
+        "w": 904,
+        "h": 598
+      }
+    },
+    "fireballExplosion_0011.png": {
+      "frame": {
+        "x": 0,
+        "y": 1196,
+        "w": 904,
+        "h": 598
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 904,
+        "h": 598
+      },
+      "sourceSize": {
+        "w": 904,
+        "h": 598
+      }
+    },
+    "fireballExplosion_0012.png": {
+      "frame": {
+        "x": 904,
+        "y": 1196,
+        "w": 904,
+        "h": 598
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 904,
+        "h": 598
+      },
+      "sourceSize": {
+        "w": 904,
+        "h": 598
+      }
+    }
+  },
+  "animations": {
+    "fireballExplosion": [
+      "fireballExplosion_0007.png",
+      "fireballExplosion_0008.png",
+      "fireballExplosion_0009.png",
+      "fireballExplosion_0010.png",
+      "fireballExplosion_0011.png",
+      "fireballExplosion_0012.png"
+    ]
+  },
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "fireballExplosion2.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1808,
+      "h": 1794
+    },
+    "scale": "1",
+    "related_multi_packs": [
+      "fireballExplosion1.json",
+      "fireballExplosion3.json"
+    ],
+    "smartupdate": "$TexturePacker:SmartUpdate:c437beba9897f47d0968ea411e942785:eb8139d3626c5125eb55190ef257662c:4c7d1bf68918abb8e4adf16e04af218b$"
+  }
+}

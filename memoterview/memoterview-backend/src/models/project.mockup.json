@@ -1,0 +1,186 @@
+[
+  {
+    "title": "Blandburg",
+    "candidates": [
+      "60791ee985910933ecb5bb1e",
+      "60791ee99a41268455a2ff79",
+      "60791ee942e0ed5c6544a612",
+      "60791ee98601aea49d56d5df"
+    ],
+    "status": "Active",
+    "creator": "60791ee9a31eefe3f5c64c4f",
+    "filters": [],
+    "participants": [
+      "60791ee9a80077898e0c5aae",
+      "60791ee973e3175e9a2f1c9d",
+      "60791ee9e0c69fffe5c0ca8a",
+      "60791ee94bd456182dd01939",
+      "60791ee9fdd54fc95fa1e22b"
+    ],
+    "isOpened": true
+  },
+  {
+    "title": "Hayes",
+    "candidates": [
+      "60791ee91c8d19403a91e719",
+      "60791ee975acae38a71c2328",
+      "60791ee9ebc9ef7e6ad7572d",
+      "60791ee9e74c12e98558cbfd",
+      "60791ee9a356f1d0d6c86d61"
+    ],
+    "status": "Closed",
+    "creator": "60791ee951ea5d10e12a368a",
+    "filters": [
+      "eiusmod",
+      "aliquip",
+      "dolor",
+      "enim"
+    ],
+    "participants": [
+      "60791ee94f6032a0304e3882",
+      "60791ee95347f6c04b96200a",
+      "60791ee91fb4e9b9ee234a46",
+      "60791ee98f1a8f033bb10ec1"
+    ],
+    "isOpened": true
+  },
+  {
+    "title": "Riviera",
+    "candidates": [
+      "60791ee980681bdcc15f3218"
+    ],
+    "status": "Active",
+    "creator": "60791ee9330b1563fffd84dc",
+    "filters": [
+      "elit",
+      "mollit"
+    ],
+    "participants": [
+      "60791ee92e598c435fd2b11f",
+      "60791ee993e87b16f1e720e2"
+    ],
+    "isOpened": false
+  },
+  {
+    "title": "Linwood",
+    "candidates": [
+      "60791ee966711c0c5ddfa6b4",
+      "60791ee9a2547b5cff00e4bc",
+      "60791ee92bc95a366143b796",
+      "60791ee9ff1981d4b8696d65"
+    ],
+    "status": "Closed",
+    "creator": "60791ee938bee4abe7fbab00",
+    "filters": [
+      "quis",
+      "ea",
+      "irure",
+      "adipisicing",
+      "proident"
+    ],
+    "participants": [
+      "60791ee9f6cf1622f57a4da7",
+      "60791ee9cc4e2bc89a02081e",
+      "60791ee97fd7c6094429e4df",
+      "60791ee952170983358f3a72"
+    ],
+    "isOpend": false
+  },
+  {
+    "title": "Sparkill",
+    "candidates": [
+      "60791ee99702b13c17c5673f"
+    ],
+    "status": "Active",
+    "creator": "60791ee901cdd9bffca9f435",
+    "filters": [
+      "sint",
+      "reprehenderit",
+      "velit",
+      "commodo"
+    ],
+    "participants": [
+      "60791ee92a489ddce725d4bd",
+      "60791ee994fbc95800836acd",
+      "60791ee97cee91ade91d4f18"
+    ],
+    "isOpened": false
+  },
+  {
+    "title": "Como",
+    "candidates": [
+      "60791ee90f96f76445966e3c",
+      "60791ee928f910c69ad25c47",
+      "60791ee94bc59ac807a070b8"
+    ],
+    "status": "Active",
+    "creator": "60791ee95e629f0773617cd7",
+    "filters": [
+      "quis",
+      "fugiat",
+      "veniam"
+    ],
+    "participants": [
+      "60791ee91c99eee9f4e857d9",
+      "60791ee96ff44200c5319df5",
+      "60791ee943d244bff3bb2a11",
+      "60791ee9d46b2046d4bc8a7a"
+    ],
+    "isOpened": false
+  },
+  {
+    "title": "Franklin",
+    "candidates": [
+      "60791ee9fcd88fe4f5099096",
+      "60791ee97ea4f7fc5bd62cce",
+      "60791ee984cd6ce8fab8656e"
+    ],
+    "status": "Active",
+    "creator": "60791ee962096de8d1ca0530",
+    "filters": [],
+    "participants": [
+      "60791ee9dee3297756d3d9ee"
+    ],
+    "isOpened": false
+  },
+  {
+    "title": "Strykersville",
+    "candidates": [
+      "60791ee90b856c2fd23cd080",
+      "60791ee97d8ac940aebed51d"
+    ],
+    "status": "Closed",
+    "creator": "60791ee91fccfb03432887b1",
+    "filters": [
+      "velit"
+    ],
+    "participants": [
+      "60791ee98ada3b7c794cf256",
+      "60791ee95581f47e501d9692",
+      "60791ee98c4ab91e3dcba2c0",
+      "60791ee943e727764c687df2"
+    ],
+    "isOpened": false
+  },
+  {
+    "title": "Echo",
+    "candidates": [
+      "60791ee969fe5546f70ade2f",
+      "60791ee9fe656b5b810c7be6"
+    ],
+    "status": "Closed",
+    "creator": "60791ee9bc8e2b9b7813bd08",
+    "filters": [
+      "commodo",
+      "aliqua",
+      "consequat",
+      "occaecat",
+      "aute"
+    ],
+    "participants": [
+      "60791ee9a45f2d4cf43d15f4",
+      "60791ee9d7add06f30f5a9d4"
+    ],
+    "isOpened": false
+  }
+]

@@ -1,0 +1,8 @@
+.closeButton {
+  border: 0.3vh solid mainBlack;
+  padding: 0.5vh 0.5vw 0.3vh 0.55vw;
+  background-color: mainWhite;
+  font-family: "neodgm", sans-serif;
+  font-size: 1.5vh;
+  box-sizing: border-box;
+}

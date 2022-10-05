@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Calendar> matches snapshot 1`] = `
+<div>
+  <div
+    class="sc-bdvvtL fiLqdH"
+  >
+    <div
+      class="left-hook"
+    />
+    <div
+      class="right-hook"
+    />
+    <div
+      class="month-wrapper"
+    >
+      <h3
+        class="month-name"
+      >
+        Nov
+      </h3>
+    </div>
+    <div
+      class="date-wrapper"
+    >
+      <h1
+        class="day"
+      >
+        24
+      </h1>
+      <h3
+        class="week-name"
+      >
+        Wednesday
+      </h3>
+    </div>
+  </div>
+</div>
+`;

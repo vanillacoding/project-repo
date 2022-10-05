@@ -1,0 +1,36 @@
+.container > canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1600px;
+  height: 900px;
+}
+
+@media screen and (min-height: 1080px) {
+  .container > canvas {
+    width: 1920px;
+    height: 1080px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container > canvas {
+    width: 320px;
+    height: 180px;
+  }
+}
+
+@media screen and (min-width:480px) and (max-width:800px) {
+  .container > canvas {
+    width: 560px;
+    height: 315px;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width:1300px) {
+  .container > canvas {
+    width: 960px;
+    height: 540px;
+  }
+}

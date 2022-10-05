@@ -1,0 +1,48 @@
+$primary-color: #333;
+$main-color: #ee1289;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: $main-color;
+  color: white;
+  font-size: 20px;
+  padding: 12px;
+  border: 0;
+}
+
+body {
+  background: #222;
+  font-family: 'Lato', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.AppHeader {
+  width: 100%;
+  height: 200px;
+  padding-top: 100px;
+}
+
+.infoText {
+  color: $main-color;
+}
+
+.boardSection {
+  width: calc(100% - 250px);
+}
+
+.panelSection {
+  position: fixed;
+  width: 240px;
+  height: 100%;
+  right: 0;
+  border-top: 2px solid $main-color;
+  border-left: 2px solid $main-color;
+}

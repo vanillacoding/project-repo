@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdoptCard component test renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "column",
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "column",
+      }
+    }
+  >
+    <Image
+      source={1}
+      style={
+        Object {
+          "height": 20,
+          "top": 12,
+          "width": "40%",
+          "zIndex": 1,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#CCCCCC",
+          "borderRadius": 10,
+          "height": 150,
+          "width": "90%",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": undefined,
+          }
+        }
+        style={
+          Object {
+            "aspectRatio": 1,
+            "borderRadius": 10,
+            "height": undefined,
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+  </View>
+  <Text
+    style={
+      Object {
+        "alignSelf": "flex-start",
+        "height": 20,
+        "marginTop": 10,
+        "padding": 20,
+      }
+    }
+  >
+    name
+  </Text>
+  <Text
+    style={
+      Object {
+        "alignSelf": "flex-start",
+        "height": 20,
+        "padding": 20,
+        "paddingTop": 6,
+      }
+    }
+  >
+    owner name
+    님
+  </Text>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "backgroundColor": "#CCCCCC",
+        "height": 1,
+        "width": "80%",
+      }
+    }
+  />
+</View>
+`;

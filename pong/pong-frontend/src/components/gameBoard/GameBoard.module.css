@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.canvas {
+  background-image: url("../../assets/images/gameboardBackground.jpeg");
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #FFFFFF;
+  border-radius: 2px;
+  outline: none;
+}

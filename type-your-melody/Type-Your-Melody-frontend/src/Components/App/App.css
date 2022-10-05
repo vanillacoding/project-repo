@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.Header {
+  margin: 20px 10px 30px 10px;
+}
+
+.Title-text {
+  font-family: 'Abril Fatface';
+  width: 65%;
+  float: left;
+  font-size: 40px;
+  margin: 0px 0px 30px 0px;
+}
+
+.text {
+  float: right;
+}
+
+.User {
+  float: right;
+  width: 35%;
+}
+
+.Login-pop {
+  display: inline-block;
+  padding: 0px 20px 0px 20px;
+}
+
+.User-pop {
+  display: inline-block;
+}
+
+.Login {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  float: right;
+  width: auto;
+  height: auto;
+  background: #B300B3;
+  color: white;
+  border-radius: 20px;
+}
+
+.googleBtn {
+  background: none;
+  border: none;
+  align-items: middle;
+}
+
+.googleLogo {
+  display: inline-block;
+  width: 40px;
+}
+
+.googleText {
+  display: table-cell;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: gray;
+  font-size: 15px;
+}
+
+.MyPhoto {
+  border-radius: 50%;
+  float: right;
+  width: 50px;
+}
+
+.MyInfo {
+  font-family: 'Roboto';
+}
+
+.MyPhoto:hover, .googleBtn:hover, .Login:hover {
+  cursor: pointer;
+}
+
+.Piano {
+  display: inline-block;
+}
+
+.Etc {
+  float: right;
+  height: 30px;
+}
+
+.Help {
+  width: 20px;
+  display: inline-block;
+  margin: 0px 0px 0px 10px;
+}
+
+.Description {
+  font-family: 'Nanum Myeongjo';
+  font-size: 15px;
+  text-align: left;
+  z-index: -1;
+}

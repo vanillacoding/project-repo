@@ -1,0 +1,346 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LocationScreen /> snapshot test 1`] = `
+<RNCSafeAreaView
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#EBEFF5",
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontFamily": undefined,
+        "fontSize": 24,
+        "height": 200.1,
+        "marginTop": 100,
+        "textAlign": "center",
+        "textAlignVertical": "center",
+        "width": 600,
+      }
+    }
+  >
+    동네 두개를 골라주세요
+  </Text>
+  <View
+    style={
+      Object {
+        "height": 133.4,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      adjustFrame={[Function]}
+      animated={true}
+      defaultIndex={-1}
+      defaultValue="동네 1"
+      disabled={false}
+      dropdownStyle={
+        Object {
+          "height": 0,
+          "width": 375,
+        }
+      }
+      dropdownTextStyle={
+        Object {
+          "color": "black",
+          "fontFamily": "NotoSansKR_300Light",
+          "fontSize": 14,
+          "height": 24,
+          "includeFontPadding": false,
+          "marginVertical": 5,
+          "paddingVertical": 0,
+          "textAlign": "center",
+          "textAlignVertical": "center",
+        }
+      }
+      isFullWidth={false}
+      keyboardShouldPersistTaps="never"
+      multipleSelect={false}
+      onSelect={[Function]}
+      options={Array []}
+      renderButtonComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        }
+      }
+      renderRightComponent={[Function]}
+      renderRowComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        }
+      }
+      scrollEnabled={true}
+      showsVerticalScrollIndicator={true}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 5,
+          "height": 80.03999999999999,
+          "justifyContent": "center",
+          "width": 375,
+        }
+      }
+      testID="modal-drop-down"
+      textStyle={
+        Object {
+          "color": undefined,
+          "fontFamily": "NotoSansKR_400Regular",
+          "fontSize": 14,
+          "height": 80.03999999999999,
+          "includeFontPadding": false,
+          "textAlign": "center",
+          "textAlignVertical": "center",
+          "width": 375,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        forwardedRef={[Function]}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Array [
+                Object {
+                  "fontSize": 12,
+                },
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontFamily": "NotoSansKR_400Regular",
+                    "fontSize": 14,
+                    "height": 80.03999999999999,
+                    "includeFontPadding": false,
+                    "textAlign": "center",
+                    "textAlignVertical": "center",
+                    "width": 375,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            동네 1
+          </Text>
+          <View />
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "height": 133.4,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      adjustFrame={[Function]}
+      animated={true}
+      defaultIndex={-1}
+      defaultValue="동네 2"
+      disabled={false}
+      dropdownStyle={
+        Object {
+          "height": 0,
+          "width": 375,
+        }
+      }
+      dropdownTextStyle={
+        Object {
+          "color": "black",
+          "fontFamily": "NotoSansKR_300Light",
+          "fontSize": 14,
+          "height": 24,
+          "includeFontPadding": false,
+          "marginVertical": 5,
+          "paddingVertical": 0,
+          "textAlign": "center",
+          "textAlignVertical": "center",
+        }
+      }
+      isFullWidth={false}
+      keyboardShouldPersistTaps="never"
+      multipleSelect={false}
+      onSelect={[Function]}
+      options={Array []}
+      renderButtonComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        }
+      }
+      renderRightComponent={[Function]}
+      renderRowComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        }
+      }
+      scrollEnabled={true}
+      showsVerticalScrollIndicator={true}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 5,
+          "height": 80.03999999999999,
+          "justifyContent": "center",
+          "width": 375,
+        }
+      }
+      testID="modal-drop-down"
+      textStyle={
+        Object {
+          "color": undefined,
+          "fontFamily": "NotoSansKR_400Regular",
+          "fontSize": 14,
+          "height": 80.03999999999999,
+          "includeFontPadding": false,
+          "textAlign": "center",
+          "textAlignVertical": "center",
+          "width": 375,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        forwardedRef={[Function]}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Array [
+                Object {
+                  "fontSize": 12,
+                },
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontFamily": "NotoSansKR_400Regular",
+                    "fontSize": 14,
+                    "height": 80.03999999999999,
+                    "includeFontPadding": false,
+                    "textAlign": "center",
+                    "textAlignVertical": "center",
+                    "width": 375,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            동네 2
+          </Text>
+          <View />
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "height": 133.4,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#283593",
+          "borderRadius": 10,
+          "height": 80.03999999999999,
+          "justifyContent": "center",
+          "marginBottom": undefined,
+          "marginLeft": undefined,
+          "marginRight": undefined,
+          "marginTop": undefined,
+          "opacity": 1,
+          "width": 375,
+        }
+      }
+      testID="custom-button"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "NotoSansKR_400Regular",
+            "fontSize": 18,
+            "height": "100%",
+            "includeFontPadding": false,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+            "width": "100%",
+          }
+        }
+      >
+        등록하기
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaView>
+`;

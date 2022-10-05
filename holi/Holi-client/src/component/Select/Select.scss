@@ -1,0 +1,46 @@
+@import '../variables';
+@import '../mixin';
+
+.select-wrap {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+
+  select {
+    border: 0;
+    background: $grayF3;
+    font-size: 14px;
+  }
+}
+
+@include desktop {
+  select {
+    width: 90px;
+    height: 35px;
+    margin-right: 10px;
+  }
+}
+
+@include tablet {
+  select {
+    width: 90px;
+    height: 35px;
+    margin-right: 10px;
+  }
+}
+
+@include mobile {
+  .select-wrap {
+    width: calc(100% - 60px);
+
+    select {
+      width: calc(100% / 3 - 4px);
+      height: 30px;
+    
+
+      &:not(:last-of-type) {
+        margin-right: 5px;
+      }
+    }
+  }
+}

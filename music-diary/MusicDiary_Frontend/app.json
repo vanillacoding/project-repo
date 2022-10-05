@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "MusicDiary_Frontend",
+    "slug": "MusicDiary_Frontend",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "musicdiary",
+    "icon": "./assets/logo.png",
+    "splash": {
+      "image": "./assets/new_blue.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hyerichung.musicDiary",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    }
+  }
+}

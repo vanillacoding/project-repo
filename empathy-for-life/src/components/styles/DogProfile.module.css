@@ -1,0 +1,72 @@
+@value (
+  mainBlack,
+  mainWhite,
+  defaultBorderRadius
+) from "./variables.css";
+
+.informationContainer {
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+  font-family: "neodgm", sans-serif;
+  color: mainWhite;
+}
+.loading {
+  width: 50%;
+  margin-left: 25%;
+  object-fit: scale-down;
+}
+
+.closeButton {
+  position: absolute;
+  right: 3%;
+  top: 2%;
+}
+
+.popUpContainer {
+  color: mainBlack;
+}
+
+.profilePhoto {
+  width: 25vh;
+  height: 25vh;
+  object-fit: cover;
+  border-radius: defaultBorderRadius;
+  margin-left: 2%;
+  margin-top: 2%;
+  background-color: mainWhite;
+  visibility: hidden;
+}
+
+.descriptionList {
+  width: 50%;
+  height: 100%;
+  margin-top: 3%;
+  margin-bottom: 10%;
+  margin-left: 3%;
+}
+
+.descriptionTitle {
+  font-size: 2.2vh;
+}
+
+.descriptionContent {
+  font-size: 1.6vh;
+  margin: 3% 0 5% 3.5%;
+}
+
+.content {
+  width: 25vh;
+  height: 38%;
+  position: absolute;
+  left: 2.5%;
+  bottom: 5%;
+  overflow: auto;
+  font-size: 2vh;
+  text-align: justify;
+  line-height: 130%;
+  white-space: pre-wrap;
+}

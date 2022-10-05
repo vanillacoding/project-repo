@@ -1,0 +1,38 @@
+{
+  "name": "catch-me",
+  "version": "0.0.0",
+  "repository": "https://github.com/CHEWCHEWW/CatchMe-client",
+  "author": "Jieun Min <chewchewchew3@gmail.com>",
+  "scripts": {
+    "start": "parcel src/index.html -p 3000 --open",
+    "build": "parcel build src/index.html --out-dir dist"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.5.1",
+    "phaser": "^3.54.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-toast-notifications": "^2.4.4",
+    "redux": "^4.1.0",
+    "redux-logger": "^3.0.6",
+    "socket.io-client": "^4.1.1",
+    "styled-components": "^5.3.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-clean-easy": "^1.0.2",
+    "parcel-plugin-static-files-copy": "^2.6.0"
+  },
+  "staticFiles": {
+    "staticPath": "public",
+    "watcherGlob": "**"
+  },
+  "parcelCleanPaths": [
+    "dist"
+  ],
+  "browserslist": [
+    "since 2017-06"
+  ]
+}

@@ -1,0 +1,24 @@
+.PeerVideoWrapper {
+  position: relative;
+}
+
+.PeerVideo {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+}
+
+.Canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+}

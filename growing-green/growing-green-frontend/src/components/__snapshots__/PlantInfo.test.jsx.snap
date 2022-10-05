@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PlantInfo> matches snapshot 1`] = `
+<div>
+  <div
+    class="sc-bdvvtL fMRptz"
+  >
+    <h3
+      class="info-item"
+    >
+      식물 정보
+    </h3>
+    <p
+      class="info-item"
+    >
+      이름: 
+      장미
+    </p>
+    <p
+      class="info-item"
+    >
+      학명: 
+      Rosaceae 로사케아이
+    </p>
+    <p
+      class="info-item"
+    >
+      과: 
+      장미과
+    </p>
+    <p
+      class="info-item"
+    >
+      물주기: 
+      5
+      일
+    </p>
+    <p
+      class="info-item"
+    >
+      광도: 
+      양지 식물
+    </p>
+  </div>
+</div>
+`;

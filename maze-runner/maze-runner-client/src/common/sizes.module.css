@@ -1,0 +1,11 @@
+/* header layout */
+@value headerHeight: 5rem;
+@value nodeInfoHeight: 4rem;
+@value selectedOptionInfoHeight: 4rem;
+
+/* nodes */
+@value nodeWidth: 35px;
+@value nodeHeight: 35px;
+
+/* media queries */
+@value mediaQuery: 48rem;

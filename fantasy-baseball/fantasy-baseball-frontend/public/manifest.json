@@ -1,0 +1,26 @@
+{
+  "short_name": "Fantasy Baseball",
+  "name": "Fantasy Baseball",
+  "description": "Fantasy Baseball with betting virtual money",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0f4cd9",
+  "background_color": "#1a1d23"
+}

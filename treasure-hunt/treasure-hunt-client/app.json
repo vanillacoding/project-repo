@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "treasure-hunt",
+    "slug": "treasure-hunt",
+    "privacy": "public",
+    "sdkVersion": "37.0.0",
+    "platforms": [
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "splash": {
+      "image": "./assets/gold.png",
+      "resizeMode": "cover"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.minsun.treasure_hunt",
+      "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": "<YOUR_GOOGLE_MAP_KEY>"
+        }
+      }
+    }
+  }
+}

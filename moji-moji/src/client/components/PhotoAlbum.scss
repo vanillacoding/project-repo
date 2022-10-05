@@ -1,0 +1,47 @@
+.PhotoAlbum {
+  text-align: center;
+  margin: 20px;
+  color: white;
+
+  &__message {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  &__list {
+    text-align: center;
+    padding: 0;
+    list-style: none;
+
+    &__item {
+      display: inline-block;
+      overflow: hidden;
+      width: 120px;
+      height: 120px;
+      margin: 20px;
+      border-radius: 5px;
+      cursor: pointer;
+
+      img {
+        height: 120px;
+      }
+    }
+  }
+
+  &__photo-active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    img {
+      height: 50%;
+      border-radius: 10px;
+    }
+  }
+}

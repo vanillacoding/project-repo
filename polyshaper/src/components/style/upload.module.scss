@@ -1,0 +1,34 @@
+@import './app.module.scss';
+
+.filedrop {
+  width: 700px;
+  border: 4px dashed white;
+  color: white;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.filedrop-on {
+  width: 700px;
+  border: 4px dashed $main-color;
+  color: white;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+input[type="file"] + label {
+  display: block;
+  width: 225px;
+  margin: 30px auto 0;
+  padding: 14px;
+  transition: all .1s;
+  background: $main-color;
+}
+
+input[type="file"] + label:hover {
+  background: deeppink;
+}

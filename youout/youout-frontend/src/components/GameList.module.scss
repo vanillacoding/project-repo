@@ -1,0 +1,45 @@
+@import '../styles/theme.module.scss';
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: $main-color;
+
+  .gameContainer {
+    padding-top: 3vh;
+    padding-bottom: 10vh;
+    border-radius: 20px 20px 0 0;
+    background-color: $light-beige;
+  }
+
+  .noRoomMessage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+
+    span {
+      font-size: $font-size-4;
+    }
+  }
+}
+
+.addressContainer {
+  margin: 5vh 5vw 3vh 5vw;
+  font-size: $font-size-3;
+
+  h4 {
+    margin: 1vh 0;
+    width: 90%;
+    border-radius: 20px;
+    background-color: $yellow;
+    color: $brown;
+    text-align: center;
+  }
+
+  p {
+    color: $light-yellow;
+  }
+}

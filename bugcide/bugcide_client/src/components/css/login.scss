@@ -1,0 +1,43 @@
+@import 'variables';
+
+.login-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  .main-banner,
+  .login-box {
+    width: 50%;
+  }
+  .logo {
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  .main-banner {
+    background: $pink url('../img/main_banner.svg') no-repeat center / 130%;
+  }
+}
+.login-box {
+  display: flex;
+  padding: 0 80px;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  background: $dark-blue;
+  .title {
+    font-weight: 700;
+    line-height: 1.3;
+    font-size: 80px;
+    margin-bottom: 15px;
+  }
+  .desc {
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  .btn-basic {
+    margin-top: 100px;
+  }
+  .link-icon-box {
+    margin-top: 50px;
+  }
+}

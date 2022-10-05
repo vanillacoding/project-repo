@@ -1,0 +1,24 @@
+@import '../styles/theme.module.scss';
+
+.container {
+  width: 90vw;
+  height: 4vh;
+  margin-bottom: 1vw;
+  border: 2px solid $black;
+  border-radius: 15px;
+  font-size: $font-size-2;
+  text-align: center;
+  line-height: 4vh;
+  transition: transform .6s ease-in-out;
+  animation: toast-in-left .7s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes toast-in-left {
+	from {
+		transform: translateX(-100%);
+	}
+	to {
+		transform: translateX(-50%);
+	}
+}

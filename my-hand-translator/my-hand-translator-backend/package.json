@@ -1,0 +1,57 @@
+{
+  "name": "my-hand-translator-backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "pre-commit": "lint-staged && rm -rf .git/hooks && ln -s ../.husky .git/hooks",
+    "prepare": "husky install",
+    "dev": "cross-env NODE_ENV=development nodemon ./bin/www.js",
+    "test": "mocha --file test/setup.js test/*/*.test.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "email-validator": "^2.0.4",
+    "express": "~4.16.1",
+    "google-auth-library": "^7.9.1",
+    "googleapis": "^85.0.0",
+    "http-errors": "~1.6.3",
+    "mongoose": "^6.0.4",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.1",
+    "sinon": "^11.1.2",
+    "supertest": "^6.1.6",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "husky": "^7.0.0",
+    "lint-staged": "^10.0.0-1",
+    "nodemon": "^2.0.12",
+    "prettier": "2.3.2"
+  },
+  "lint-staged": {
+    "**/*.{js, jsx, html, css, json}": [
+      "prettier --write .",
+      "eslint --fix .",
+      "git add"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

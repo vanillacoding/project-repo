@@ -1,0 +1,21 @@
+@value mainBlack, mainWhite from "./variables.css";
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: mainWhite;
+}
+
+.title {
+  font-family: "neodgm", sans-serif;
+  font-size: 8vw;
+  color: mainBlack;
+}
+
+.mainImage {
+  width: 100vw;
+}

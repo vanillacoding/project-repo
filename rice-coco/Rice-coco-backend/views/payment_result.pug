@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  head
+    link(rel="stylesheet", href="/stylesheets/payment_result.css")
+
+  h1=message
+
+  if status === 'success'
+    p #{nickname} 님의 프로미스가 #{purchasedPromise}개 구매 완료 되었습니다!
+    p 구매 이후 잔여 프로미스는 #{promise} 개 입니다.

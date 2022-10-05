@@ -1,0 +1,59 @@
+{
+  "frames": {
+    "guestPlayerBeHit_01.png": {
+      "frame": {
+        "x": 1,
+        "y": 637,
+        "w": 490,
+        "h": 599
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 146,
+        "y": 114,
+        "w": 490,
+        "h": 599
+      },
+      "sourceSize": {
+        "w": 828,
+        "h": 828
+      }
+    },
+    "guestPlayerBeHit_02.png": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 510,
+        "h": 634
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 163,
+        "y": 64,
+        "w": 510,
+        "h": 634
+      },
+      "sourceSize": {
+        "w": 828,
+        "h": 828
+      }
+    }
+  },
+  "animations": {
+    "guestPlayerBeHit": ["guestPlayerBeHit_01.png", "guestPlayerBeHit_02.png"]
+  },
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "beHit.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 512,
+      "h": 1237
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:94d4a6b92009372f14710f809d3a4f2d:249098604df80dc21d4f28c6b4e35269:d5574a87d8dc1efe69eb40879afd8922$"
+  }
+}

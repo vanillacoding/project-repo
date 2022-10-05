@@ -1,0 +1,26 @@
+.Button {
+  &.main-btn {
+    text-align: center;
+    width: 12rem;
+    margin-top: 20px;
+    padding: 0.8rem;
+    font-size: 1.4rem;
+    color: rgb(190, 190, 190);
+    border: 0.1px solid transparent;
+    box-shadow: 0 0 0.2rem #fff, inset 0 0 0.2rem #fff, 0 0 0.5rem #08f,
+      inset 0 0 0.5rem #08f, 0 0 1rem #08f, inset 0 0 1rem #08f;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      border: 0.1px solid #fff;
+      color: #fff;
+      box-shadow: 0 0 0.5rem #fff, inset 0 0 0.5rem #fff, 0 0 1rem #08f,
+        inset 0 0 1rem #08f, 0 0 2rem #08f, inset 0 0 2rem #08f;
+    }
+
+    &:active {
+      transform: translateY(1px);
+    }
+  }
+}

@@ -1,0 +1,70 @@
+.MyRoom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #e9d2d2;
+  font-size: 20px;
+  text-align: center;
+}
+
+.RoomsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 95%;
+  height: 80%;
+  border: 1px solid #8e8e93;
+  border-radius: 5px;
+  font-weight: 250;
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  overflow: scroll;
+  padding-top: 50px;
+}
+
+.Title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 10%;
+  font-size: 2em;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.RoomNameInput {
+  /*?*/
+  width: 400px;
+  height: 40px;
+  border: 1px solid #c9d3dd;
+  background: red;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.AddRoomButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #46b8da;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin-top: 30px;
+}
+
+.AddRoomButton:hover {
+  background: #46b8da;
+  color: white;
+}

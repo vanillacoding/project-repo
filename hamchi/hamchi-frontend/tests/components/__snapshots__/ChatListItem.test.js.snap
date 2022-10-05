@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`chat list item test renders correctly 1`] = `
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignSelf": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": 14,
+      "flexDirection": "row",
+      "height": 70,
+      "justifyContent": "space-between",
+      "marginTop": 10,
+      "padding": 10,
+      "width": "95%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 5,
+        "justifyContent": "space-around",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 16,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      test user
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "grey",
+          "fontSize": 14,
+        }
+      }
+    >
+      test last message
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "grey",
+          "fontSize": 14,
+        }
+      }
+    >
+      5월 26일
+    </Text>
+  </View>
+</View>
+`;

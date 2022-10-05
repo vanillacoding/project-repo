@@ -1,0 +1,11 @@
+export const SUCCESS = 'SUCCESS';
+export const LOGIN_DATA = 'LOGIN_DATA';
+export const LOGIN_TOKEN = 'LOGIN_TOKEN';
+export const LOCATION_TRACKING = 'location-tracking';
+export const ALERT_NUMBER_OF_POSSIBLE_IMAGE_UPLOADS = '사진은 5개까지 업로드 가능합니다.';
+export const ALERT_FACEBOOK_LOGIN_ERROR = 'Try to login again!';
+export const ALERT_SET_PERMISSION = '접근 권한을 설정해주세요';
+export const ALERT_FAIL_NOTIFICATION = 'Failed to get push token for push notification';
+export const ALERT_USE_PHYSICAL_DEVICE = 'Must use physical device for push notifications';
+export const NOTIFICATION_TITLE = '이 근처 당신의 사진이 \"꽂\" 혔습니다.';
+export const NOTIFICATION_MESSAGE = '여기서의 추억을 기억하시나요?';

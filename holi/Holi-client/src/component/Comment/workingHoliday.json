@@ -1,0 +1,172 @@
+[
+  {
+    
+    "id": 1,
+    "continent": "europe",
+    "country": "netherlands",
+    "age_limit": 30,
+    "application_period": ["10"]
+  },
+  {
+    "id": 2,
+    "continent": "europe",
+    "country": "belgium",
+    "age_limit": 30,
+    "application_period": ["상시"]
+  },
+  {
+    "id": 3,
+    "continent": "europe",
+    "country": "denmark",
+    "age_limit": 30,
+    "application_period": ["상시"]
+  },
+  {
+    "id": 4,
+    "continent": "europe",
+    "country": "poland",
+    "age_limit": 31,
+    "application_period": ["상시"]
+  },
+  {
+    "id": 5,
+    "continent": "europe",
+    "country": "sweden",
+    "age_limit": 30,
+    "application_period": ["상시"]
+  },
+  {
+    "id": 6,
+    "continent": "europe",
+    "country": "czechia",
+    "age_limit": 30,
+    "application_period": ["상시"]
+  },
+  {
+    "id": 7,
+    "continent": "europe",
+    "country": "austria",
+    "age_limit": 30,
+    "application_period": ["상시"]
+  },
+  {
+    "id": 8,
+    "continent": "europe",
+    "country": "hungary",
+    "age_limit": 30,
+    "application_period": ["상시"]
+  },
+  {
+    "id": 9,
+    "continent": "europe",
+    "country": "germany",
+    "age_limit": 30,
+    "application_period": ["상시"]
+  },
+  {
+    "id": 10,
+    "continent": "europe",
+    "country": "ireland",
+    "age_limit": 30,
+    "application_period": ["4", "10"]
+  },
+  {
+    "id": 11,
+    "continent": "europe",
+    "country": "united-kingdom",
+    "age_limit": 30,
+    "application_period": ["2", "7"]
+  },
+  {
+    "id": 12,
+    "continent": "europe",
+    "country": "france",
+    "age_limit": 31,
+    "application_period": ["상시"]
+  },
+  {
+    "id": 13,
+    "continent": "europe",
+    "country": "portugal",
+    "age_limit": 30,
+    "application_period": ["상시"]
+  },
+  {
+    "id": 14,
+    "continent": "europe",
+    "country": "spain",
+    "age_limit": 30,
+    "application_period": ["상시"]
+  },
+  {
+    "id": 15,
+    "continent": "europe",
+    "country": "italy",
+    "age_limit": 30,
+    "application_period": ["상시"]
+  },
+
+  {
+    "id": 16,
+    "continent": "asia",
+    "country": "israel",
+    "age_limit": 30,
+    "application_period": ["상시"]
+  },
+  {
+    "id": 17,
+    "continent": "asia",
+    "country": "taiwan",
+    "age_limit": 30,
+    "application_period": ["상시"]
+  },
+  {
+    "id": 18,
+    "continent": "asia",
+    "country": "hong-kong",
+    "age_limit": 30,
+    "application_period": ["상시"]
+  },
+  {
+    "id": 19,
+    "continent": "asia",
+    "country": "japan",
+    "age_limit": 25,
+    "application_period": ["1", "4", "7", "10"]
+  },
+  {
+    "id": 20,
+    "continent": "oceania",
+    "country": "australia",
+    "age_limit": 30,
+    "application_period": ["상시"]
+  },
+  {
+    "id": 21,
+    "continent": "oceania",
+    "country": "new-zealand",
+    "age_limit": 30,
+    "application_period": ["5"]
+  },
+  {
+    "id": 22,
+    "continent": "america",
+    "country": "canada",
+    "age_limit": 30,
+    "application_period": ["11"]
+  },
+  {
+    "id": 23,
+    "continent": "america",
+    "country": "chile",
+    "age_limit": 30,
+    "application_period": ["상시"]
+  },
+  {
+    "id": 24,
+    "continent": "america",
+    "country": "argentina",
+    "age_limit": 30,
+    "application_period": ["상시"]
+  }
+]

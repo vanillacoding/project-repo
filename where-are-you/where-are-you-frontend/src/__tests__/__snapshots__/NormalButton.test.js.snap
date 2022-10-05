@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NormalButton matches snapshot 1`] = `
+<div>
+  <button
+    class="sc-hKFxyN cEASwB"
+    color="black"
+    name="버튼"
+    type="button"
+  >
+    <span>
+      버튼
+    </span>
+  </button>
+</div>
+`;

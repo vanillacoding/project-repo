@@ -1,0 +1,48 @@
+@import '../styles/theme.module.scss';
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+  background-color: $main-color;
+  font-size: $font-size-3;
+
+  .title {
+    width: 60vw;
+    margin: 5vh 0;
+    border: 2px solid $brown;
+    border-radius: 20px;
+    background-color: $yellow;
+    font-size: $font-size-3;
+    text-align: center;
+  }
+
+  .gameName {
+    background-color: $light-beige;
+    padding: 3vw;
+    border-radius: 20px;
+    border-bottom: 2px dashed $brown;
+  }
+
+  .players {
+    background-color: $light-beige;
+    padding: 3vw;
+    border-radius: 20px;
+
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 2px dashed $light-brown;
+      color: $brown;
+      font-size: $font-size-2;
+
+      img {
+        width: 40px;
+        margin: 10px;
+        border-radius: 20px;
+      }
+    }
+  }
+}

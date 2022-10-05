@@ -1,0 +1,29 @@
+@value makerMagenta from '../../common/colors.css';
+
+.NodeType {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 10px;
+}
+
+.ClickableNode {
+  cursor: pointer;
+}
+
+.NodeTypeImage {
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 1rem;
+  margin-right: 0.25rem;
+}
+
+@media screen and (max-width: 48rem) {
+  .NodeTypeTitle {
+    display: none;
+  }
+}
+
+.SelectedJamNodeType {
+  color: makerMagenta;
+}

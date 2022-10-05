@@ -1,0 +1,21 @@
+{
+  "extends": "stylelint-config-recommended",
+  "rules": {
+    "color-no-invalid-hex": true,
+    "color-hex-case": [
+      "lower",
+      {
+        "message": "Lowercase letters are easier to distinguish from numbers"
+      }
+    ],
+    "indentation": [
+      2,
+      {
+        "except": ["block"],
+        "message": "Please use 2 spaces for indentation.",
+        "severity": "warning"
+      }
+    ]
+  },
+  "ignoreFiles": ["**/*.js"]
+}

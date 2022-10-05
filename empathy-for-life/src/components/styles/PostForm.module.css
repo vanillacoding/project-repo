@@ -1,0 +1,119 @@
+@value mainWhite from "./variables.css";
+
+.container {
+  width: 100%;
+  position: relative;
+  font-family: "neodgm";
+  color: mainWhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.popUp {
+  max-width: 50%;
+  padding: 10%;
+  margin-top: 50%;
+  position: absolute;
+  overflow-wrap: break-word;
+  z-index: 1;
+}
+
+.header {
+  width: 100%;
+  position: relative;
+}
+
+.CloseButtonContainer {
+  position: absolute;
+  top: 5%;
+  right: 3%;
+}
+
+.inputButtonsContainer {
+  width: 80%;
+  height: 4vh;
+  margin: 0.5vh 0 1vh 0;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.button {
+  width: 6vh;
+  font-size: 1.5vh;
+}
+
+.form {
+  width: 100%;
+  margin-top: 1%;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.selectLabel {
+  width: 100%;
+  margin-top: 1vh;
+  margin-left: 10%;
+  display: flex;
+  font-size: 1.3vw;
+}
+
+.select {
+  width: 8vw;
+  height: 10vh;
+  margin-left: 4vh;
+  padding: 1%;
+  font-family: "neodgm";
+}
+
+.select:focus {
+  outline: none;
+}
+
+.photoInput {
+  border: none;
+  position: relative;
+  right: 8%;
+}
+
+.photoInputLabel {
+  width: 20%;
+  margin-left: 13%;
+}
+
+.photoContainer {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+}
+
+.photo {
+  width: 42vh;
+  height: 42vh;
+  margin-top: 0.5vh;
+  object-fit: cover;
+}
+
+.textarea {
+  min-width: 95%;
+  max-width: 95%;
+  height: 30vh;
+  min-height: 30vh;
+  max-height: 30vh;
+  padding: 1vw;
+  border: defaultBorderWidth solid mainBlack;
+  border-radius: defaultBorderRadius;
+  margin-top: 5%;
+  box-sizing: border-box;
+  font-family: "neodgm";
+  line-height: 140%;
+}
+
+.textarea:focus {
+  outline: none;
+}

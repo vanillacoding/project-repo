@@ -1,0 +1,46 @@
+.Container {
+  width: 50%;
+  border-radius: 0;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 1vh;
+  right: 1vh;
+}
+
+.closeButton {
+  position: absolute;
+  top: 3%;
+  right: 5%;
+}
+
+.popUp {
+  width: 12vh;
+  padding: 4vh;
+  margin-top: 2vh;
+  overflow-wrap: break-word;
+  z-index: 1;
+}
+
+.board {
+  width: 50%;
+  height: 6vh;
+  margin: 1vh 0;
+  font-size: 2vh;
+  cursor: pointer;
+}
+
+.board:active {
+  color: rgba(250, 250, 250, 0.8);
+}
+
+.board:last-child {
+  margin-bottom: 2vh;
+}
+
+.bar {
+  width: 100%;
+  margin-bottom: 1vh;
+}

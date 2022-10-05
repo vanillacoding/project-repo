@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <% if (loggedIn) { %>
+      <form action="/api/auth/logout" method="GET">
+        <input type="submit" value="logout" />
+      </form>
+    <% } %>
+    <p>Welcome to <%= title %></p>
+  </body>
+</html>

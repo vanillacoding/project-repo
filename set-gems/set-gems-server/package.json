@@ -1,0 +1,54 @@
+{
+  "name": "set-gems-server",
+  "version": "1.0.0",
+  "description": "SET GEMS Server Side",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "cross-env NODE_ENV=development nodemon ./src/server.js",
+    "simple-git-hooks": "simple-git-hooks",
+    "postinstall": "npm run simple-git-hooks",
+    "lint-staged": "lint-staged",
+    "test": "cross-env NODE_ENV=test jest --runInBand --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SET-GEMS/set-gems-server.git"
+  },
+  "author": "JeongSeon Park",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SET-GEMS/set-gems-server/issues"
+  },
+  "homepage": "https://github.com/SET-GEMS/set-gems-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.2",
+    "mongoose": "^6.0.8",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.32.0",
+    "husky": "^7.0.2",
+    "jest": "^27.2.5",
+    "lint-staged": "^11.1.2",
+    "mongodb-memory-server": "^7.4.3",
+    "nodemon": "^2.0.13",
+    "simple-git-hooks": "^2.6.1",
+    "socket.io-client": "^4.2.0",
+    "supertest": "^6.1.6"
+  },
+  "simple-git-hooks": {
+    "pre-push": "git branch | grep \"*\" | egrep -v \"^\\* main$\"",
+    "pre-commit": "npm run lint-staged"
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix"
+  }
+}

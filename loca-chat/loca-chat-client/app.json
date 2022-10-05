@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "HelloWorld",
+    "slug": "loca-chat",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#292961"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.locaChat.project",
+      "config": {
+        "googleMaps": { "apiKey": "AIzaSyBclGT7oARS-l1meMnxq3E3_2nDli53gdU" }
+      },
+      "versionCode": 1
+    }
+  }
+}

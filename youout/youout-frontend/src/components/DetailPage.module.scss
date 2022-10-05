@@ -1,0 +1,30 @@
+@import '../styles/theme.module.scss';
+
+.detailContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: $main-color;
+
+  .text {
+    margin: 20px;
+    background-color: $yellow;
+    border-radius: 20px;
+    text-align: center;
+    font-size: $font-size-3;
+  }
+
+  .list {
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 60px;
+      margin: 10px;
+      border-bottom: 5px solid $brown;
+      background: $white;
+      color: $brown;
+      font-size: $font-size-2;
+    }
+  }
+}

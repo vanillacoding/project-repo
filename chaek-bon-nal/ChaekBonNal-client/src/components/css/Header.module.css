@@ -1,0 +1,51 @@
+* {
+  box-sizing: inherit;
+}
+
+.container {
+  position: relative;
+  box-shadow: rgb(238, 238, 238) 0px 1px 0px 0px;
+  background: white;
+  font-family: "Helvetica Neue",Arial,sans-serif;
+  font-weight: 300;
+}
+
+.headerWraaper {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: relative;
+  width: 1200px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 5rem;
+  color: rgb(40, 42, 53);
+  margin: 0px auto;
+  font-size: 16px;
+}
+
+.headerWraaper .logo {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.headerWraaper .link {
+  margin-left: auto;
+  display: flex;
+}
+
+.logoutButton {
+  border: 0;
+  border-radius: 20px;
+  font-family: "Helvetica Neue",Arial,sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.headerWraaper .link > a:not(:last-child) {
+  margin-right: 20px;
+}
+

@@ -1,0 +1,169 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 1.5rem;
+
+  &__list {
+    padding: 1rem;
+    width: 28.5rem;
+    height: 4.1rem;
+    display: flex;
+    font-size: 1.2rem;
+    transition: all .2s;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    position: relative;
+    background-color: #eaeaea;
+    cursor: pointer;
+
+    &:hover {
+      color: rgb(58, 163, 242);
+    }
+
+    a {
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      color: rgba(0, 0, 0, 0.84);
+      user-select: none;
+    }
+
+    &:hover {
+      box-shadow: 2px 2px 10px 0 rgba(46, 61, 73, 0.1);
+      background-color: #ffffff;
+      transform: scale(1.005);
+
+      & .project__list--btn-delete {
+        transform: translateX(-1.5rem);
+        opacity: 1;
+      }
+    }
+
+    &--name {
+      transition: all .2s;
+    }
+
+    &--name {
+      margin-left: 3rem;
+    }
+
+    &--icon-arrow {
+      position: absolute;
+    }
+
+    &--btn-delete {
+      position: absolute;
+      right: 0rem;
+      top: 1.3rem;
+      transition: all .2s;
+      opacity: 0;
+    }
+  }
+}
+
+.new-project {
+
+  &__title {
+    font-size: 1.7rem;
+    height: 2.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  &__input {
+    height: 3rem;
+    margin-bottom: 1rem;
+    width: 45rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-left: 1rem;
+    letter-spacing: .7px;
+
+    &:focus {
+      outline: none;
+    }
+
+    &.name {
+      margin-bottom: 2rem;
+    }
+
+    &.origin {
+      &::placeholder {
+
+      }
+    }
+  }
+
+  &__description {
+    height: 3rem;
+    margin-bottom: 3rem;
+    width: 45rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 0 1.5rem;
+    display: block;
+  }
+}
+
+.popup__buttons {
+  display: flex;
+}
+
+.btn {
+  width: 10rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-1rem);
+  transition: all .2s;
+  user-select: none;
+
+  & span {
+    margin-left: 1rem;
+  }
+
+  &:hover {
+    color: rgb(3, 168, 124);
+  }
+}
+
+.popup-label {
+  font-size: 1.7rem;
+  margin-bottom: 1.7rem;
+  letter-spacing: 1px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.84);
+}
+
+.delete-modal-description {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.password {
+  height: 3.8rem;
+  width: 30rem;
+  font-size: 1.3rem;
+  padding-left: 1rem;
+  letter-spacing: .7px;
+  margin-bottom: 1rem;
+  font-weight: 300;
+
+  &:focus {
+    outline: none;
+  }
+}

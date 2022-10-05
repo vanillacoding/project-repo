@@ -1,0 +1,75 @@
+{
+  "frames": {
+    "clover_plant1.png": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 85,
+        "h": 100
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 85,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 85,
+        "h": 100
+      }
+    },
+    "clover_plant2.png": {
+      "frame": {
+        "x": 88,
+        "y": 1,
+        "w": 83,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 83,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 83,
+        "h": 130
+      }
+    },
+    "clover_plant3.png": {
+      "frame": {
+        "x": 173,
+        "y": 1,
+        "w": 121,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 121,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 121,
+        "h": 190
+      }
+    }
+  },
+  "meta": {
+    "app": "http://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "clover_plant.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 295,
+      "h": 192
+    },
+    "scale": "1"
+  }
+}

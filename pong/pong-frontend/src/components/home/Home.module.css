@@ -1,0 +1,82 @@
+.wrapper {
+  background-image: url("../../assets/images/main.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.contentsWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80vw;
+  height: 80vh;
+  margin-top: 10%;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+  height: 60px;
+  color: #f5cb5c;
+  font-size: 170px;
+  text-shadow: 6px 6px grey;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.startButton {
+  background-color: #EDF2F4;
+  padding: 15px 20px;
+  border: 5px solid #2f3542;
+  border-radius: 20px;
+  font-size: 30px;
+  font-family: 'PRESS START 2P', cursive;
+  cursor: pointer;
+}
+
+.googleButton {
+  background-color: #3F80EC;
+  padding: 15px 20px;
+  border: 5px solid #2f3542;
+  border-radius: 20px;
+  color: #F7F7F7;
+  font-size: 30px;
+  font-family: 'PRESS START 2P', cursive;
+  letter-spacing: -1px;
+  word-spacing: -16px;
+  cursor: pointer;
+}
+
+.googleButton img {
+  margin-right: 25px;
+  width: 35px;
+}
+
+.pressText {
+  margin-top: 30px;
+  font-size: 25px;
+  color: #f2f2f2;
+  animation: blink 1.5s steps(4, start) infinite;
+}
+
+@keyframes blink {
+  100% {
+    visibility: hidden;
+  }
+}

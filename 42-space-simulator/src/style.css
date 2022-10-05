@@ -1,0 +1,103 @@
+@font-face {
+  font-family: remington;
+  src: url("../static/fonts/remington-noiseless.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: berylium;
+  src: url("../static/fonts/berylium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: dot;
+  src: url("../static/fonts/dot.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow: hidden;
+  /* background-color: black; */
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.intro-text {
+  color: white;
+  font-size: 4rem;
+  font-family: remington;
+}
+
+.hidden {
+  display: none;
+}
+
+.counter {
+  color: white;
+  position: fixed;
+  font-family: dot;
+  font-size: 6rem;
+  top: 2rem;
+  left: 3rem;
+}
+
+.caption {
+  color: white;
+  position: fixed;
+  font-family: remington;
+  font-size: 2rem;
+  bottom: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.fadeIn {
+  animation: fadeIn 10s;
+  animation-fill-mode: forwards;
+}
+
+.fadeOut {
+  animation: fadeOut 0s;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

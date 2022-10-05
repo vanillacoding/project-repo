@@ -1,0 +1,60 @@
+{
+  "name": "todaktodak",
+  "description": "Talk about your concerns and sympathize!",
+  "version": "1.0.1",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@expo-google-fonts/nanum-brush-script": "^0.1.0",
+    "@expo/vector-icons": "^12.0.5",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/bottom-tabs": "^5.11.10",
+    "@react-navigation/native": "^5.9.4",
+    "@react-navigation/stack": "^5.14.4",
+    "@reduxjs/toolkit": "^1.5.1",
+    "@testing-library/react-native": "^7.2.0",
+    "expo": "~41.0.1",
+    "expo-app-loading": "^1.0.3",
+    "expo-asset": "^8.3.2",
+    "expo-font": "~9.1.0",
+    "expo-secure-store": "^10.1.0",
+    "expo-status-bar": "~1.0.4",
+    "lodash": "^4.17.21",
+    "lottie-react-native": "^4.0.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
+    "react-native-dotenv": "^2.5.5",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-keyboard-aware-scroll-view": "^0.9.4",
+    "react-native-picker-select": "^8.0.4",
+    "react-native-reanimated": "^2.1.0",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "^3.1.1",
+    "react-native-web": "~0.13.12",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "socket.io-client": "^4.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "jest-expo": "^41.0.0",
+    "react-test-renderer": "^17.0.2"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|@sentry/.*)"
+    ]
+  },
+  "private": true
+}

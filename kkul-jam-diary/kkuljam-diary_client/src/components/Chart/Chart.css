@@ -1,0 +1,61 @@
+.title {
+  margin: 30px 18px;
+}
+
+.text-deepPercent {
+  fill: white;
+}
+
+.text-duration-hours,
+.text-duration-minutes {
+fill: rgb(88, 230, 255);
+}
+
+.dailyWrapper {
+  position: relative;
+  width: 60px;
+  float: left;
+}
+
+.tooltip {
+  position: absolute;
+  float: right;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+}
+
+.axis {
+  font-size: 1em;
+}
+
+.term {
+  margin: 10px;
+  text-align: center;
+}
+
+.description {
+  margin: 20px;
+  text-align: center;
+  line-height: 1.6em;
+}
+
+.total {
+  margin-right: 1em;
+  color: rgb(88, 230, 255);
+}
+
+.light {
+  margin-right: 1em;
+  color: white;
+  background-color: #471FB3;
+}
+
+.deep {
+  margin-right: 1em;
+  color: white;
+  background-color: #2222bd;
+}

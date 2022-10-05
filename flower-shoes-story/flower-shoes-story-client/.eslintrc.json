@@ -1,0 +1,41 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["react-app"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "semi": "warn",
+    "eol-last": "warn",
+    "no-undef": "warn",
+    "no-console": "warn",
+    "no-multi-spaces": "warn",
+    "no-trailing-spaces": "warn",
+    "quotes": ["warn", "double"],
+    "comma-style": ["warn", "last"],
+    "no-multiple-empty-lines": [
+      "warn",
+      {
+        "max": 1,
+        "maxEOF": 0,
+        "maxBOF": 0
+      }
+    ],
+    "indent": [
+      "warn",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "comma-dangle": ["warn", "always-multiline"]
+  }
+}

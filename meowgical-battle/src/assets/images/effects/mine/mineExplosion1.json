@@ -1,0 +1,251 @@
+{
+  "frames": {
+    "mineExplosion_0001.png": {
+      "frame": {
+        "x": 1,
+        "y": 873,
+        "w": 350,
+        "h": 176
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 44,
+        "y": 105,
+        "w": 350,
+        "h": 176
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 315
+      }
+    },
+    "mineExplosion_0002.png": {
+      "frame": {
+        "x": 627,
+        "y": 559,
+        "w": 292,
+        "h": 244
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 78,
+        "y": 50,
+        "w": 292,
+        "h": 244
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 315
+      }
+    },
+    "mineExplosion_0003.png": {
+      "frame": {
+        "x": 348,
+        "y": 294,
+        "w": 290,
+        "h": 277
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 71,
+        "y": 2,
+        "w": 290,
+        "h": 277
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 315
+      }
+    },
+    "mineExplosion_0004.png": {
+      "frame": {
+        "x": 322,
+        "y": 586,
+        "w": 293,
+        "h": 280
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 64,
+        "y": 3,
+        "w": 293,
+        "h": 280
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 315
+      }
+    },
+    "mineExplosion_0005.png": {
+      "frame": {
+        "x": 687,
+        "y": 1,
+        "w": 307,
+        "h": 285
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 60,
+        "y": 0,
+        "w": 307,
+        "h": 285
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 315
+      }
+    },
+    "mineExplosion_0006.png": {
+      "frame": {
+        "x": 1,
+        "y": 586,
+        "w": 319,
+        "h": 285
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 56,
+        "y": 2,
+        "w": 319,
+        "h": 285
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 315
+      }
+    },
+    "mineExplosion_0007.png": {
+      "frame": {
+        "x": 351,
+        "y": 1,
+        "w": 334,
+        "h": 289
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 47,
+        "y": 0,
+        "w": 334,
+        "h": 289
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 315
+      }
+    },
+    "mineExplosion_0008.png": {
+      "frame": {
+        "x": 1,
+        "y": 294,
+        "w": 345,
+        "h": 290
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 0,
+        "w": 345,
+        "h": 290
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 315
+      }
+    },
+    "mineExplosion_0009.png": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 348,
+        "h": 291
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 39,
+        "y": 0,
+        "w": 348,
+        "h": 291
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 315
+      }
+    },
+    "mineExplosion_0010.png": {
+      "frame": {
+        "x": 627,
+        "y": 310,
+        "w": 341,
+        "h": 247
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 35,
+        "y": 51,
+        "w": 341,
+        "h": 247
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 315
+      }
+    },
+    "mineExplosion_0011.png": {
+      "frame": {
+        "x": 617,
+        "y": 805,
+        "w": 348,
+        "h": 241
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 32,
+        "y": 49,
+        "w": 348,
+        "h": 241
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 315
+      }
+    }
+  },
+  "animations": {
+    "mineExplosion": [
+      "mineExplosion_0001.png",
+      "mineExplosion_0002.png",
+      "mineExplosion_0003.png",
+      "mineExplosion_0004.png",
+      "mineExplosion_0005.png",
+      "mineExplosion_0006.png",
+      "mineExplosion_0007.png",
+      "mineExplosion_0008.png",
+      "mineExplosion_0009.png",
+      "mineExplosion_0010.png",
+      "mineExplosion_0011.png"
+    ]
+  },
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "mineExplosion1.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 973,
+      "h": 1050
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:b2df98ad51e3ae1648cf2103b091b08b:d0bbbf8190cdf7bdbfa07fd6a6909667:f1ea0e657fd74868e7e76286dffc41f0$"
+  }
+}

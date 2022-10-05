@@ -1,0 +1,178 @@
+{
+  "nanoId": "CfVSSYlYgXsK1RnmCgqPQ",
+  "totalVisits": [
+    {
+      "visitId": 1,
+      "visitTime": "2021-10-13T18:06:09.000Z",
+      "targetUrl": "https://naver.com/",
+      "targetUrlVisitCount": 2,
+      "visitDuration": 0,
+      "transitionType": "Typed",
+      "sourceUrl": null,
+      "sourceUrlVisitCount": null,
+      "_id": "6167fbcfefef9ae6fcbf7659"
+    },
+    {
+      "visitId": 2,
+      "visitTime": "2021-10-13T18:06:09.000Z",
+      "targetUrl": "http://www.naver.com/",
+      "targetUrlVisitCount": 2,
+      "visitDuration": 0,
+      "transitionType": "Typed",
+      "sourceUrl": "https://naver.com/",
+      "sourceUrlVisitCount": 2,
+      "_id": "6167fbcfefef9ae6fcbf765a"
+    },
+    {
+      "visitId": 3,
+      "visitTime": "2021-10-13T18:06:09.000Z",
+      "targetUrl": "https://www.naver.com/",
+      "targetUrlVisitCount": 2,
+      "visitDuration": 4,
+      "transitionType": "Typed",
+      "sourceUrl": "http://www.naver.com/",
+      "sourceUrlVisitCount": 2,
+      "_id": "6167fbcfefef9ae6fcbf765b"
+    },
+    {
+      "visitId": 4,
+      "visitTime": "2021-10-13T18:06:13.000Z",
+      "targetUrl": "https://comic.naver.com/",
+      "targetUrlVisitCount": 2,
+      "visitDuration": 0,
+      "transitionType": "Link",
+      "sourceUrl": "https://www.naver.com/",
+      "sourceUrlVisitCount": 2,
+      "_id": "6167fbcfefef9ae6fcbf765c"
+    },
+    {
+      "visitId": 5,
+      "visitTime": "2021-10-13T18:06:13.000Z",
+      "targetUrl": "https://comic.naver.com/index",
+      "targetUrlVisitCount": 2,
+      "visitDuration": 194,
+      "transitionType": "Link",
+      "sourceUrl": "https://comic.naver.com/",
+      "sourceUrlVisitCount": 2,
+      "_id": "6167fbcfefef9ae6fcbf765d"
+    },
+    {
+      "visitId": 15,
+      "visitTime": "2021-10-13T18:09:37.000Z",
+      "targetUrl": "https://naver.com/",
+      "targetUrlVisitCount": 2,
+      "visitDuration": 0,
+      "transitionType": "Typed",
+      "sourceUrl": null,
+      "sourceUrlVisitCount": null,
+      "_id": "6167fbcfefef9ae6fcbf7667"
+    },
+    {
+      "visitId": 16,
+      "visitTime": "2021-10-13T18:09:37.000Z",
+      "targetUrl": "http://www.naver.com/",
+      "targetUrlVisitCount": 2,
+      "visitDuration": 0,
+      "transitionType": "Typed",
+      "sourceUrl": "https://naver.com/",
+      "sourceUrlVisitCount": 2,
+      "_id": "6167fbcfefef9ae6fcbf7668"
+    },
+    {
+      "visitId": 17,
+      "visitTime": "2021-10-13T18:09:37.000Z",
+      "targetUrl": "https://www.naver.com/",
+      "targetUrlVisitCount": 2,
+      "visitDuration": 2,
+      "transitionType": "Typed",
+      "sourceUrl": "http://www.naver.com/",
+      "sourceUrlVisitCount": 2,
+      "_id": "6167fbcfefef9ae6fcbf7669"
+    },
+    {
+      "visitId": 18,
+      "visitTime": "2021-10-13T18:09:39.000Z",
+      "targetUrl": "https://comic.naver.com/",
+      "targetUrlVisitCount": 2,
+      "visitDuration": 0,
+      "transitionType": "Link",
+      "sourceUrl": "https://www.naver.com/",
+      "sourceUrlVisitCount": 2,
+      "_id": "6167fbcfefef9ae6fcbf766a"
+    },
+    {
+      "visitId": 19,
+      "visitTime": "2021-10-13T18:09:39.000Z",
+      "targetUrl": "https://comic.naver.com/index",
+      "targetUrlVisitCount": 2,
+      "visitDuration": 4,
+      "transitionType": "Link",
+      "sourceUrl": "https://comic.naver.com/",
+      "sourceUrlVisitCount": 2,
+      "_id": "6167fbcfefef9ae6fcbf766b"
+    },
+    {
+      "visitId": 20,
+      "visitTime": "2021-10-13T18:09:43.000Z",
+      "targetUrl": "https://comic.naver.com/webtoon/weekday",
+      "targetUrlVisitCount": 1,
+      "visitDuration": 2,
+      "transitionType": "Link",
+      "sourceUrl": "https://comic.naver.com/index",
+      "sourceUrlVisitCount": 2,
+      "_id": "6167fbcfefef9ae6fcbf766c"
+    },
+    {
+      "visitId": 21,
+      "visitTime": "2021-10-13T18:09:45.000Z",
+      "targetUrl": "https://comic.naver.com/webtoon/list?titleId=748105&weekday=thu",
+      "targetUrlVisitCount": 1,
+      "visitDuration": 2,
+      "transitionType": "Link",
+      "sourceUrl": "https://comic.naver.com/webtoon/weekday",
+      "sourceUrlVisitCount": 1,
+      "_id": "6167fbcfefef9ae6fcbf766d"
+    },
+    {
+      "visitId": 22,
+      "visitTime": "2021-10-13T18:09:48.000Z",
+      "targetUrl": "https://comic.naver.com/webtoon/detail?titleId=748105&no=115&weekday=thu",
+      "targetUrlVisitCount": 1,
+      "visitDuration": 0,
+      "transitionType": "Link",
+      "sourceUrl": "https://comic.naver.com/webtoon/list?titleId=748105&weekday=thu",
+      "sourceUrlVisitCount": 1,
+      "_id": "6167fbcfefef9ae6fcbf766e"
+    }
+  ],
+  "domainNodes": [
+    {
+      "name": "https://naver.com",
+      "visitCount": 2,
+      "visitDuration": 0,
+      "lastVisitTime": "2021-10-13T18:06:09.000Z",
+      "_id": "6167fbcfefef9ae6fcbf766f"
+    },
+    {
+      "name": "http://www.naver.com",
+      "visitCount": 2,
+      "visitDuration": 0,
+      "lastVisitTime": "2021-10-13T18:06:09.000Z",
+      "_id": "6167fbcfefef9ae6fcbf7670"
+    },
+    {
+      "name": "https://www.naver.com",
+      "visitCount": 2,
+      "visitDuration": 6,
+      "lastVisitTime": "2021-10-13T18:06:09.000Z",
+      "_id": "6167fbcfefef9ae6fcbf7671"
+    },
+    {
+      "name": "https://comic.naver.com",
+      "visitCount": 9,
+      "visitDuration": 202,
+      "lastVisitTime": "2021-10-13T18:09:48.000Z",
+      "_id": "6167fbcfefef9ae6fcbf7672"
+    }
+  ]
+}

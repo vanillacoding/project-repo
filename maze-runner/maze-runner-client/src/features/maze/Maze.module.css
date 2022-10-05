@@ -1,0 +1,16 @@
+@value makerBlack from '../../common/colors.css';
+@value nodeHeight from '../../common/sizes.module.css';
+
+.Maze {
+  display: flex;
+  flex-direction: column;
+}
+
+.MazeRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: nodeHeight;
+  box-sizing: border-box;
+}

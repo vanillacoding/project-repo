@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`base component matches snapshot 1`] = `
+<div>
+  <h2
+    class="sc-hKgJUU jkDiOc"
+  >
+    test
+  </h2>
+</div>
+`;

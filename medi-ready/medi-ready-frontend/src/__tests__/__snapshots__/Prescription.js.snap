@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Prescription /> matches snapshot 1`] = `
+<div>
+  <article
+    class="sc-jSgvzq cDUafv"
+  >
+    <h2
+      class="sc-eCstlR jQcIqZ"
+    >
+      Prescription
+    </h2>
+    <div
+      class="sc-lmoMya irSTyl"
+    >
+      <div
+        class="sc-iqHYmW jVgdcV"
+      >
+        <div>
+          <div
+            class="sc-dQoVA fBNbtu"
+          >
+            <span>
+              <img />
+            </span>
+            <p>
+              대기 환자를 선택해주세요.
+            </p>
+            <em
+              class="sc-hKgJUU bkEHFh"
+            >
+              Waiting
+            </em>
+          </div>
+          <div
+            class="sc-iwyWTf jVcAfQ"
+          >
+            <form
+              autocomplete="off"
+            >
+              <label
+                for="search"
+              >
+                <input
+                  class="sc-idOiZg clJHyJ"
+                  id="search"
+                  name="search"
+                  placeholder="약 검색어를 입력해주세요."
+                  type="text"
+                  value=""
+                  width="100%"
+                />
+              </label>
+              <button
+                class="sc-kstqJO jwyYIr sc-cxFLGX gYDfCX"
+                type="submit"
+              >
+                추가
+              </button>
+              <div />
+            </form>
+          </div>
+        </div>
+        <div>
+          <ul
+            class="sc-iJuVqt ilKhaW"
+          >
+            <li
+              class="sc-crrszt cLeXnh"
+            >
+              <label
+                for="all"
+              >
+                전체
+              </label>
+              <input
+                checked=""
+                id="all"
+                name="all"
+                type="checkbox"
+              />
+            </li>
+            <li
+              class="sc-crrszt cLeXnh"
+            >
+              <label
+                for="morning"
+              >
+                아침
+              </label>
+              <input
+                id="morning"
+                name="doseTime"
+                type="checkbox"
+              />
+            </li>
+            <li
+              class="sc-crrszt cLeXnh"
+            >
+              <label
+                for="lunch"
+              >
+                점심
+              </label>
+              <input
+                id="lunch"
+                name="doseTime"
+                type="checkbox"
+              />
+            </li>
+            <li
+              class="sc-crrszt cLeXnh"
+            >
+              <label
+                for="dinner"
+              >
+                저녁
+              </label>
+              <input
+                id="dinner"
+                name="doseTime"
+                type="checkbox"
+              />
+            </li>
+            <li
+              class="sc-crrszt cLeXnh"
+            >
+              <label
+                for="beforeBed"
+              >
+                취침전
+              </label>
+              <input
+                id="beforeBed"
+                name="doseTime"
+                type="checkbox"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+      <form>
+        <div
+          class="sc-iqHYmW jVgdcV"
+        >
+          <div>
+            <textarea
+              class="sc-bkzYnD bfRRxk"
+              name="description"
+              placeholder="복용지도를 입력해주세요."
+            />
+          </div>
+          <div
+            class="sc-dIUeWJ cQSwdf"
+          >
+            <label
+              for="duration"
+            >
+              <input
+                class="sc-idOiZg hUGsaj"
+                id="duration"
+                name="duration"
+                type="text"
+                value=""
+                width="60px"
+              />
+            </label>
+            <span>
+              일분
+            </span>
+            <button
+              class="sc-kstqJO jwyYIr"
+              type="submit"
+            >
+              처방
+            </button>
+          </div>
+        </div>
+      </form>
+      
+    </div>
+    <div
+      class="sc-lmoMya irSTyl"
+    >
+      <div
+        class="sc-fubCzh iUTfIW"
+      >
+        <div
+          class="sc-pGacB esCgru"
+        >
+          <span />
+          <span />
+          <span />
+          <span />
+        </div>
+      </div>
+    </div>
+  </article>
+</div>
+`;

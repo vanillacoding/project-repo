@@ -1,0 +1,257 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-left: 4rem;
+  padding-bottom: 3rem;
+
+  &--control-panel {
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+
+    &--loader-wrapper {
+      width: 49.1rem;
+      height: 30rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      transition: all .2s;
+      padding-left: 1rem;
+      position: relative;
+      margin-right: 1.5rem;
+
+      &.donut {
+        width: 24.7rem !important;
+      }
+
+      &.country {
+        width: 24.7rem !important;
+        height: 96%;
+      }
+
+      &.time {
+        width: 28.5rem;
+        height: 17rem;
+        margin-right: 1.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      & .loader {
+        color: rgba(#555, 1);
+        animation: rotate 1.5s infinite linear;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+
+  & .page-selection {
+    height: 100%;
+
+    &__btn {
+      display: flex;
+      height: 100%;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.3rem;
+      color: #212121;
+      cursor: pointer;
+      user-select: none;
+    }
+  }
+
+  .icon-page-select {
+    margin-right: 1rem;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    min-width: 25rem;
+    z-index: 10000;
+
+    &__list {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      min-height: 5rem;
+      position: relative;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #27a0b6;
+        color: #fff;
+      }
+
+      &:hover .checkmark:after {
+        border: solid #27a0b6;
+      }
+
+      & .page-checkbox {
+        visibility: hidden;
+        margin-right: 1.7rem;
+
+        &:checked ~ .checkmark {
+          background-color: rgba(#555, .7);
+          visibility: visible;
+        }
+
+        &:checked ~ .checkmark:after {
+          visibility: visible;
+          border: solid white;
+          border-width: 0 2px 2px 0;
+        }
+      }
+
+      & label {
+        font-size: 1.5rem;
+        user-select: none;
+      }
+    }
+
+    & .page-checkbox {
+      visibility: hidden;
+    }
+
+    & .checkmark {
+      display: block;
+      width: 1.8rem;
+      height: 1.8rem;
+      position: absolute;
+      border-radius: 5px;
+      top: 1.5rem;
+      left: .7rem;
+      border: 1px solid #eee;
+    }
+
+    & .checkmark:after {
+      content: '';
+      top: 1.2px;
+      left: 5px;
+      width: 6px;
+      height: 9px;
+      border: solid white;
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg);
+      position: absolute;
+    }
+  }
+
+  &__loader-background {
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &__loader {
+    color: rgba(#555, 1);
+    animation: rotate 1.5s infinite linear;
+    position: absolute;
+    top: 50%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__chart-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+    position: relative;
+    text-align: center;
+    font-weight: 300;
+    margin-right: 1.5rem;
+    flex-grow: 1;
+
+    &.donut {
+      width: 20.3rem;
+    }
+  }
+
+  &__chart-label {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2rem;
+  }
+
+  & .dashboard__column {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+
+    & .average-time-label,
+    & .average-revisit-label {
+      font-size: 2rem;
+      margin-right: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-grow: 1;
+      position: relative;
+
+      & .time{
+        font-size: 2.2rem;
+        margin-right: .7rem;
+      }
+
+      & .criteria {
+        transform: translateY(2px);
+      }
+    }
+  }
+
+  &__country {
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    overflow: scroll;
+
+    &--list {
+      margin-bottom: 1rem;
+
+      & .country-flag {
+        margin-right: 1rem;
+      }
+
+      & .country-name {
+        margin-right: 1rem;
+      }
+    }
+  }
+}
+
+@keyframes rotate {
+  0% {
+      transform: rotate(0);}
+  100% {
+      transform: rotate(360deg);}
+}

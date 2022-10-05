@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Ricecoco",
+    "slug": "Ricecoco",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/ricecoco-icon.png",
+    "splash": {
+      "image": "./assets/images/ricecoco_splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "useNextNotificationsApi": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/ricecoco-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.ricecoco.ricecoco",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDtbGTcIQFtFBMR7r_nox6LSmfWlvw5Q8w"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "typeyourmelody-backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.282.1",
+    "axios": "^0.18.0",
+    "bitly": "^6.0.8",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "file-system": "^2.2.2",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "nodemon": "^1.18.3",
+    "pdfkit": "^0.8.3",
+    "svg-to-pdfkit": "^0.1.7"
+  },
+  "author": "serim kim",
+  "license": "ISC"
+}

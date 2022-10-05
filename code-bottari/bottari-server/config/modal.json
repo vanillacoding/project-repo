@@ -1,0 +1,163 @@
+{
+  "title": {
+    "type": "plain_text",
+    "text": "Code Styling"
+  },
+  "submit": {
+    "type": "plain_text",
+    "text": "전송"
+  },
+  "blocks": [
+    {
+      "type": "input",
+      "block_id": "title",
+      "element": {
+        "type": "plain_text_input",
+        "action_id": "input",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "file name"
+        }
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "Title"
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "message",
+      "element": {
+        "type": "plain_text_input",
+        "action_id": "input",
+        "multiline": true,
+        "placeholder": {
+          "type": "plain_text",
+          "text": "message"
+        }
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "Message"
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "language",
+      "element": {
+        "type": "static_select",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "Select Language",
+          "emoji": true
+        },
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Python",
+              "emoji": true
+            },
+            "value": "value_0"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Java",
+              "emoji": true
+            },
+            "value": "value_1"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "JavaScript",
+              "emoji": true
+            },
+            "value": "value_2"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "CSS",
+              "emoji": true
+            },
+            "value": "value_3"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "C",
+              "emoji": true
+            },
+            "value": "value_4"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "C++",
+              "emoji": true
+            },
+            "value": "value_5"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "C#",
+              "emoji": true
+            },
+            "value": "value_6"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "PHP",
+              "emoji": true
+            },
+            "value": "value_7"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "R",
+              "emoji": true
+            },
+            "value": "value_8"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Objective-C",
+              "emoji": true
+            },
+            "value": "value_9"
+          }
+        ],
+        "action_id": "select"
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "Language",
+        "emoji": true
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "snippet",
+      "element": {
+        "type": "plain_text_input",
+        "action_id": "input",
+        "multiline": true,
+        "placeholder": {
+          "type": "plain_text",
+          "text": "여기에 코드를 작성해 주세요"
+        }
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "Snippet"
+      }
+    }
+  ],
+  "type": "modal"
+}

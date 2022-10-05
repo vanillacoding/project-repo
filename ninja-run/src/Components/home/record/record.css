@@ -1,0 +1,55 @@
+.records__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-size: 30px;
+  width: 100%;
+  height: 30%;
+  font-size: 70px;
+}
+
+.records {
+  width: 100%;
+  height: 70%;
+}
+
+.record {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+}
+
+.record__rank {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+}
+
+.record__name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+.record__score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+

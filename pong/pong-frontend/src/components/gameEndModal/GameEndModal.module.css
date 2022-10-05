@@ -1,0 +1,26 @@
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.statusWrapper {
+  font-size: 35px;
+}
+
+.buttonWrapper {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  border: 4px solid rgba(2, 254, 255, 0.5);
+  border-radius: 50%;
+  padding: 5px 30px;
+  margin-top: 42px;
+  transition: all .2s ease-in-out;
+}
+
+.buttonWrapper:hover {
+  transform: scale(1.1);
+}

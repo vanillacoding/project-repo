@@ -1,0 +1,43 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb"],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "no-console": "off",
+    "comma-dangle": "off",
+    "react/jsx-filename-extension": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "jsx-a11y/label-has-for": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "class-methods-use-this": "off",
+    "no-plusplus": "off",
+    "no-underscore-dangle": "off",
+    "react/destructuring-assignment": "off",
+    "react/jsx-wrap-multilines": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "implicit-arrow-linebreak": "off",
+    "prefer-template": "off",
+    "react/sort-comp": "off",
+    "consistent-return": "off",
+    "no-case-declarations": "off",
+    "no-confusing-arrow": "off",
+    "react/require-default-props": "off",
+    "react/forbid-prop-types": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "operator-linebreak": "off",
+    "jsx-a11y/no-autofocus": "off",
+    "no-new": "off",
+    "jsx-a11y/iframe-has-title": "off",
+    "no-param-reassign": "off",
+    "react/prefer-stateless-function": "off",
+    "prefer-arrow-callback": "off",
+    "func-names": "off",
+    "no-unused-expressions": "off",
+    "radix": "off"
+  }
+}

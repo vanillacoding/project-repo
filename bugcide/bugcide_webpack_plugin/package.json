@@ -1,0 +1,38 @@
+{
+  "name": "bugcide-webpack-plugin",
+  "version": "1.0.2",
+  "description": "webpack compile error tracker",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha -r @babel/register"
+  },
+  "author": "JY",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "webpack",
+    "error",
+    "errorTracking"
+  ],
+  "homepage": "https://github.com/jy7123943/bugcide_webpack_plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jy7123943/bugcide_webpack_plugin"
+  },
+  "bugs": {
+    "url": "https://github.com/jy7123943/bugcide_webpack_plugin/issues",
+    "email": "jy7123943@gmail.com"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/register": "^7.7.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "sinon": "^7.5.0",
+    "sinon-chai": "^3.3.0"
+  }
+}

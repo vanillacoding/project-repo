@@ -1,0 +1,58 @@
+version: 2
+jobs:
+  build:
+    docker:
+      # Docker image를 넣으세요
+      - image: circleci/python:3.7.0-stretch-node-browsers
+    working_directory: ~/AbTest-env
+    steps:
+      - checkout
+      - run:
+          # 브랜치 이름 프린트
+          name: Show Current Branch
+          command: echo ${CIRCLE_BRANCH}
+      - run:
+          # AWS CLI 설치
+          name: Install awscli
+          command: |
+            sudo pip install awsebcli --upgrade
+      - run:
+          # NPM Dependencies 설치
+          name: Install NPM Webpack
+          command: |
+            sudo npm i -g webpack
+      - run:
+          # NPM Dependencies 설치
+          name: Install NPM Webpack Cli
+          command: |
+            sudo npm install webpack-cli
+      - run:
+          # NPM Dependencies 설치
+          name: Install NPM Dependencies
+          command: |
+            sudo npm install --unsafe-perm=true -g
+      - run:
+          # NPM Dependencies 설치
+          name: Build my app
+          command: |
+            npm run build
+      - run:
+          # AWS 사용자 정보 생성 및 저장
+          name: Create AWS credentials manually
+          command: |
+            mkdir ~/.aws
+            touch ~/.aws/config
+            chmod 600 ~/.aws/config
+            echo "[profile eb-cli]" > ~/.aws/config
+            echo "aws_access_key_id=$AWS_ACCESS_KEY_ID" >> ~/.aws/config
+            echo "aws_secret_access_key=$AWS_SECRET_ACCESS_KEY" >> ~/.aws/config
+      - run:
+          # 배포
+          name: Deploy to env
+          command: |
+            eb deploy AbTest-env
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - build

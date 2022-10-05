@@ -1,0 +1,136 @@
+@import '../variables';
+@import '../mixin';
+
+.comment {
+  margin-bottom: 15px;
+  padding: 15px 15px 20px 15px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px 5px rgba(197, 197, 197, 0.3);
+
+  &:last-of-type {
+    margin-bottom: 30px;
+  }
+
+  .user-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .user {
+      display: flex;
+
+      &-image {
+        overflow: hidden;
+        position: relative;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+
+        img {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 100%;
+          transform: translate(-50%, -50%);
+        }
+      }
+
+      &-name {
+        margin-left: 10px;
+        font-size: 18px;
+        line-height: 30px;
+        font-family: $notoSansKR;
+      }
+    }
+
+    button {
+      border: 0;
+      background: none;
+
+      i {
+        font-size: 24px;
+        color: $red;
+      }
+    }
+  }
+
+  .contents {
+    margin-top: 10px;
+    line-height: 26px;
+    font-family: $notoSansKR;
+    color: $gray3;
+
+    a {
+      color: $blue;
+    }
+  }
+
+  .util-wrap {
+    margin-top: 10px;
+
+    li {
+      font-size: 14px;
+      font-family: $notoSansKR;
+      color: $grayC;
+
+      &:not(:last-of-type)::after {
+        width: 1px;
+        height: 12px;
+        margin: 0 10px;
+        background: $grayC;
+        content: '';
+      }
+    }
+
+    .button-delete {
+      cursor: pointer;
+    }
+  }
+}
+
+
+@include desktop {
+  .util-wrap {
+    display: flex;
+
+    li {
+      display: flex;
+
+      &:not(:last-of-type)::after {
+        display: block;
+      }
+    }
+  }
+}
+
+@include tablet {
+  .util-wrap {
+    display: flex;
+
+    li {
+      display: flex;
+
+      &:not(:last-of-type)::after {
+        display: block;
+      }
+    }
+  }
+}
+
+@include mobile {
+  .util-wrap {
+    display: block;
+
+    li {
+      display: block;
+
+      &:not(:last-of-type) {
+        margin-bottom: 8px;
+      }
+
+      &:not(:last-of-type)::after {
+        display: none;
+      }
+    }
+  }
+}

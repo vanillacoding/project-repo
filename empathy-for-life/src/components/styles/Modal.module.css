@@ -1,0 +1,12 @@
+.modalContainer {
+  width: 50vh;
+  height: 80vh;
+  margin: 12vh 20vw 10vh 60vw;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  z-index: 10;
+}

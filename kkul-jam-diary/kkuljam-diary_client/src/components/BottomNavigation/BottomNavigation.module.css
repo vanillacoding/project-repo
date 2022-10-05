@@ -1,0 +1,41 @@
+ul {
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  padding: 0;
+  bottom: 0;
+  z-index: 999;
+  background-color: #333333;
+  list-style: none;
+}
+
+ul > a {
+  float: left;
+  display: block;
+  width: 25%!important;
+  line-height: 1.5;
+  height: 56px;
+  font-size: .8em;
+  padding: 0;
+  color: #999;
+}
+
+li {
+  display: grid;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  display: inline-block;
+  font-size: 2.5em;
+}
+
+.write, .chart {
+  font-size: 1.5em;
+}
+
+.list {
+  font-size: 2em;
+}
