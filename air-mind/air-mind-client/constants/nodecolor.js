@@ -1,0 +1,13 @@
+const NODE_COLOR = {
+  WHITE: '#979A9B',
+  BROWN: '#937264',
+  ORANGE: '#FFA344',
+  YELLOW: '#FFDC49',
+  GREEN: '#4DAB9A',
+  BLUE: '#529CCA',
+  PURPLE: '#9A6DD7',
+  PINK: '#E255A1',
+  RED: '#FF7369',
+};
+
+export default NODE_COLOR;

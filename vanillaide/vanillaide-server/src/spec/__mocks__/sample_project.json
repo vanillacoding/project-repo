@@ -1,0 +1,9 @@
+{
+  "_id": "sample id",
+  "creator": "sample creator",
+  "htmlFile": "sample html",
+  "cssFile": "sample css",
+  "jsFile": "sample js",
+  "deployLink": "",
+  "deployedAt": "sample deployedAt"
+}

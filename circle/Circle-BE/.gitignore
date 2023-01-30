@@ -1,0 +1,15 @@
+# dependencies
+/node_modules
+
+#config
+/config/secret
+
+# misc
+.env
+.DS_Store
+/log
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

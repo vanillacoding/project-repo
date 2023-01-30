@@ -1,0 +1,138 @@
+{
+  "50688138": {
+    "items": {
+      "그림 4": {
+        "diff": "none"
+      },
+      "TextBox 5": {
+        "diff": "none"
+      },
+      "TextBox 6": {
+        "diff": "none"
+      },
+      "Picture 13": {
+        "diff": "none"
+      },
+      "Picture 8": {
+        "diff": "none"
+      },
+      "TextBox 15": {
+        "diff": "none"
+      },
+      "TextBox 16": {
+        "diff": "none"
+      },
+      "TextBox 17": {
+        "diff": "none"
+      },
+      "TextBox 20": {
+        "diff": "none"
+      },
+      "Picture 22": {
+        "diff": "none"
+      }
+    },
+    "diff": "none"
+  },
+  "320276882": {
+    "diff": "added",
+    "isChecked": false
+  },
+  "326427477": {
+    "diff": "deleted",
+    "isChecked": false
+  },
+  "1054503490": {
+    "items": {
+      "제목 1": {
+        "diff": "modified",
+        "isChecked": false
+      },
+      "부제목 2": {
+        "diff": "none"
+      },
+      "TextBox 3": {
+        "diff": "none"
+      },
+      "TextBox 4": {
+        "diff": "none"
+      },
+      "TextBox 5": {
+        "diff": "none"
+      }
+    },
+    "diff": "modified"
+  },
+  "1403986938": {
+    "items": {
+      "TextBox 2": {
+        "diff": "added",
+        "isChecked": false
+      },
+      "TextBox 1": {
+        "diff": "deleted",
+        "isChecked": false
+      },
+      "TextBox 4": {
+        "diff": "none"
+      },
+      "TextBox 6": {
+        "diff": "modified",
+        "isChecked": false
+      },
+      "TextBox 5": {
+        "diff": "none"
+      },
+      "TextBox 7": {
+        "diff": "none"
+      },
+      "TextBox 9": {
+        "diff": "none"
+      },
+      "TextBox 10": {
+        "diff": "modified",
+        "isChecked": false
+      },
+      "TextBox 11": {
+        "diff": "modified",
+        "isChecked": false
+      },
+      "TextBox 12": {
+        "diff": "modified",
+        "isChecked": false
+      },
+      "TextBox 13": {
+        "diff": "none"
+      }
+    },
+    "diff": "modified"
+  },
+  "3945197367": {
+    "items": {
+      "제목 1": {
+        "diff": "none"
+      },
+      "TextBox 6": {
+        "diff": "none"
+      },
+      "Picture 4": {
+        "diff": "none"
+      },
+      "Picture 6": {
+        "diff": "none"
+      },
+      "TextBox 9": {
+        "diff": "modified",
+        "isChecked": false
+      },
+      "TextBox 10": {
+        "diff": "none"
+      }
+    },
+    "diff": "modified"
+  },
+  "4233039167": {
+    "diff": "deleted",
+    "isChecked": false
+  }
+}

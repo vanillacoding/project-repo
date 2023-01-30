@@ -1,0 +1,15 @@
+export const LOGO = "#DCDCDC";
+export const HEADER = "#21272F";
+export const CONTENT = "#313842";
+export const BUTTON_COLOR = "#D9D9D9";
+export const LIGHT_GREY_50 = "#D9D9D9";
+export const LIGHT_GREY_100 = "#E0DCDC";
+export const LIGHT_GREY_150 = "#E2DFDF";
+export const DARK_GREY_50 = "#393939";
+export const DARK_GREY_100 = "#3D4148";
+export const BLACK = "#000000";
+export const WHITE = "#FFFFFF";
+export const RED_50 = "#B22222";
+export const DARK_BLUE_50 = "#1D2229";
+export const DARK_BLUE_100 = "#262C35";
+export const DARK_BLUE_150 = "#272c35";

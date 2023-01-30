@@ -1,0 +1,17 @@
+{
+  "_id": "63591401e6253db23e965a45",
+  "access": "public",
+  "author": {
+    "_id": "6359075ce8c6da5729ec6a64",
+    "email": "test@gmail.com",
+    "mindMapList": [],
+    "profile": "https://lh3.googleusercontent.com/a/ALm5wu37fAmXQdTsGUEJOHBGLqVCi55VshGtUf2cPb_dTA=s96-c",
+    "userName": "testuser",
+    "__v": 0
+  },
+  "createdAt": "2022-10-26T11:03:29.931Z",
+  "headNode": "63591401e6253db23e965a47",
+  "title": "test",
+  "updatedAt": "",
+  "__v": 0
+}

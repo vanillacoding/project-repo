@@ -1,0 +1,396 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MindMapCard - public mindmap - not permission should open options menu when user click the option button 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="mindmapcard__Card-sc-84on8m-0 hpspKf"
+      >
+        <div
+          class="mindmapcard__Wrapper-sc-84on8m-1 gJOwoy"
+          data-testid="thumbnailWrapper"
+        >
+          <div
+            class="mindmapthumbnail__Container-sc-1xbf7xy-0 bDHMdF"
+          >
+            <div
+              class="mindmapthumbnail__Wrapper-sc-1xbf7xy-1 eeXXER"
+              scale="Infinity"
+            >
+              <div
+                class="mindmapthumbnail__Loading-sc-1xbf7xy-3 kHugRR"
+                data-testid="loading-element"
+                scale="Infinity"
+              >
+                <span
+                  class="loader"
+                />
+              </div>
+              <iframe
+                allow="src"
+                class="mindmapthumbnail__Thumbnail-sc-1xbf7xy-2 gNiTir"
+                height="0"
+                loading="lazy"
+                sandbox="allow-scripts allow-same-origin"
+                scale="Infinity"
+                src="undefined/mind-map/63591401e6253db23e965a45"
+                tabindex="-1"
+                title="mindmap-thumbnail"
+                width="0"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="mindmapcard__Footer-sc-84on8m-4 fNGkzP"
+        >
+          <div
+            class="mindmapcard__FoooterLeft-sc-84on8m-5 dZDOux"
+          >
+            <div
+              class="mindmapcard__ShortInfo-sc-84on8m-6 ekudqE"
+            >
+              <svg
+                class="documentIcon"
+                fill="none"
+                height="25"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="25"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 18H17V16H7V18Z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M17 14H7V12H17V14Z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M7 10H11V8H7V10Z"
+                  fill="currentColor"
+                />
+                <path
+                  clip-rule="evenodd"
+                  d="M6 2C4.34315 2 3 3.34315 3 5V19C3 20.6569 4.34315 22 6 22H18C19.6569 22 21 20.6569 21 19V9C21 5.13401 17.866 2 14 2H6ZM6 4H13V9H19V19C19 19.5523 18.5523 20 18 20H6C5.44772 20 5 19.5523 5 19V5C5 4.44772 5.44772 4 6 4ZM15 4.10002C16.6113 4.4271 17.9413 5.52906 18.584 7H15V4.10002Z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                />
+              </svg>
+              <form
+                type="submit"
+              >
+                <input
+                  class="mindmapcard__TitleInput-sc-84on8m-8 gvpwYS"
+                  readonly=""
+                  value="test"
+                />
+              </form>
+            </div>
+            <div
+              class="mindmapcard__AuthorDate-sc-84on8m-7 emSSSV"
+            >
+              <div
+                class="infoAuthor"
+              >
+                testuser
+              </div>
+            </div>
+          </div>
+          <div
+            class="mindmapcard__FoooterRight-sc-84on8m-10 eZGhkd"
+          >
+            <div
+              class="mindmapcard__OptionModal-sc-84on8m-11 iFaUGY"
+            >
+              <div
+                class="mindmapcard__OptionMenu-sc-84on8m-13 gvLQTg"
+              >
+                <div
+                  class="mindmapcard__Menu-sc-84on8m-14 bBsKm open"
+                >
+                  Open
+                </div>
+                <div
+                  class="mindmapcard__Menu-sc-84on8m-14 bBsKm"
+                >
+                  Rename
+                </div>
+                <div
+                  class="mindmapcard__Menu-sc-84on8m-14 bBsKm delete"
+                >
+                  Delete
+                </div>
+              </div>
+              <div
+                class="mindmapcard__BottomButton-sc-84on8m-15 dXbWHf"
+              >
+                <div
+                  class="mindmapcard__AccessIcon-sc-84on8m-16 gocFsu"
+                >
+                  public
+                </div>
+                <button
+                  class="mindmapcard__OptionButton-sc-84on8m-17 eTKMvJ"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="21"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="21"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      id="Settings"
+                    >
+                      <g>
+                        <path
+                          d="M12.6,20.936H11.3a.883.883,0,0,1-.852-.654l-.774-2.833-2.5,1.435a.886.886,0,0,1-1.06-.138l-.925-.919a.884.884,0,0,1-.143-1.066l1.469-2.545L6.509,14.2l-2.787-.747a.882.882,0,0,1-.654-.851V11.3a.882.882,0,0,1,.652-.85l2.839-.777L5.12,7.171a.885.885,0,0,1,.141-1.062l.918-.918A.885.885,0,0,1,7.24,5.049L9.792,6.514l.012,0,.745-2.79a.881.881,0,0,1,.851-.655h1.3a.883.883,0,0,1,.852.655l.762,2.838,2.509-1.441a.885.885,0,0,1,1.059.138l.926.919a.882.882,0,0,1,.141,1.067L17.483,9.777l.008.022,2.786.746a.883.883,0,0,1,.653.851v1.3a.883.883,0,0,1-.654.852l-2.837.774,1.439,2.505a.881.881,0,0,1-.141,1.063l-.917.917a.888.888,0,0,1-1.063.141l-2.539-1.462L14.2,17.5l-.745,2.785A.885.885,0,0,1,12.6,20.936Zm-1.21-1h1.119l.738-2.756a.888.888,0,0,1,.528-.592l.134-.052a.873.873,0,0,1,.76.057l2.51,1.445.789-.789-1.423-2.478a.881.881,0,0,1-.048-.78l.052-.125a.875.875,0,0,1,.584-.51l2.8-.749v-1.12l-2.755-.737a.885.885,0,0,1-.592-.529l-.052-.132a.882.882,0,0,1,.057-.763L18.04,6.818l-.8-.79-2.48,1.425a.878.878,0,0,1-.772.052l-.115-.047a.888.888,0,0,1-.518-.588l-.748-2.806H11.492l-.738,2.762a.883.883,0,0,1-.539.6l-.12.045a.874.874,0,0,1-.751-.058L6.822,5.962l-.789.789L7.455,9.227a.886.886,0,0,1,.046.785l-.051.12a.876.876,0,0,1-.579.5l-2.8.758v1.121l2.757.738a.889.889,0,0,1,.591.525l.048.121a.874.874,0,0,1-.055.77L5.958,17.181l.8.791,2.47-1.419a.878.878,0,0,1,.787-.045l.106.044a.874.874,0,0,1,.526.591ZM9.75,17.482l.008,0ZM9.6,17.421l.007,0ZM6.487,14.147h0Zm.044-4.411h0Zm7.724-3.2Z"
+                        />
+                        <path
+                          d="M12,15a3,3,0,1,1,3-3A3,3,0,0,1,12,15Zm0-5a2,2,0,1,0,2,2A2,2,0,0,0,12,10Z"
+                        />
+                      </g>
+                    </g>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div
+              class="mindmapcard__Date-sc-84on8m-12 gGzZCl date"
+            >
+              2022-10-26
+            </div>
+          </div>
+        </div>
+      </div>
+      ,
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="mindmapcard__Card-sc-84on8m-0 hpspKf"
+    >
+      <div
+        class="mindmapcard__Wrapper-sc-84on8m-1 gJOwoy"
+        data-testid="thumbnailWrapper"
+      >
+        <div
+          class="mindmapthumbnail__Container-sc-1xbf7xy-0 bDHMdF"
+        >
+          <div
+            class="mindmapthumbnail__Wrapper-sc-1xbf7xy-1 eeXXER"
+            scale="Infinity"
+          >
+            <div
+              class="mindmapthumbnail__Loading-sc-1xbf7xy-3 kHugRR"
+              data-testid="loading-element"
+              scale="Infinity"
+            >
+              <span
+                class="loader"
+              />
+            </div>
+            <iframe
+              allow="src"
+              class="mindmapthumbnail__Thumbnail-sc-1xbf7xy-2 gNiTir"
+              height="0"
+              loading="lazy"
+              sandbox="allow-scripts allow-same-origin"
+              scale="Infinity"
+              src="undefined/mind-map/63591401e6253db23e965a45"
+              tabindex="-1"
+              title="mindmap-thumbnail"
+              width="0"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="mindmapcard__Footer-sc-84on8m-4 fNGkzP"
+      >
+        <div
+          class="mindmapcard__FoooterLeft-sc-84on8m-5 dZDOux"
+        >
+          <div
+            class="mindmapcard__ShortInfo-sc-84on8m-6 ekudqE"
+          >
+            <svg
+              class="documentIcon"
+              fill="none"
+              height="25"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="25"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7 18H17V16H7V18Z"
+                fill="currentColor"
+              />
+              <path
+                d="M17 14H7V12H17V14Z"
+                fill="currentColor"
+              />
+              <path
+                d="M7 10H11V8H7V10Z"
+                fill="currentColor"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M6 2C4.34315 2 3 3.34315 3 5V19C3 20.6569 4.34315 22 6 22H18C19.6569 22 21 20.6569 21 19V9C21 5.13401 17.866 2 14 2H6ZM6 4H13V9H19V19C19 19.5523 18.5523 20 18 20H6C5.44772 20 5 19.5523 5 19V5C5 4.44772 5.44772 4 6 4ZM15 4.10002C16.6113 4.4271 17.9413 5.52906 18.584 7H15V4.10002Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <form
+              type="submit"
+            >
+              <input
+                class="mindmapcard__TitleInput-sc-84on8m-8 gvpwYS"
+                readonly=""
+                value="test"
+              />
+            </form>
+          </div>
+          <div
+            class="mindmapcard__AuthorDate-sc-84on8m-7 emSSSV"
+          >
+            <div
+              class="infoAuthor"
+            >
+              testuser
+            </div>
+          </div>
+        </div>
+        <div
+          class="mindmapcard__FoooterRight-sc-84on8m-10 eZGhkd"
+        >
+          <div
+            class="mindmapcard__OptionModal-sc-84on8m-11 iFaUGY"
+          >
+            <div
+              class="mindmapcard__OptionMenu-sc-84on8m-13 gvLQTg"
+            >
+              <div
+                class="mindmapcard__Menu-sc-84on8m-14 bBsKm open"
+              >
+                Open
+              </div>
+              <div
+                class="mindmapcard__Menu-sc-84on8m-14 bBsKm"
+              >
+                Rename
+              </div>
+              <div
+                class="mindmapcard__Menu-sc-84on8m-14 bBsKm delete"
+              >
+                Delete
+              </div>
+            </div>
+            <div
+              class="mindmapcard__BottomButton-sc-84on8m-15 dXbWHf"
+            >
+              <div
+                class="mindmapcard__AccessIcon-sc-84on8m-16 gocFsu"
+              >
+                public
+              </div>
+              <button
+                class="mindmapcard__OptionButton-sc-84on8m-17 eTKMvJ"
+              >
+                <svg
+                  fill="currentColor"
+                  height="21"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="21"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    id="Settings"
+                  >
+                    <g>
+                      <path
+                        d="M12.6,20.936H11.3a.883.883,0,0,1-.852-.654l-.774-2.833-2.5,1.435a.886.886,0,0,1-1.06-.138l-.925-.919a.884.884,0,0,1-.143-1.066l1.469-2.545L6.509,14.2l-2.787-.747a.882.882,0,0,1-.654-.851V11.3a.882.882,0,0,1,.652-.85l2.839-.777L5.12,7.171a.885.885,0,0,1,.141-1.062l.918-.918A.885.885,0,0,1,7.24,5.049L9.792,6.514l.012,0,.745-2.79a.881.881,0,0,1,.851-.655h1.3a.883.883,0,0,1,.852.655l.762,2.838,2.509-1.441a.885.885,0,0,1,1.059.138l.926.919a.882.882,0,0,1,.141,1.067L17.483,9.777l.008.022,2.786.746a.883.883,0,0,1,.653.851v1.3a.883.883,0,0,1-.654.852l-2.837.774,1.439,2.505a.881.881,0,0,1-.141,1.063l-.917.917a.888.888,0,0,1-1.063.141l-2.539-1.462L14.2,17.5l-.745,2.785A.885.885,0,0,1,12.6,20.936Zm-1.21-1h1.119l.738-2.756a.888.888,0,0,1,.528-.592l.134-.052a.873.873,0,0,1,.76.057l2.51,1.445.789-.789-1.423-2.478a.881.881,0,0,1-.048-.78l.052-.125a.875.875,0,0,1,.584-.51l2.8-.749v-1.12l-2.755-.737a.885.885,0,0,1-.592-.529l-.052-.132a.882.882,0,0,1,.057-.763L18.04,6.818l-.8-.79-2.48,1.425a.878.878,0,0,1-.772.052l-.115-.047a.888.888,0,0,1-.518-.588l-.748-2.806H11.492l-.738,2.762a.883.883,0,0,1-.539.6l-.12.045a.874.874,0,0,1-.751-.058L6.822,5.962l-.789.789L7.455,9.227a.886.886,0,0,1,.046.785l-.051.12a.876.876,0,0,1-.579.5l-2.8.758v1.121l2.757.738a.889.889,0,0,1,.591.525l.048.121a.874.874,0,0,1-.055.77L5.958,17.181l.8.791,2.47-1.419a.878.878,0,0,1,.787-.045l.106.044a.874.874,0,0,1,.526.591ZM9.75,17.482l.008,0ZM9.6,17.421l.007,0ZM6.487,14.147h0Zm.044-4.411h0Zm7.724-3.2Z"
+                      />
+                      <path
+                        d="M12,15a3,3,0,1,1,3-3A3,3,0,0,1,12,15Zm0-5a2,2,0,1,0,2,2A2,2,0,0,0,12,10Z"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div
+            class="mindmapcard__Date-sc-84on8m-12 gGzZCl date"
+          >
+            2022-10-26
+          </div>
+        </div>
+      </div>
+    </div>
+    ,
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

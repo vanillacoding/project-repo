@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "GMarket";
+  font-display: fallback;
+  src: url("./GmarketSansMedium.ttf") format("truetype"),
+    url("./GmarketSansMedium.woff") format("woff"),
+    url("./GmarketSansMedium.eot?.efix") format("embedded-opentype");
+
+  font-weight: 400;
+  font-style: normal;
+}

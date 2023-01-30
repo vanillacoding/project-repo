@@ -1,0 +1,8 @@
+# Node Modules
+node_modules
+
+# DS Store
+.DS_Store
+
+# 환경변수
+.env

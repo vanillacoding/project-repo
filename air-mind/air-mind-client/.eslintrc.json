@@ -1,0 +1,27 @@
+{
+  "env": {
+    "es2021": true,
+    "node": true,
+    "browser": true,
+    "jest": true
+  },
+  "parser": "@babel/eslint-parser",
+  "extends": ["airbnb", "plugin:prettier/recommended"],
+  "rules": {
+    "react/jsx-props-no-spreading": "off",
+    "react/forbid-prop-types": [
+      1,
+      {
+        "forbid": ["any"],
+        "checkContextTypes": true,
+        "checkChildContextTypes": true
+      }
+    ],
+    "jsx-a11y/label-has-associated-control": [
+      2,
+      {
+        "labelAttributes": ["htmlFor"]
+      }
+    ]
+  }
+}

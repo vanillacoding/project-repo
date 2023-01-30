@@ -1,0 +1,15 @@
+/node_modules
+
+.DS_Store
+.env
+
+.idea
+
+.jest/setEnvVars.js
+
+/.husky/_/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

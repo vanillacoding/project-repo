@@ -1,0 +1,9 @@
+node_modules
+.env
+/configs/serviceAccountKey.json
+/tmpImages
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
